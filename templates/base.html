@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google" content="notranslate">
+  <title>{% block title %}SAT Dictionary Test{% endblock %}</title>
+  <link rel="icon" href="{{ url_for('static', filename='images/sat_icon.png') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="platform-page">
+  <main class="app-shell platform-shell">
+    <header class="topbar platform-topbar">
+      <a class="brand" href="{{ url_for('index') }}">
+        <span class="brand-mark">S</span>
+        <span>SAT Dictionary Test</span>
+      </a>
+      <nav class="top-actions" aria-label="Platform navigation">
+        <a class="secondary-button platform-nav-link" href="{{ url_for('index') }}">Home</a>
+        <a class="secondary-button platform-nav-link" href="{{ url_for('leaderboard') }}">Leaderboard</a>
+        {% if current_user %}
+          <a class="secondary-button platform-nav-link" href="{{ url_for('account') }}">Account</a>
+          <a class="secondary-button platform-nav-link" href="{{ url_for('logout') }}">Logout</a>
+        {% else %}
+          <a class="secondary-button platform-nav-link" href="{{ url_for('login') }}">Login</a>
+          <a class="primary-button platform-nav-link" href="{{ url_for('signup') }}">Sign Up</a>
+        {% endif %}
+      </nav>
+    </header>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <div class="flash-stack" role="status" aria-live="polite">
+          {% for category, message in messages %}
+            <div class="flash-message {{ category }}">{{ message }}</div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+
+    {% block content %}{% endblock %}
+  </main>
+</body>
+</html>

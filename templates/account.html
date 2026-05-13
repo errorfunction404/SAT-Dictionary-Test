@@ -1,0 +1,56 @@
+﻿{% extends "base.html" %}
+{% block title %}Account Settings | SAT Dictionary Test{% endblock %}
+{% block content %}
+<section class="platform-dashboard">
+  <div class="profile-card">
+    <img class="profile-avatar" src="{{ url_for('static', filename=user.avatar_path or 'images/default_avatar.svg') }}" alt="{{ user.username }} profile picture">
+    <div>
+      <p class="eyebrow">Account Settings</p>
+      <h1>{{ user.first_name }} {{ user.last_name }}</h1>
+      <p>@{{ user.username }}</p>
+    </div>
+  </div>
+
+  <div class="platform-grid two-columns">
+    <article class="platform-panel">
+      <h2>Profile Picture</h2>
+      <form class="platform-form compact" method="post" action="{{ url_for('update_avatar') }}" enctype="multipart/form-data">
+        <label>Upload Avatar<input name="avatar" type="file" accept="image/png,image/jpeg,image/webp,image/gif" required></label>
+        <button class="primary-button" type="submit">Save Image</button>
+      </form>
+    </article>
+
+    <article class="platform-panel">
+      <h2>Change Password</h2>
+      <form class="platform-form compact" method="post" action="{{ url_for('update_password') }}">
+        <label>Current Password<input name="current_password" type="password" autocomplete="current-password" required></label>
+        <label>New Password<input name="new_password" type="password" minlength="6" autocomplete="new-password" required></label>
+        <button class="primary-button" type="submit">Update Password</button>
+      </form>
+    </article>
+  </div>
+
+  <article class="platform-panel">
+    <h2>Lesson Progress</h2>
+    <div class="progress-grid">
+      {% for lesson_id, item in progress.items() %}
+        <div class="progress-row">
+          <strong>{{ lesson_id|replace('lesson', 'Lesson ') }}</strong>
+          <span>{{ item.solved }}/{{ item.total }} solved</span>
+          <div class="progress-track"><span style="width: {{ item.percent }}%"></span></div>
+          <em>{{ item.percent }}%</em>
+        </div>
+      {% endfor %}
+    </div>
+  </article>
+
+  <article class="platform-panel danger-panel">
+    <h2>Delete Account</h2>
+    <p>This permanently removes your profile, attempts, progress, and leaderboard record.</p>
+    <form class="platform-form compact" method="post" action="{{ url_for('delete_account') }}">
+      <label>Confirm Password<input name="password" type="password" autocomplete="current-password" required></label>
+      <button class="secondary-button danger" type="submit">Delete Account</button>
+    </form>
+  </article>
+</section>
+{% endblock %}

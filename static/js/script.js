@@ -1346,6 +1346,12 @@ Object.entries(EXTRA_LESSON_CONFIG).forEach(([lessonId, config]) => {
   };
 });
 
+Object.entries(LESSONS).forEach(([lessonId, lesson]) => {
+  lesson.questions.forEach((question, index) => {
+    question.id = question.id || `${lessonId}-q${index + 1}`;
+  });
+});
+
 const SCHEDULED_LESSON_IDS = Object.keys(EXTRA_LESSON_CONFIG).sort((a, b) => Number(a.replace("lesson", "")) - Number(b.replace("lesson", "")));
 const UNLOCK_STATE_KEY = "satDictionaryUnlockState";
 const VOCAB_RENDER_BATCH_SIZE = 16;
@@ -1404,6 +1410,8 @@ const elements = {
   missedValue: document.getElementById("missedValue"),
   incorrectList: document.getElementById("incorrectList"),
   cheatWarning: document.getElementById("cheatWarning"),
+  progressSyncBox: document.getElementById("progressSyncBox"),
+  progressSyncText: document.getElementById("progressSyncText"),
   confettiLayer: document.getElementById("confettiLayer"),
   modeToggle: document.getElementById("modeToggle"),
   accentColor: document.getElementById("accentColor"),
@@ -1438,6 +1446,8 @@ const state = {
     sound: "on",
     theme: "aurora"
   },
+  user: window.SAT_APP_USER || null,
+  progress: window.SAT_USER_PROGRESS || {},
   testActive: false,
   terminated: false,
   activeLesson: "lesson1",
@@ -1542,7 +1552,7 @@ function setupScheduledLessonUi() {
       card.dataset.lessonCard = lessonId;
       card.innerHTML = `
         <div class="lesson-visual lesson-image-frame">
-          <img class="lesson-image" src="lesson_${lessonNumber}.png" alt="${lesson.title} vocabulary image">
+          <img class="lesson-image" src="${window.SAT_STATIC_IMAGE_BASE || ""}lesson_${lessonNumber}.png" alt="${lesson.title} vocabulary image">
           <span class="visual-chip">L${lessonNumber}</span>
         </div>
         <div class="lesson-content">
@@ -1964,6 +1974,29 @@ function openQuizSettings(lessonId) {
   playTone("tap");
 }
 
+async function fetchServerSession(lessonId, questionTotal) {
+  if (!state.user) return null;
+  try {
+    const params = new URLSearchParams({ lesson_id: lessonId, count: String(questionTotal) });
+    const response = await fetch(`/api/test/start?${params.toString()}`, {
+      credentials: "same-origin"
+    });
+    if (!response.ok) return null;
+    const payload = await response.json();
+    if (!payload.ok || !Array.isArray(payload.questions)) return null;
+    return payload.questions.map((question) => ({
+      id: question.id,
+      word: question.word,
+      prompt: question.prompt,
+      options: question.options,
+      correctAnswer: question.correct_answer,
+      choices: question.options
+    }));
+  } catch {
+    return null;
+  }
+}
+
 async function handleLessonStart(lessonId) {
   if (state.testActive) return;
   const lesson = LESSONS[lessonId] || LESSONS.lesson1;
@@ -1976,7 +2009,9 @@ async function handleLessonStart(lessonId) {
     if (!document.fullscreenElement && document.documentElement.requestFullscreen) {
       await document.documentElement.requestFullscreen({ navigationUI: "hide" });
     }
-    startTest(lessonId, lesson);
+    const questionTotal = clampQuestionAmount(state.questionAmount, lessonId);
+    const serverQuestions = await fetchServerSession(lessonId, questionTotal);
+    startTest(lessonId, lesson, serverQuestions);
   } catch {
     showModal({
       kicker: "Fullscreen required",
@@ -1987,7 +2022,7 @@ async function handleLessonStart(lessonId) {
   }
 }
 
-function startTest(lessonId = state.activeLesson, lesson = LESSONS[lessonId] || LESSONS.lesson1) {
+function startTest(lessonId = state.activeLesson, lesson = LESSONS[lessonId] || LESSONS.lesson1, serverQuestions = null) {
   state.activeLesson = LESSONS[lessonId] ? lessonId : "lesson1";
   state.testActive = true;
   state.terminated = false;
@@ -2000,10 +2035,13 @@ function startTest(lessonId = state.activeLesson, lesson = LESSONS[lessonId] || 
   state.totalTestSeconds = questionTotal * SECONDS_PER_QUESTION;
   state.timer = state.totalTestSeconds;
   state.startedAt = Date.now();
-  state.session = shuffle([...lesson.questions]).slice(0, questionTotal).map((question, index) => ({
+  const localQuestions = shuffle([...lesson.questions]).slice(0, questionTotal);
+  const sourceQuestions = Array.isArray(serverQuestions) && serverQuestions.length ? serverQuestions : localQuestions;
+  state.session = sourceQuestions.slice(0, questionTotal).map((question, index) => ({
     ...question,
+    id: question.id || `${state.activeLesson}-q${index + 1}`,
     sessionId: `${state.activeLesson}-${index}-${question.word}`,
-    choices: shuffle(question.options)
+    choices: question.choices ? [...question.choices] : shuffle(question.options)
   }));
 
   showScreen("testScreen");
@@ -2062,6 +2100,7 @@ function selectOption(button, choice) {
 
   state.answers.push({
     sessionId: question.sessionId,
+    questionId: question.id,
     word: question.word,
     question: question.prompt,
     correctAnswer: question.correctAnswer,
@@ -2135,6 +2174,7 @@ function finishTest(reason, detail = "") {
     if (!answeredQuestions.has(question.sessionId)) {
       state.answers.push({
         sessionId: question.sessionId,
+        questionId: question.id,
         word: question.word,
         question: question.prompt,
         correctAnswer: question.correctAnswer,
@@ -2162,6 +2202,7 @@ function finishTest(reason, detail = "") {
   saveScore(record);
   renderResults(record);
   showScreen("resultScreen");
+  syncAttempt(record);
   playTone(reason === "cheat" ? "wrong" : "finish");
 
   if (percent >= 85 && reason !== "cheat") {
@@ -2211,6 +2252,50 @@ function renderResults(record) {
     `;
     elements.incorrectList.appendChild(item);
   });
+}
+
+async function syncAttempt(record) {
+  if (!elements.progressSyncBox || !elements.progressSyncText) return;
+  elements.progressSyncBox.classList.remove("hidden", "success", "error");
+
+  if (!state.user) {
+    elements.progressSyncText.textContent = "Login or sign up to save lesson progress and join the leaderboard.";
+    return;
+  }
+
+  elements.progressSyncText.textContent = "Saving progress to your account...";
+  try {
+    const response = await fetch("/api/test/submit", {
+      method: "POST",
+      credentials: "same-origin",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        lessonId: record.lessonId,
+        questionAmount: record.questionAmount,
+        totalSeconds: record.totalSeconds,
+        reason: record.reason,
+        answers: state.answers.map((answer) => ({
+          questionId: answer.questionId,
+          selectedAnswer: answer.selectedAnswer === "No answer" ? null : answer.selectedAnswer
+        }))
+      })
+    });
+    const payload = await response.json();
+    if (!response.ok || !payload.ok) throw new Error(payload.error || "Progress sync failed");
+    const progress = payload.progress;
+    state.progress[record.lessonId] = {
+      solved: progress.solved,
+      total: progress.total,
+      percent: progress.after,
+      completed: progress.completed
+    };
+    elements.progressSyncBox.classList.add("success");
+    const deltaText = progress.delta > 0 ? `+${progress.delta}%` : "+0%";
+    elements.progressSyncText.textContent = `${deltaText} lesson progress. ${progress.solved}/${progress.total} unique questions solved (${progress.after}%).`;
+  } catch {
+    elements.progressSyncBox.classList.add("error");
+    elements.progressSyncText.textContent = "Result shown locally, but account progress could not be saved.";
+  }
 }
 
 function showScreen(screenId) {
@@ -2680,6 +2765,13 @@ function shuffle(items) {
 
 window.addEventListener("resize", initParticles);
 document.addEventListener("DOMContentLoaded", init);
+
+
+
+
+
+
+
 
 
 

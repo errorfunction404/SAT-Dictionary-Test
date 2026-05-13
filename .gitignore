@@ -1,0 +1,7 @@
+﻿__pycache__/
+*.pyc
+.env
+flask-server*.log
+flask-server.pid
+static/images/avatars/*
+!static/images/avatars/.gitkeep

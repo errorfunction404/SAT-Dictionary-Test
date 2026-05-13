@@ -1,0 +1,29 @@
+﻿{% extends "base.html" %}
+{% block title %}{{ 'Sign Up' if mode == 'signup' else 'Login' }} | SAT Dictionary Test{% endblock %}
+{% block content %}
+<section class="platform-auth-card">
+  <div class="platform-copy">
+    <p class="eyebrow">Secure account access</p>
+    <h1>{{ 'Create Account' if mode == 'signup' else 'Welcome Back' }}</h1>
+    <p>Save lesson progress, profile images, completed lessons, and leaderboard stats across devices.</p>
+  </div>
+
+  <form class="platform-form" method="post">
+    {% if mode == 'signup' %}
+      <label>First Name<input name="first_name" autocomplete="given-name" required></label>
+      <label>Last Name<input name="last_name" autocomplete="family-name" required></label>
+    {% endif %}
+    <label>Username<input name="username" autocomplete="username" required></label>
+    <label>Password<input name="password" type="password" autocomplete="{{ 'new-password' if mode == 'signup' else 'current-password' }}" minlength="6" required></label>
+    <button class="primary-button" type="submit">{{ 'Create Account' if mode == 'signup' else 'Login' }}</button>
+  </form>
+
+  <p class="platform-switch">
+    {% if mode == 'signup' %}
+      Already have an account? <a href="{{ url_for('login') }}">Login</a>
+    {% else %}
+      New here? <a href="{{ url_for('signup') }}">Create an account</a>
+    {% endif %}
+  </p>
+</section>
+{% endblock %}

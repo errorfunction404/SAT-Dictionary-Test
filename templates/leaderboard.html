@@ -1,0 +1,28 @@
+﻿{% extends "base.html" %}
+{% block title %}Leaderboard | SAT Dictionary Test{% endblock %}
+{% block content %}
+<section class="leaderboard-page">
+  <div class="platform-copy center-copy">
+    <p class="eyebrow">Top 50 learners</p>
+    <h1>Leaderboard</h1>
+    <p>Ranking uses completed lessons first, then average progress percentage, then total unique solved questions.</p>
+  </div>
+
+  <div class="leaderboard-table" role="table" aria-label="Top 50 leaderboard">
+    <div class="leaderboard-row leaderboard-head" role="row">
+      <span>Rank</span><span>User</span><span>Completed</span><span>Average</span><span>Solved</span>
+    </div>
+    {% for row in rows %}
+      <div class="leaderboard-row" role="row">
+        <strong>#{{ loop.index }}</strong>
+        <span class="leader-user"><img src="{{ url_for('static', filename=row.avatar_path or 'images/default_avatar.svg') }}" alt="{{ row.username }} avatar">{{ row.username }}</span>
+        <span>{{ row.completed_lessons }}</span>
+        <span>{{ '%.1f'|format(row.average_percentage) }}%</span>
+        <span>{{ row.total_unique_solved }}</span>
+      </div>
+    {% else %}
+      <div class="empty-state">No saved attempts yet. Be the first to complete a lesson.</div>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

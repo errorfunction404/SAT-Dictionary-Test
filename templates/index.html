@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google" content="notranslate">
   <title>SAT Dictionary Test</title>
-  <link rel="icon" href="sat_icon.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="{{ url_for('static', filename='images/sat_icon.png') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
   <canvas id="particleCanvas" aria-hidden="true"></canvas>
@@ -34,6 +34,14 @@
           <span class="nav-vocab-mark" aria-hidden="true"></span>
           <span data-i18n="vocabularyButton">Vocabulary</span>
         </button>
+        <a class="secondary-button platform-nav-link" href="{{ url_for('leaderboard') }}">Leaderboard</a>
+        {% if current_user %}
+          <a class="secondary-button platform-nav-link" href="{{ url_for('account') }}">Account</a>
+          <a class="secondary-button platform-nav-link" href="{{ url_for('logout') }}">Logout</a>
+        {% else %}
+          <a class="secondary-button platform-nav-link" href="{{ url_for('login') }}">Login</a>
+          <a class="secondary-button platform-nav-link" href="{{ url_for('signup') }}">Sign Up</a>
+        {% endif %}
         <div class="language-switch" role="group" aria-label="Language selector">
           <button class="chip-button active" type="button" data-lang="en">English</button>
           <button class="chip-button" type="button" data-lang="uz">Uzbek</button>
@@ -242,7 +250,7 @@
       <div class="lesson-grid" aria-label="Available lessons">
         <article class="lesson-card lesson-card-one">
           <div class="lesson-visual lesson-image-frame">
-            <img class="lesson-image" src="lesson_1.png" alt="Lesson 1 vocabulary image">
+            <img class="lesson-image" src="{{ url_for('static', filename='images/lesson_1.png') }}" alt="Lesson 1 vocabulary image">
             <span class="visual-chip">L1</span>
           </div>
           <div class="lesson-content">
@@ -255,7 +263,7 @@
 
         <article class="lesson-card lesson-card-two">
           <div class="lesson-visual lesson-image-frame">
-            <img class="lesson-image" src="lesson_2.png" alt="Lesson 2 vocabulary image">
+            <img class="lesson-image" src="{{ url_for('static', filename='images/lesson_2.png') }}" alt="Lesson 2 vocabulary image">
             <span class="visual-chip">L2</span>
           </div>
           <div class="lesson-content">
@@ -267,7 +275,7 @@
         </article>
         <article class="lesson-card lesson-card-three">
           <div class="lesson-visual lesson-image-frame">
-            <img class="lesson-image" src="lesson_3.png" alt="Lesson 3 vocabulary image">
+            <img class="lesson-image" src="{{ url_for('static', filename='images/lesson_3.png') }}" alt="Lesson 3 vocabulary image">
             <span class="visual-chip">L3</span>
           </div>
           <div class="lesson-content">
@@ -280,7 +288,7 @@
 
         <article class="lesson-card lesson-card-four">
           <div class="lesson-visual lesson-image-frame">
-            <img class="lesson-image" src="lesson_4.png" alt="Lesson 4 vocabulary image">
+            <img class="lesson-image" src="{{ url_for('static', filename='images/lesson_4.png') }}" alt="Lesson 4 vocabulary image">
             <span class="visual-chip">L4</span>
           </div>
           <div class="lesson-content">
@@ -390,6 +398,10 @@
         </div>
 
         <div id="cheatWarning" class="warning-box hidden" role="alert"></div>
+        <div id="progressSyncBox" class="progress-sync-box hidden" aria-live="polite">
+          <strong>Lesson Progress</strong>
+          <span id="progressSyncText">Login to save progress and leaderboard stats.</span>
+        </div>
 
         <section class="review-section" aria-labelledby="reviewTitle">
           <h2 id="reviewTitle">Incorrect Answers</h2>
@@ -432,8 +444,14 @@
     </div>
   </div>
 
-  <script src="lessons-extra.js"></script>
-  <script src="script.js"></script>
+  <script>
+    window.SAT_APP_USER = {{ app_user|tojson }};
+    window.SAT_USER_PROGRESS = {{ user_progress|tojson }};
+    window.SAT_STATIC_IMAGE_BASE = "{{ url_for('static', filename='images/') }}";
+  </script>
+  <script src="{{ url_for('static', filename='js/lessons-extra.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
+
 
