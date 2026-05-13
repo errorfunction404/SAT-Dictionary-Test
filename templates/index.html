@@ -1,0 +1,439 @@
+﻿<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google" content="notranslate">
+  <title>SAT Dictionary Test</title>
+  <link rel="icon" href="sat_icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="particleCanvas" aria-hidden="true"></canvas>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <div id="loadingScreen" class="loading-screen">
+    <div class="loader">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <p>Preparing vocabulary arena</p>
+  </div>
+
+  <main class="app-shell">
+    <header class="topbar" data-home-only>
+      <a class="brand" href="#homeScreen" aria-label="SAT Dictionary Test home">
+        <span class="brand-mark">S</span>
+        <span>SAT Dictionary Test</span>
+      </a>
+
+      <nav class="top-actions" aria-label="Home settings">
+        <button id="vocabularyButton" class="secondary-button nav-vocab-button" type="button" data-open-vocabulary>
+          <span class="nav-vocab-mark" aria-hidden="true"></span>
+          <span data-i18n="vocabularyButton">Vocabulary</span>
+        </button>
+        <div class="language-switch" role="group" aria-label="Language selector">
+          <button class="chip-button active" type="button" data-lang="en">English</button>
+          <button class="chip-button" type="button" data-lang="uz">Uzbek</button>
+        </div>
+        <button id="modeToggle" class="icon-button text-icon" type="button" aria-pressed="false">
+          <span class="mode-icon" aria-hidden="true">&#9680;</span>
+          <span data-i18n="lightMode">Light Mode</span>
+        </button>
+      </nav>
+    </header>
+    <section id="unlockCountdown" class="unlock-countdown" data-home-only aria-live="polite">
+      <span class="unlock-pulse" aria-hidden="true"></span>
+      <span id="unlockCountdownText">Checking next lesson unlock...</span>
+    </section>
+    <section id="homeScreen" class="screen active home-screen" aria-labelledby="homeTitle">
+      <div class="hero-grid">
+        <section class="hero-copy">
+          <p class="eyebrow" data-i18n="eyebrow">Premium SAT vocabulary trainer</p>
+          <h1 id="homeTitle">SAT Dictionary Test</h1>
+          <p id="typingLine" class="typing-line" aria-live="polite"></p>
+          <p class="hero-description" data-i18n="description">
+            Build precise academic vocabulary with a focused 20-question SAT-style test drawn from 50 high-value words. Each session reshuffles questions and answers so practice stays sharp, fair, and exam-ready.
+          </p>
+
+          <div class="hero-actions">
+            <button id="startButton" class="primary-button pulse-button" type="button">
+              <span data-i18n="startTest">Start Test</span>
+            </button>
+            <button id="homeVocabularyButton" class="secondary-button nav-vocab-button" type="button" data-open-vocabulary>
+              <span class="nav-vocab-mark" aria-hidden="true"></span>
+              <span data-i18n="vocabularyButton">Vocabulary</span>
+            </button>
+            <button id="openRulesButton" class="secondary-button" type="button" data-i18n="securityRules">Security Rules</button>
+          </div>
+
+          <div class="quick-stats" aria-label="Test summary">
+            <article>
+              <strong>50</strong>
+              <span data-i18n="words">Words</span>
+            </article>
+            <article>
+              <strong>20</strong>
+              <span data-i18n="questions">Questions</span>
+            </article>
+            <article>
+              <strong>12</strong>
+              <span data-i18n="minutes">Minutes</span>
+            </article>
+          </div>
+        </section>
+
+        <aside class="control-panel" aria-label="Theme customization">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow" data-i18n="customize">Customize</p>
+              <h2 data-i18n="themeStudio">Theme Studio</h2>
+            </div>
+            <span class="live-badge" data-i18n="saved">Saved</span>
+          </div>
+
+          <div class="settings-grid">
+            <label class="setting-field">
+              <span data-i18n="accentColor">Accent color</span>
+              <input id="accentColor" type="color" value="#2dd4bf">
+            </label>
+            <label class="setting-field">
+              <span data-i18n="supportColor">Support color</span>
+              <input id="supportColor" type="color" value="#f59e0b">
+            </label>
+            <label class="setting-field">
+              <span data-i18n="surfaceColor">Surface color</span>
+              <input id="surfaceColor" type="color" value="#111827">
+            </label>
+            <label class="setting-field">
+              <span data-i18n="soundEffects">Sound effects</span>
+              <select id="soundSelect">
+                <option value="on">On</option>
+                <option value="off">Off</option>
+              </select>
+            </label>
+            <label class="setting-field wide">
+              <span data-i18n="fontStyle">Font style</span>
+              <select id="fontSelect"></select>
+            </label>
+          </div>
+
+          <div class="preset-row" aria-label="Preset themes">
+            <button class="preset preset-a active" type="button" data-theme="aurora" aria-label="Aurora preset"></button>
+            <button class="preset preset-b" type="button" data-theme="scholar" aria-label="Scholar preset"></button>
+            <button class="preset preset-c" type="button" data-theme="ember" aria-label="Ember preset"></button>
+            <button class="preset preset-d" type="button" data-theme="mint" aria-label="Mint preset"></button>
+          </div>
+
+          <div class="mini-preview" aria-hidden="true">
+            <div class="preview-toolbar"></div>
+            <div class="preview-question"></div>
+            <div class="preview-options">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <section class="learning-band" aria-labelledby="learningTitle">
+        <div>
+          <p class="eyebrow" data-i18n="learningEyebrow">Why this matters</p>
+          <h2 id="learningTitle" data-i18n="learningTitle">SAT vocabulary rewards accuracy, speed, and context.</h2>
+        </div>
+        <p data-i18n="learningText">
+          Strong vocabulary helps with reading passages, command of evidence, grammar decisions, and college-level writing. This test trains recognition under time pressure while showing exactly which words need another review cycle.
+        </p>
+      </section>
+
+      <section id="homeAboutSection" class="info-section about-section" aria-labelledby="aboutTitle">
+        <div class="section-heading-block">
+          <p class="eyebrow">About</p>
+          <h2 id="aboutTitle">Built for focused SAT vocabulary growth.</h2>
+          <p>Every lesson is designed for fast recognition, clean review, and steady progress across SAT-style English and math vocabulary.</p>
+        </div>
+        <div class="about-card-grid">
+          <article class="about-card">
+            <span class="about-card-icon" aria-hidden="true">FE</span>
+            <h3>Frontend and Backend Engineer</h3>
+            <p>Toirov Jo‘rabek</p>
+          </article>
+          <article class="about-card">
+            <span class="about-card-icon" aria-hidden="true">DW</span>
+            <h3>Dictionary Words</h3>
+            <p>Orzubek Abdurahmonov</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="homeContactSection" class="info-section contact-section" aria-labelledby="contactTitle">
+        <div class="section-heading-block">
+          <p class="eyebrow">Contact Us</p>
+          <h2 id="contactTitle">Need help or want to share feedback?</h2>
+          <p>Reach the SAT Dictionary Test team directly on Telegram for updates, support, and vocabulary improvements.</p>
+        </div>
+        <div class="telegram-contact-card" aria-label="Telegram contact links">
+          <span class="telegram-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false">
+              <path d="M21.7 3.4 2.9 10.7c-1.2.5-1.2 1.2-.2 1.5l4.8 1.5 1.8 5.5c.2.7.4 1 .8 1 .4 0 .6-.2.9-.5l2.6-2.5 5.3 3.9c1 .6 1.6.3 1.9-.9l3.3-15.5c.3-1.3-.5-1.9-1.6-1.4Zm-4.2 4.2-8.4 7.6-.3 3-1.3-4.3 10.9-6.9c.5-.3.2-.5-.3-.3Z"/>
+            </svg>
+          </span>
+          <div class="contact-bar-copy">
+            <a class="telegram-main-link" href="https://t.me/foundin4o4" target="_blank" rel="noopener noreferrer">
+              <strong>Contact Us</strong>
+              <small>@foundin4o4</small>
+            </a>
+            <a class="telegram-channel-link" href="https://t.me/dream011abdurakhmanov" target="_blank" rel="noopener noreferrer">t.me/dream011abdurakhmanov</a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="vocabularyScreen" class="screen vocabulary-screen" aria-labelledby="vocabularyTitle">
+      <div class="vocabulary-shell">
+        <div class="vocabulary-heading">
+          <div>
+            <p class="eyebrow">Word library</p>
+            <h1 id="vocabularyTitle">Vocabulary</h1>
+            <p>Review every English word with its Uzbek translation before starting a secure test.</p>
+          </div>
+          <button id="vocabCloseButton" class="secondary-button" type="button">Back Home</button>
+        </div>
+
+        <div class="vocabulary-toolbar">
+          <div class="vocab-tabs" role="tablist" aria-label="Vocabulary lesson tabs">
+            <button class="vocab-tab active" type="button" role="tab" aria-selected="true" data-vocab-lesson="lesson1">Lesson 1 Vocabulary</button>
+            <button class="vocab-tab" type="button" role="tab" aria-selected="false" data-vocab-lesson="lesson2">Lesson 2 Vocabulary</button>
+            <button class="vocab-tab" type="button" role="tab" aria-selected="false" data-vocab-lesson="lesson3">Lesson 3 Vocabulary</button>
+            <button class="vocab-tab" type="button" role="tab" aria-selected="false" data-vocab-lesson="lesson4">Lesson 4 Vocabulary</button>
+          </div>
+
+          <div class="vocab-tools">
+            <label class="vocab-search">
+              <span>Search vocabulary</span>
+              <input id="vocabSearchInput" type="search" placeholder="Search English or Uzbek..." autocomplete="off">
+            </label>
+            <button id="copyVocabularyButton" class="secondary-button copy-vocab-button" type="button">
+              <span class="copy-vocab-icon" aria-hidden="true"></span>
+              <span>Copy Vocabulary</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="vocab-meta">
+          <span id="vocabCount">50 words</span>
+          <span id="copyStatus" aria-live="polite"></span>
+        </div>
+
+        <div id="vocabularyList" class="vocabulary-list" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="lessonScreen" class="screen lesson-screen" aria-labelledby="lessonTitle">
+      <div class="lesson-heading">
+        <p class="eyebrow">Choose your test</p>
+        <h1 id="lessonTitle">Select a Lesson</h1>
+        <p>Choose a lesson, select your question amount, then launch a secure randomized test with shuffled answer choices.</p>
+      </div>
+
+      <div class="lesson-grid" aria-label="Available lessons">
+        <article class="lesson-card lesson-card-one">
+          <div class="lesson-visual lesson-image-frame">
+            <img class="lesson-image" src="lesson_1.png" alt="Lesson 1 vocabulary image">
+            <span class="visual-chip">L1</span>
+          </div>
+          <div class="lesson-content">
+            <p class="eyebrow">Basic vocabulary</p>
+            <h2>Lesson 1</h2>
+            <p>Practice the original 50 SAT dictionary questions with essential meanings and fast recall.</p>
+          </div>
+          <button class="primary-button lesson-start-button" type="button" data-lesson="lesson1">Start</button>
+        </article>
+
+        <article class="lesson-card lesson-card-two">
+          <div class="lesson-visual lesson-image-frame">
+            <img class="lesson-image" src="lesson_2.png" alt="Lesson 2 vocabulary image">
+            <span class="visual-chip">L2</span>
+          </div>
+          <div class="lesson-content">
+            <p class="eyebrow">Intermediate vocabulary</p>
+            <h2>Lesson 2</h2>
+            <p>Advance into a second 50-word SAT set focused on academic reading and reasoning.</p>
+          </div>
+          <button class="primary-button lesson-start-button" type="button" data-lesson="lesson2">Start</button>
+        </article>
+        <article class="lesson-card lesson-card-three">
+          <div class="lesson-visual lesson-image-frame">
+            <img class="lesson-image" src="lesson_3.png" alt="Lesson 3 vocabulary image">
+            <span class="visual-chip">L3</span>
+          </div>
+          <div class="lesson-content">
+            <p class="eyebrow">Growth vocabulary</p>
+            <h2>Lesson 3</h2>
+            <p>Explore exponential, measurement, sequence, and change vocabulary for stronger SAT reasoning.</p>
+          </div>
+          <button class="primary-button lesson-start-button" type="button" data-lesson="lesson3">Start</button>
+        </article>
+
+        <article class="lesson-card lesson-card-four">
+          <div class="lesson-visual lesson-image-frame">
+            <img class="lesson-image" src="lesson_4.png" alt="Lesson 4 vocabulary image">
+            <span class="visual-chip">L4</span>
+          </div>
+          <div class="lesson-content">
+            <p class="eyebrow">Graph vocabulary</p>
+            <h2>Lesson 4</h2>
+            <p>Train polynomial, graph, table, finance, and algebra vocabulary with randomized testing.</p>
+          </div>
+          <button class="primary-button lesson-start-button" type="button" data-lesson="lesson4">Start</button>
+        </article>
+      </div>
+
+      <div class="lesson-footer">
+        <button id="lessonBackButton" class="secondary-button" type="button">Back Home</button>
+      </div>
+    </section>
+
+    <section id="quizSettingsScreen" class="screen quiz-settings-screen" aria-labelledby="quizSettingsTitle">
+      <div class="quiz-settings-card">
+        <div class="quiz-settings-heading">
+          <p class="eyebrow">Quiz setup</p>
+          <h1 id="quizSettingsTitle">Customize Your Test</h1>
+          <p id="quizSettingsLessonText">Lesson 1 selected. Choose how many questions you want before secure mode begins.</p>
+        </div>
+
+        <div class="question-amount-panel" aria-label="Question amount selector">
+          <div class="amount-summary">
+            <span id="selectedQuestionText">Selected Questions: 20</span>
+            <strong id="selectedTimeText">Total Time: 200 Seconds</strong>
+          </div>
+
+          <label class="amount-slider-field" for="questionAmountSlider">
+            <span>Question Amount</span>
+            <input id="questionAmountSlider" type="range" min="5" max="50" step="1" value="20">
+          </label>
+
+          <div class="amount-stepper" role="group" aria-label="Adjust question amount">
+            <button id="questionMinusButton" class="secondary-button amount-step-button" type="button" aria-label="Decrease question amount">-</button>
+            <label class="amount-input-label" for="questionAmountInput">
+              <span>Questions</span>
+              <input id="questionAmountInput" type="number" min="5" max="50" step="1" value="20">
+            </label>
+            <button id="questionPlusButton" class="secondary-button amount-step-button" type="button" aria-label="Increase question amount">+</button>
+          </div>
+        </div>
+
+        <div class="quiz-settings-actions">
+          <button id="quizSettingsBackButton" class="secondary-button" type="button">Back to Lessons</button>
+          <button id="quizSettingsStartButton" class="primary-button" type="button">Start Secure Test</button>
+        </div>
+      </div>
+    </section>
+    <section id="testScreen" class="screen test-screen" aria-labelledby="questionTitle">
+      <div class="test-topbar">
+        <div>
+          <span id="testLabel" class="test-label">SAT Vocabulary Session</span>
+          <h2 id="questionCounter">Question 1 of 20</h2>
+        </div>
+        <div class="test-metrics">
+          <div class="metric">
+            <span>Timer</span>
+            <strong id="timerDisplay">03:20</strong>
+          </div>
+          <div class="metric">
+            <span>Score</span>
+            <strong id="scoreDisplay">0</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="progress-track" aria-label="Test progress">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+
+      <article class="question-stage">
+        <p id="questionMeta" class="question-meta">Choose the best meaning.</p>
+        <h1 id="questionTitle">What is the meaning of "abate"?</h1>
+        <div id="optionsGrid" class="options-grid" role="radiogroup" aria-label="Answer choices"></div>
+      </article>
+
+      <div class="test-actions">
+        <button id="finishButton" class="secondary-button danger" type="button">Finish Test</button>
+        <button id="nextButton" class="primary-button" type="button" disabled>Next Question</button>
+      </div>
+    </section>
+
+    <section id="resultScreen" class="screen result-screen" aria-labelledby="resultTitle">
+      <div class="result-card">
+        <p id="resultStatus" class="eyebrow">Test complete</p>
+        <h1 id="resultTitle">Your SAT Vocabulary Result</h1>
+        <div class="score-orbit" aria-label="Final score">
+          <span id="scoreBig">0/20</span>
+          <small id="percentageBig">0%</small>
+        </div>
+        <div class="grade-strip">
+          <div>
+            <span>Grade</span>
+            <strong id="gradeValue">F</strong>
+          </div>
+          <div>
+            <span>Correct</span>
+            <strong id="correctValue">0</strong>
+          </div>
+          <div>
+            <span>Missed</span>
+            <strong id="missedValue">0</strong>
+          </div>
+        </div>
+
+        <div id="cheatWarning" class="warning-box hidden" role="alert"></div>
+
+        <section class="review-section" aria-labelledby="reviewTitle">
+          <h2 id="reviewTitle">Incorrect Answers</h2>
+          <div id="incorrectList" class="incorrect-list"></div>
+        </section>
+
+        <div class="result-actions">
+          <button id="retryButton" class="primary-button" type="button">Retry Test</button>
+          <button id="homeButton" class="secondary-button" type="button">Back Home</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="modalOverlay" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-window">
+      <button id="closeModalButton" class="modal-close" type="button" aria-label="Close dialog">x</button>
+      <p class="eyebrow" id="modalKicker">Secure mode</p>
+      <h2 id="modalTitle">Fullscreen test rules</h2>
+      <p id="modalBody">
+        The test runs in fullscreen. Leaving the page, opening developer tools, copying text, right clicking, switching tabs, or using system shortcuts ends the session and records the current result.
+      </p>
+      <button id="modalActionButton" class="primary-button" type="button">I understand</button>
+    </div>
+  </div>
+
+  <div id="confettiLayer" class="confetti-layer" aria-hidden="true"></div>
+  <div id="permanentContactBar" class="permanent-contact-bar" aria-label="Telegram contact links">
+    <span class="telegram-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" focusable="false">
+        <path d="M21.7 3.4 2.9 10.7c-1.2.5-1.2 1.2-.2 1.5l4.8 1.5 1.8 5.5c.2.7.4 1 .8 1 .4 0 .6-.2.9-.5l2.6-2.5 5.3 3.9c1 .6 1.6.3 1.9-.9l3.3-15.5c.3-1.3-.5-1.9-1.6-1.4Zm-4.2 4.2-8.4 7.6-.3 3-1.3-4.3 10.9-6.9c.5-.3.2-.5-.3-.3Z"/>
+      </svg>
+    </span>
+    <div class="contact-bar-copy">
+      <a class="telegram-main-link" href="https://t.me/foundin4o4" target="_blank" rel="noopener noreferrer">
+        <strong>Contact Us</strong>
+        <small>@foundin4o4</small>
+      </a>
+      <a class="telegram-channel-link" href="https://t.me/dream011abdurakhmanov" target="_blank" rel="noopener noreferrer">t.me/dream011abdurakhmanov</a>
+    </div>
+  </div>
+
+  <script src="lessons-extra.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,7253 @@
+{
+  "lessons": [
+    {
+      "key": "lesson1",
+      "title": "Lesson 1",
+      "description": "SAT basic vocabulary",
+      "unlockAt": null,
+      "image": "lesson_1.png",
+      "questions": [
+        {
+          "id": "lesson1-q1",
+          "order": 1,
+          "word": "Number",
+          "prompt": "What is the meaning of \"Number\"?",
+          "options": [
+            "Daraja",
+            "Son",
+            "Qoida",
+            "Had"
+          ],
+          "correctAnswer": "Son"
+        },
+        {
+          "id": "lesson1-q2",
+          "order": 2,
+          "word": "Law",
+          "prompt": "What is the meaning of \"Law\"?",
+          "options": [
+            "Asos",
+            "Ko‘phad",
+            "Qoida",
+            "Ildiz"
+          ],
+          "correctAnswer": "Qoida"
+        },
+        {
+          "id": "lesson1-q3",
+          "order": 3,
+          "word": "Exponent",
+          "prompt": "What does \"Exponent\" mean?",
+          "options": [
+            "Son",
+            "Daraja",
+            "Yechim",
+            "Ifoda"
+          ],
+          "correctAnswer": "Daraja"
+        },
+        {
+          "id": "lesson1-q4",
+          "order": 4,
+          "word": "Base",
+          "prompt": "What is the Uzbek meaning of \"Base\"?",
+          "options": [
+            "Ko‘paytma",
+            "Had",
+            "Asos",
+            "Ayirish"
+          ],
+          "correctAnswer": "Asos"
+        },
+        {
+          "id": "lesson1-q5",
+          "order": 5,
+          "word": "Simplify",
+          "prompt": "What does \"Simplify\" mean?",
+          "options": [
+            "Bo‘lish",
+            "Ko‘paytirish",
+            "Soddalashtirish",
+            "Tenglama"
+          ],
+          "correctAnswer": "Soddalashtirish"
+        },
+        {
+          "id": "lesson1-q6",
+          "order": 6,
+          "word": "Polynomial",
+          "prompt": "What is the meaning of \"Polynomial\"?",
+          "options": [
+            "Ildiz",
+            "O‘zgaruvchi",
+            "Ko‘phad",
+            "Qiymat"
+          ],
+          "correctAnswer": "Ko‘phad"
+        },
+        {
+          "id": "lesson1-q7",
+          "order": 7,
+          "word": "Coefficient",
+          "prompt": "What does \"Coefficient\" mean?",
+          "options": [
+            "Qoldiq",
+            "Koeffitsiyent",
+            "Ko‘paytma",
+            "Tub son"
+          ],
+          "correctAnswer": "Koeffitsiyent"
+        },
+        {
+          "id": "lesson1-q8",
+          "order": 8,
+          "word": "Constant Term",
+          "prompt": "What is the meaning of \"Constant Term\"?",
+          "options": [
+            "Bir xil had",
+            "Tenglama",
+            "Asos",
+            "Ozod had"
+          ],
+          "correctAnswer": "Ozod had"
+        },
+        {
+          "id": "lesson1-q9",
+          "order": 9,
+          "word": "Leading Coefficient",
+          "prompt": "What does \"Leading Coefficient\" mean?",
+          "options": [
+            "Ikkinchi darajali had",
+            "Ko‘paytuvchi",
+            "Birinchi koeffitsiyent",
+            "Cheksiz"
+          ],
+          "correctAnswer": "Birinchi koeffitsiyent"
+        },
+        {
+          "id": "lesson1-q10",
+          "order": 10,
+          "word": "Like Terms",
+          "prompt": "What is the meaning of \"Like Terms\"?",
+          "options": [
+            "O‘zgaruvchi",
+            "Yechim",
+            "Bir xil hadlar",
+            "Ildizlar"
+          ],
+          "correctAnswer": "Bir xil hadlar"
+        },
+        {
+          "id": "lesson1-q11",
+          "order": 11,
+          "word": "Combine Like Terms",
+          "prompt": "What does \"Combine Like Terms\" mean?",
+          "options": [
+            "Tenglama tuzish",
+            "Bir xil hadlarni qo‘shish",
+            "Ayirish",
+            "Tub son"
+          ],
+          "correctAnswer": "Bir xil hadlarni qo‘shish"
+        },
+        {
+          "id": "lesson1-q12",
+          "order": 12,
+          "word": "Remainder",
+          "prompt": "What is the meaning of \"Remainder\"?",
+          "options": [
+            "Bo‘linma",
+            "Ko‘paytma",
+            "Qoldiq",
+            "Ifoda"
+          ],
+          "correctAnswer": "Qoldiq"
+        },
+        {
+          "id": "lesson1-q13",
+          "order": 13,
+          "word": "Quotient",
+          "prompt": "What does \"Quotient\" mean?",
+          "options": [
+            "Bo‘luvchi",
+            "Bo‘linma",
+            "Had",
+            "Qiymat"
+          ],
+          "correctAnswer": "Bo‘linma"
+        },
+        {
+          "id": "lesson1-q14",
+          "order": 14,
+          "word": "Factor",
+          "prompt": "What is the meaning of \"Factor\"?",
+          "options": [
+            "Son",
+            "Daraja",
+            "Ko‘paytuvchi",
+            "Yechim"
+          ],
+          "correctAnswer": "Ko‘paytuvchi"
+        },
+        {
+          "id": "lesson1-q15",
+          "order": 15,
+          "word": "Prime Number",
+          "prompt": "What does \"Prime Number\" mean?",
+          "options": [
+            "Murakkab son",
+            "Nol",
+            "Tub son",
+            "Ko‘paytma"
+          ],
+          "correctAnswer": "Tub son"
+        },
+        {
+          "id": "lesson1-q16",
+          "order": 16,
+          "word": "Composite Number",
+          "prompt": "What is the meaning of \"Composite Number\"?",
+          "options": [
+            "Tub son",
+            "Murakkab son",
+            "O‘zgaruvchi",
+            "Had"
+          ],
+          "correctAnswer": "Murakkab son"
+        },
+        {
+          "id": "lesson1-q17",
+          "order": 17,
+          "word": "Prime Factorization",
+          "prompt": "What does \"Prime Factorization\" mean?",
+          "options": [
+            "Tenglama yechish",
+            "Ayirish",
+            "Tub ko‘paytuvchilarga ajratish",
+            "Bo‘lish"
+          ],
+          "correctAnswer": "Tub ko‘paytuvchilarga ajratish"
+        },
+        {
+          "id": "lesson1-q18",
+          "order": 18,
+          "word": "Greatest Common Factor",
+          "prompt": "What is the meaning of \"Greatest Common Factor\"?",
+          "options": [
+            "Eng kichik ko‘paytma",
+            "Ko‘paytuvchi",
+            "Eng katta umumiy bo‘luvchi",
+            "O‘zgaruvchi"
+          ],
+          "correctAnswer": "Eng katta umumiy bo‘luvchi"
+        },
+        {
+          "id": "lesson1-q19",
+          "order": 19,
+          "word": "Least Common Multiple",
+          "prompt": "What does \"Least Common Multiple\" mean?",
+          "options": [
+            "Tub son",
+            "Chekli",
+            "Eng kichik umumiy ko‘paytma",
+            "Ildiz"
+          ],
+          "correctAnswer": "Eng kichik umumiy ko‘paytma"
+        },
+        {
+          "id": "lesson1-q20",
+          "order": 20,
+          "word": "Divisor",
+          "prompt": "What is the meaning of \"Divisor\"?",
+          "options": [
+            "Ko‘paytma",
+            "Bo‘luvchi",
+            "Qiymat",
+            "Daraja"
+          ],
+          "correctAnswer": "Bo‘luvchi"
+        },
+        {
+          "id": "lesson1-q21",
+          "order": 21,
+          "word": "Multiple",
+          "prompt": "What does \"Multiple\" mean?",
+          "options": [
+            "Qoldiq",
+            "Had",
+            "Ko‘paytma",
+            "Tenglama"
+          ],
+          "correctAnswer": "Ko‘paytma"
+        },
+        {
+          "id": "lesson1-q22",
+          "order": 22,
+          "word": "Prime Factor",
+          "prompt": "What is the meaning of \"Prime Factor\"?",
+          "options": [
+            "Murakkab son",
+            "Bo‘linma",
+            "Tub ko‘paytuvchi",
+            "Ifoda"
+          ],
+          "correctAnswer": "Tub ko‘paytuvchi"
+        },
+        {
+          "id": "lesson1-q23",
+          "order": 23,
+          "word": "Common Factor",
+          "prompt": "What does \"Common Factor\" mean?",
+          "options": [
+            "Birinchi had",
+            "Umumiy ko‘paytuvchi",
+            "Ayirish",
+            "O‘zgaruvchi"
+          ],
+          "correctAnswer": "Umumiy ko‘paytuvchi"
+        },
+        {
+          "id": "lesson1-q24",
+          "order": 24,
+          "word": "Common Multiple",
+          "prompt": "What is the meaning of \"Common Multiple\"?",
+          "options": [
+            "Ko‘phad",
+            "Qoldiq",
+            "Umumiy ko‘paytma",
+            "Yechim"
+          ],
+          "correctAnswer": "Umumiy ko‘paytma"
+        },
+        {
+          "id": "lesson1-q25",
+          "order": 25,
+          "word": "Factoring",
+          "prompt": "What does \"Factoring\" mean?",
+          "options": [
+            "Bo‘lish",
+            "Ko‘paytuvchilarga ajratish",
+            "Soddalashtirish",
+            "Daraja"
+          ],
+          "correctAnswer": "Ko‘paytuvchilarga ajratish"
+        },
+        {
+          "id": "lesson1-q26",
+          "order": 26,
+          "word": "Linear Term",
+          "prompt": "What is the meaning of \"Linear Term\"?",
+          "options": [
+            "Uchunchi darajali had",
+            "Birinchi darajali had",
+            "Ozod had",
+            "Nol"
+          ],
+          "correctAnswer": "Birinchi darajali had"
+        },
+        {
+          "id": "lesson1-q27",
+          "order": 27,
+          "word": "Quadratic Term",
+          "prompt": "What does \"Quadratic Term\" mean?",
+          "options": [
+            "Birinchi darajali had",
+            "Uchunchi darajali had",
+            "Ikkinchi darajali had",
+            "Tub son"
+          ],
+          "correctAnswer": "Ikkinchi darajali had"
+        },
+        {
+          "id": "lesson1-q28",
+          "order": 28,
+          "word": "Cubic Term",
+          "prompt": "What is the meaning of \"Cubic Term\"?",
+          "options": [
+            "Ko‘phad",
+            "Bir xil had",
+            "Uchunchi darajali had",
+            "Ildiz"
+          ],
+          "correctAnswer": "Uchunchi darajali had"
+        },
+        {
+          "id": "lesson1-q29",
+          "order": 29,
+          "word": "Roots",
+          "prompt": "What does \"Roots\" mean?",
+          "options": [
+            "Nollar",
+            "Tenglama",
+            "Ildizlar",
+            "Hadlar"
+          ],
+          "correctAnswer": "Ildizlar"
+        },
+        {
+          "id": "lesson1-q30",
+          "order": 30,
+          "word": "Zeroes",
+          "prompt": "What is the meaning of \"Zeroes\"?",
+          "options": [
+            "Ildizlar",
+            "Nollar",
+            "Ko‘paytma",
+            "Qoldiq"
+          ],
+          "correctAnswer": "Nollar"
+        },
+        {
+          "id": "lesson1-q31",
+          "order": 31,
+          "word": "Term",
+          "prompt": "What does \"Term\" mean?",
+          "options": [
+            "O‘zgaruvchi",
+            "Son",
+            "Had",
+            "Asos"
+          ],
+          "correctAnswer": "Had"
+        },
+        {
+          "id": "lesson1-q32",
+          "order": 32,
+          "word": "Expression",
+          "prompt": "What is the meaning of \"Expression\"?",
+          "options": [
+            "Tenglama",
+            "Daraja",
+            "Ifoda",
+            "Ko‘paytuvchi"
+          ],
+          "correctAnswer": "Ifoda"
+        },
+        {
+          "id": "lesson1-q33",
+          "order": 33,
+          "word": "Equation",
+          "prompt": "What does \"Equation\" mean?",
+          "options": [
+            "Had",
+            "Ko‘paytma",
+            "Tenglama",
+            "Qiymat"
+          ],
+          "correctAnswer": "Tenglama"
+        },
+        {
+          "id": "lesson1-q34",
+          "order": 34,
+          "word": "Simplified Form",
+          "prompt": "What is the meaning of \"Simplified Form\"?",
+          "options": [
+            "Murakkab ko‘rinish",
+            "Soddalashtirilgan ko‘rinish",
+            "Tenglama",
+            "Nollar"
+          ],
+          "correctAnswer": "Soddalashtirilgan ko‘rinish"
+        },
+        {
+          "id": "lesson1-q35",
+          "order": 35,
+          "word": "Subtracting",
+          "prompt": "What does \"Subtracting\" mean?",
+          "options": [
+            "Qo‘shish",
+            "Bo‘lish",
+            "Ayirish",
+            "Ko‘paytirish"
+          ],
+          "correctAnswer": "Ayirish"
+        },
+        {
+          "id": "lesson1-q36",
+          "order": 36,
+          "word": "Dividing",
+          "prompt": "What is the meaning of \"Dividing\"?",
+          "options": [
+            "Qo‘shish",
+            "Bo‘lish",
+            "Daraja",
+            "Ifoda"
+          ],
+          "correctAnswer": "Bo‘lish"
+        },
+        {
+          "id": "lesson1-q37",
+          "order": 37,
+          "word": "Property",
+          "prompt": "What does \"Property\" mean?",
+          "options": [
+            "Son",
+            "Ko‘phad",
+            "Xossa",
+            "Yechim"
+          ],
+          "correctAnswer": "Xossa"
+        },
+        {
+          "id": "lesson1-q38",
+          "order": 38,
+          "word": "Power",
+          "prompt": "What is the meaning of \"Power\"?",
+          "options": [
+            "Asos",
+            "Had",
+            "Daraja",
+            "Ko‘paytma"
+          ],
+          "correctAnswer": "Daraja"
+        },
+        {
+          "id": "lesson1-q39",
+          "order": 39,
+          "word": "First",
+          "prompt": "What does \"First\" mean?",
+          "options": [
+            "Ikkinchi",
+            "Uchunchi",
+            "Birinchi",
+            "Oxirgi"
+          ],
+          "correctAnswer": "Birinchi"
+        },
+        {
+          "id": "lesson1-q40",
+          "order": 40,
+          "word": "Second",
+          "prompt": "What is the meaning of \"Second\"?",
+          "options": [
+            "Birinchi",
+            "Ikkinchi",
+            "Uchunchi",
+            "Nol"
+          ],
+          "correctAnswer": "Ikkinchi"
+        },
+        {
+          "id": "lesson1-q41",
+          "order": 41,
+          "word": "Third",
+          "prompt": "What does \"Third\" mean?",
+          "options": [
+            "Birinchi",
+            "Ikkinchi",
+            "Uchunchi",
+            "Cheksiz"
+          ],
+          "correctAnswer": "Uchunchi"
+        },
+        {
+          "id": "lesson1-q42",
+          "order": 42,
+          "word": "Boy",
+          "prompt": "What is the meaning of \"Boy\"?",
+          "options": [
+            "Qiz bola",
+            "O‘g‘il bola",
+            "Talaba",
+            "O‘qituvchi"
+          ],
+          "correctAnswer": "O‘g‘il bola"
+        },
+        {
+          "id": "lesson1-q43",
+          "order": 43,
+          "word": "Girl",
+          "prompt": "What does \"Girl\" mean?",
+          "options": [
+            "O‘g‘il bola",
+            "Ayol",
+            "Qiz bola",
+            "Talaba"
+          ],
+          "correctAnswer": "Qiz bola"
+        },
+        {
+          "id": "lesson1-q44",
+          "order": 44,
+          "word": "Finite",
+          "prompt": "What is the meaning of \"Finite\"?",
+          "options": [
+            "Cheksiz",
+            "Katta",
+            "Chekli",
+            "Murakkab"
+          ],
+          "correctAnswer": "Chekli"
+        },
+        {
+          "id": "lesson1-q45",
+          "order": 45,
+          "word": "Infinite",
+          "prompt": "What does \"Infinite\" mean?",
+          "options": [
+            "Chekli",
+            "Tub",
+            "Cheksiz",
+            "Ozod"
+          ],
+          "correctAnswer": "Cheksiz"
+        },
+        {
+          "id": "lesson1-q46",
+          "order": 46,
+          "word": "Product",
+          "prompt": "What is the meaning of \"Product\"?",
+          "options": [
+            "Bo‘linma",
+            "Ayirish",
+            "Ko‘paytma",
+            "Qoldiq"
+          ],
+          "correctAnswer": "Ko‘paytma"
+        },
+        {
+          "id": "lesson1-q47",
+          "order": 47,
+          "word": "Each",
+          "prompt": "What does \"Each\" mean?",
+          "options": [
+            "Hammasi",
+            "Har bir",
+            "Hech biri",
+            "Ba’zilari"
+          ],
+          "correctAnswer": "Har bir"
+        },
+        {
+          "id": "lesson1-q48",
+          "order": 48,
+          "word": "Value",
+          "prompt": "What is the meaning of \"Value\"?",
+          "options": [
+            "Son",
+            "Had",
+            "Qiymat",
+            "Daraja"
+          ],
+          "correctAnswer": "Qiymat"
+        },
+        {
+          "id": "lesson1-q49",
+          "order": 49,
+          "word": "Variable",
+          "prompt": "What does \"Variable\" mean?",
+          "options": [
+            "Ko‘paytuvchi",
+            "Ildiz",
+            "O‘zgaruvchi",
+            "Tenglama"
+          ],
+          "correctAnswer": "O‘zgaruvchi"
+        },
+        {
+          "id": "lesson1-q50",
+          "order": 50,
+          "word": "Solution",
+          "prompt": "What is the meaning of \"Solution\"?",
+          "options": [
+            "Ifoda",
+            "Ko‘paytma",
+            "Had",
+            "Yechim"
+          ],
+          "correctAnswer": "Yechim"
+        }
+      ]
+    },
+    {
+      "key": "lesson2",
+      "title": "Lesson 2",
+      "description": "Intermediate SAT vocabulary",
+      "unlockAt": null,
+      "image": "lesson_2.png",
+      "questions": [
+        {
+          "id": "lesson2-q1",
+          "order": 1,
+          "word": "Divisible",
+          "prompt": "What is the meaning of \"Divisible\"?",
+          "options": [
+            "Teng",
+            "Musbat",
+            "Karrali",
+            "Juft"
+          ],
+          "correctAnswer": "Karrali"
+        },
+        {
+          "id": "lesson2-q2",
+          "order": 2,
+          "word": "Always",
+          "prompt": "What does \"Always\" mean?",
+          "options": [
+            "Ba’zan",
+            "Har doim",
+            "Hech qachon",
+            "Yana"
+          ],
+          "correctAnswer": "Har doim"
+        },
+        {
+          "id": "lesson2-q3",
+          "order": 3,
+          "word": "Calculate",
+          "prompt": "What is the meaning of \"Calculate\"?",
+          "options": [
+            "Tasvirlamoq",
+            "Tenglashtirmoq",
+            "Hisoblamoq",
+            "Qaytmoq"
+          ],
+          "correctAnswer": "Hisoblamoq"
+        },
+        {
+          "id": "lesson2-q4",
+          "order": 4,
+          "word": "Describe",
+          "prompt": "What does \"Describe\" mean?",
+          "options": [
+            "Ko‘rsatmoq",
+            "Foydalanmoq",
+            "Tasvirlamoq",
+            "Kesishmoq"
+          ],
+          "correctAnswer": "Tasvirlamoq"
+        },
+        {
+          "id": "lesson2-q5",
+          "order": 5,
+          "word": "Include",
+          "prompt": "What is the meaning of \"Include\"?",
+          "options": [
+            "Ajratmoq",
+            "Ko‘paytirmoq",
+            "O‘z ichiga olmoq",
+            "Yechmoq"
+          ],
+          "correctAnswer": "O‘z ichiga olmoq"
+        },
+        {
+          "id": "lesson2-q6",
+          "order": 6,
+          "word": "Consist",
+          "prompt": "What does \"Consist\" mean?",
+          "options": [
+            "Teng bo‘lmoq",
+            "Tashkil topgan",
+            "Natija bermoq",
+            "Soddalashtirmoq"
+          ],
+          "correctAnswer": "Tashkil topgan"
+        },
+        {
+          "id": "lesson2-q7",
+          "order": 7,
+          "word": "Approximate",
+          "prompt": "What is the meaning of \"Approximate\"?",
+          "options": [
+            "Katta",
+            "Aniq",
+            "Taxminan",
+            "Musbat"
+          ],
+          "correctAnswer": "Taxminan"
+        },
+        {
+          "id": "lesson2-q8",
+          "order": 8,
+          "word": "Total amount",
+          "prompt": "What does \"Total amount\" mean?",
+          "options": [
+            "Natija",
+            "Bo‘luvchi",
+            "Umumiy miqdor",
+            "Kesishma"
+          ],
+          "correctAnswer": "Umumiy miqdor"
+        },
+        {
+          "id": "lesson2-q9",
+          "order": 9,
+          "word": "Satisfy",
+          "prompt": "What is the meaning of \"Satisfy\"?",
+          "options": [
+            "Tenglashtirmoq",
+            "Bo‘lmoq",
+            "Qanoatlantirmoq",
+            "Qo‘shmoq"
+          ],
+          "correctAnswer": "Qanoatlantirmoq"
+        },
+        {
+          "id": "lesson2-q10",
+          "order": 10,
+          "word": "Double",
+          "prompt": "What does \"Double\" mean?",
+          "options": [
+            "Yarim",
+            "2 marta katta",
+            "Kamaytirmoq",
+            "Juftlashtirmoq"
+          ],
+          "correctAnswer": "2 marta katta"
+        },
+        {
+          "id": "lesson2-q11",
+          "order": 11,
+          "word": "Ratio",
+          "prompt": "What is the meaning of \"Ratio\"?",
+          "options": [
+            "Qiymat",
+            "Tenglama",
+            "Nisbat",
+            "Natija"
+          ],
+          "correctAnswer": "Nisbat"
+        },
+        {
+          "id": "lesson2-q12",
+          "order": 12,
+          "word": "Return",
+          "prompt": "What does \"Return\" mean?",
+          "options": [
+            "Boshlamoq",
+            "Ko‘rsatmoq",
+            "Qaytmoq",
+            "Ajratmoq"
+          ],
+          "correctAnswer": "Qaytmoq"
+        },
+        {
+          "id": "lesson2-q13",
+          "order": 13,
+          "word": "Rate",
+          "prompt": "What is the meaning of \"Rate\"?",
+          "options": [
+            "Vaqt",
+            "Miqdor",
+            "Tezlik",
+            "Baho"
+          ],
+          "correctAnswer": "Tezlik"
+        },
+        {
+          "id": "lesson2-q14",
+          "order": 14,
+          "word": "Another",
+          "prompt": "What does \"Another\" mean?",
+          "options": [
+            "Birinchi",
+            "Oxirgi",
+            "Yana bir boshqasi",
+            "Hech biri"
+          ],
+          "correctAnswer": "Yana bir boshqasi"
+        },
+        {
+          "id": "lesson2-q15",
+          "order": 15,
+          "word": "Intercept",
+          "prompt": "What is the meaning of \"Intercept\"?",
+          "options": [
+            "Qo‘shish",
+            "Bo‘lish",
+            "Kesishmoq",
+            "Tenglashtirmoq"
+          ],
+          "correctAnswer": "Kesishmoq"
+        },
+        {
+          "id": "lesson2-q16",
+          "order": 16,
+          "word": "Vertex",
+          "prompt": "What does \"Vertex\" mean?",
+          "options": [
+            "Tekislik",
+            "O‘q",
+            "Uchi",
+            "Burchak"
+          ],
+          "correctAnswer": "Uchi"
+        },
+        {
+          "id": "lesson2-q17",
+          "order": 17,
+          "word": "Axis",
+          "prompt": "What is the meaning of \"Axis\"?",
+          "options": [
+            "Tekislik",
+            "Kesishma",
+            "O‘q",
+            "Daraja"
+          ],
+          "correctAnswer": "O‘q"
+        },
+        {
+          "id": "lesson2-q18",
+          "order": 18,
+          "word": "X-intercept",
+          "prompt": "What does \"X-intercept\" mean?",
+          "options": [
+            "y o‘qini kesish",
+            "Tekislik",
+            "x o‘qini kesish",
+            "O‘q markazi"
+          ],
+          "correctAnswer": "x o‘qini kesish"
+        },
+        {
+          "id": "lesson2-q19",
+          "order": 19,
+          "word": "Y-intercept",
+          "prompt": "What is the meaning of \"Y-intercept\"?",
+          "options": [
+            "x o‘qini kesish",
+            "O‘q",
+            "y o‘qini kesish",
+            "Natija"
+          ],
+          "correctAnswer": "y o‘qini kesish"
+        },
+        {
+          "id": "lesson2-q20",
+          "order": 20,
+          "word": "Factored form",
+          "prompt": "What does \"Factored form\" mean?",
+          "options": [
+            "Tenglama shakli",
+            "Soddalashtirilgan shakl",
+            "Ko‘paytuvchilarga ajratilgan shakl",
+            "Ildizli shakl"
+          ],
+          "correctAnswer": "Ko‘paytuvchilarga ajratilgan shakl"
+        },
+        {
+          "id": "lesson2-q21",
+          "order": 21,
+          "word": "Plane",
+          "prompt": "What is the meaning of \"Plane\"?",
+          "options": [
+            "O‘q",
+            "Tekislik",
+            "Uchi",
+            "Chiziq"
+          ],
+          "correctAnswer": "Tekislik"
+        },
+        {
+          "id": "lesson2-q22",
+          "order": 22,
+          "word": "About",
+          "prompt": "What does \"About\" mean?",
+          "options": [
+            "Ichida",
+            "Uchun",
+            "Haqida",
+            "Orqali"
+          ],
+          "correctAnswer": "Haqida"
+        },
+        {
+          "id": "lesson2-q23",
+          "order": 23,
+          "word": "Equation",
+          "prompt": "What is the meaning of \"Equation\"?",
+          "options": [
+            "Ifoda",
+            "Natija",
+            "Tenglama",
+            "Had"
+          ],
+          "correctAnswer": "Tenglama"
+        },
+        {
+          "id": "lesson2-q24",
+          "order": 24,
+          "word": "For",
+          "prompt": "What does \"For\" mean?",
+          "options": [
+            "Yoki",
+            "Bilan",
+            "Uchun",
+            "U holda"
+          ],
+          "correctAnswer": "Uchun"
+        },
+        {
+          "id": "lesson2-q25",
+          "order": 25,
+          "word": "All",
+          "prompt": "What is the meaning of \"All\"?",
+          "options": [
+            "Ba’zilari",
+            "Hech biri",
+            "Barcha",
+            "Ko‘pchilik"
+          ],
+          "correctAnswer": "Barcha"
+        },
+        {
+          "id": "lesson2-q26",
+          "order": 26,
+          "word": "Following",
+          "prompt": "What does \"Following\" mean?",
+          "options": [
+            "Oldingi",
+            "Oxirgi",
+            "Quyidagi",
+            "Yuqoridagi"
+          ],
+          "correctAnswer": "Quyidagi"
+        },
+        {
+          "id": "lesson2-q27",
+          "order": 27,
+          "word": "Integer",
+          "prompt": "What is the meaning of \"Integer\"?",
+          "options": [
+            "Kasr son",
+            "Tub son",
+            "Butun son",
+            "Murakkab son"
+          ],
+          "correctAnswer": "Butun son"
+        },
+        {
+          "id": "lesson2-q28",
+          "order": 28,
+          "word": "Any",
+          "prompt": "What does \"Any\" mean?",
+          "options": [
+            "Hammasi",
+            "Istalgan",
+            "Hech biri",
+            "Boshqasi"
+          ],
+          "correctAnswer": "Istalgan"
+        },
+        {
+          "id": "lesson2-q29",
+          "order": 29,
+          "word": "Nonzero",
+          "prompt": "What is the meaning of \"Nonzero\"?",
+          "options": [
+            "Nol",
+            "Musbat",
+            "Noldan farqli",
+            "Cheksiz"
+          ],
+          "correctAnswer": "Noldan farqli"
+        },
+        {
+          "id": "lesson2-q30",
+          "order": 30,
+          "word": "Equal",
+          "prompt": "What does \"Equal\" mean?",
+          "options": [
+            "Har xil",
+            "Juft",
+            "Teng",
+            "Katta"
+          ],
+          "correctAnswer": "Teng"
+        },
+        {
+          "id": "lesson2-q31",
+          "order": 31,
+          "word": "Then",
+          "prompt": "What is the meaning of \"Then\"?",
+          "options": [
+            "Keyinroq",
+            "Birinchi",
+            "U holda",
+            "Oldin"
+          ],
+          "correctAnswer": "U holda"
+        },
+        {
+          "id": "lesson2-q32",
+          "order": 32,
+          "word": "Positive",
+          "prompt": "What does \"Positive\" mean?",
+          "options": [
+            "Manfiy",
+            "Nol",
+            "Musbat",
+            "Juft"
+          ],
+          "correctAnswer": "Musbat"
+        },
+        {
+          "id": "lesson2-q33",
+          "order": 33,
+          "word": "Even",
+          "prompt": "What is the meaning of \"Even\"?",
+          "options": [
+            "Toq",
+            "Teng",
+            "Juft",
+            "Karrali"
+          ],
+          "correctAnswer": "Juft"
+        },
+        {
+          "id": "lesson2-q34",
+          "order": 34,
+          "word": "Which",
+          "prompt": "What does \"Which\" mean?",
+          "options": [
+            "Qachon",
+            "Nima",
+            "Qaysi",
+            "Kim"
+          ],
+          "correctAnswer": "Qaysi"
+        },
+        {
+          "id": "lesson2-q35",
+          "order": 35,
+          "word": "Least",
+          "prompt": "What is the meaning of \"Least\"?",
+          "options": [
+            "Eng katta",
+            "O‘rtacha",
+            "Eng kichik",
+            "Taxminiy"
+          ],
+          "correctAnswer": "Eng kichik"
+        },
+        {
+          "id": "lesson2-q36",
+          "order": 36,
+          "word": "Greatest",
+          "prompt": "What does \"Greatest\" mean?",
+          "options": [
+            "Eng kichik",
+            "Oddiy",
+            "Eng katta",
+            "Teng"
+          ],
+          "correctAnswer": "Eng katta"
+        },
+        {
+          "id": "lesson2-q37",
+          "order": 37,
+          "word": "Like",
+          "prompt": "What is the meaning of \"Like\"?",
+          "options": [
+            "Farqli",
+            "Kuchli",
+            "O‘xshash",
+            "Tengsiz"
+          ],
+          "correctAnswer": "O‘xshash"
+        },
+        {
+          "id": "lesson2-q38",
+          "order": 38,
+          "word": "Or",
+          "prompt": "What does \"Or\" mean?",
+          "options": [
+            "Va",
+            "Ammo",
+            "Yoki",
+            "Chunki"
+          ],
+          "correctAnswer": "Yoki"
+        },
+        {
+          "id": "lesson2-q39",
+          "order": 39,
+          "word": "Above",
+          "prompt": "What is the meaning of \"Above\"?",
+          "options": [
+            "Pastda",
+            "Yonida",
+            "Yuqorida",
+            "Ichida"
+          ],
+          "correctAnswer": "Yuqorida"
+        },
+        {
+          "id": "lesson2-q40",
+          "order": 40,
+          "word": "Various",
+          "prompt": "What does \"Various\" mean?",
+          "options": [
+            "Bir xil",
+            "Teng",
+            "Turli xil",
+            "Chekli"
+          ],
+          "correctAnswer": "Turli xil"
+        },
+        {
+          "id": "lesson2-q41",
+          "order": 41,
+          "word": "Form",
+          "prompt": "What is the meaning of \"Form\"?",
+          "options": [
+            "Tenglik",
+            "Hisob",
+            "Shakl, shakllantirmoq",
+            "Bo‘linma"
+          ],
+          "correctAnswer": "Shakl, shakllantirmoq"
+        },
+        {
+          "id": "lesson2-q42",
+          "order": 42,
+          "word": "Use",
+          "prompt": "What does \"Use\" mean?",
+          "options": [
+            "Yaratmoq",
+            "Ko‘rsatmoq",
+            "Foydalanmoq",
+            "Ajratmoq"
+          ],
+          "correctAnswer": "Foydalanmoq"
+        },
+        {
+          "id": "lesson2-q43",
+          "order": 43,
+          "word": "By",
+          "prompt": "What is the meaning of \"By\"?",
+          "options": [
+            "Uchun",
+            "Bilan",
+            "Ga, orqali",
+            "Ichida"
+          ],
+          "correctAnswer": "Ga, orqali"
+        },
+        {
+          "id": "lesson2-q44",
+          "order": 44,
+          "word": "Equivalent",
+          "prompt": "What does \"Equivalent\" mean?",
+          "options": [
+            "Kuchsiz",
+            "Har xil",
+            "Teng kuchli",
+            "Murakkab"
+          ],
+          "correctAnswer": "Teng kuchli"
+        },
+        {
+          "id": "lesson2-q45",
+          "order": 45,
+          "word": "Result",
+          "prompt": "What is the meaning of \"Result\"?",
+          "options": [
+            "Tenglama",
+            "Ifoda",
+            "Natija",
+            "O‘q"
+          ],
+          "correctAnswer": "Natija"
+        },
+        {
+          "id": "lesson2-q46",
+          "order": 46,
+          "word": "Simplify",
+          "prompt": "What does \"Simplify\" mean?",
+          "options": [
+            "Murakkablashtirmoq",
+            "Tenglashtirmoq",
+            "Soddalashtirmoq",
+            "Ajratmoq"
+          ],
+          "correctAnswer": "Soddalashtirmoq"
+        },
+        {
+          "id": "lesson2-q47",
+          "order": 47,
+          "word": "When",
+          "prompt": "What is the meaning of \"When\"?",
+          "options": [
+            "Qaerda",
+            "Kim",
+            "Qachonki",
+            "Nima"
+          ],
+          "correctAnswer": "Qachonki"
+        },
+        {
+          "id": "lesson2-q48",
+          "order": 48,
+          "word": "Has",
+          "prompt": "What does \"Has\" mean?",
+          "options": [
+            "Yo‘q",
+            "Bo‘ladi",
+            "Ega bo‘lmoq",
+            "Kerak"
+          ],
+          "correctAnswer": "Ega bo‘lmoq"
+        },
+        {
+          "id": "lesson2-q49",
+          "order": 49,
+          "word": "Composite number",
+          "prompt": "What is the meaning of \"Composite number\"?",
+          "options": [
+            "Tub son",
+            "Butun son",
+            "Murakkab son",
+            "Kasr son"
+          ],
+          "correctAnswer": "Murakkab son"
+        },
+        {
+          "id": "lesson2-q50",
+          "order": 50,
+          "word": "Show",
+          "prompt": "What does \"Show\" mean?",
+          "options": [
+            "Yashirmoq",
+            "O‘zgartirmoq",
+            "Namoyish qilmoq",
+            "Hisoblamoq"
+          ],
+          "correctAnswer": "Namoyish qilmoq"
+        }
+      ]
+    },
+    {
+      "key": "lesson3",
+      "title": "Lesson 3",
+      "description": "Exponential, measurement, and growth vocabulary",
+      "unlockAt": null,
+      "image": "lesson_3.png",
+      "questions": [
+        {
+          "id": "lesson3-q1",
+          "order": 1,
+          "word": "Exponential Functions",
+          "prompt": "What is the meaning of \"Exponential Functions\"?",
+          "options": [
+            "Chiziqli funksiya",
+            "Kvadrat funksiya",
+            "Darajali funksiya",
+            "Kasr funksiya"
+          ],
+          "correctAnswer": "Darajali funksiya"
+        },
+        {
+          "id": "lesson3-q2",
+          "order": 2,
+          "word": "Extra",
+          "prompt": "What does \"Extra\" mean?",
+          "options": [
+            "Asosiy",
+            "Keraksiz",
+            "Qo‘shimcha",
+            "Kichik"
+          ],
+          "correctAnswer": "Qo‘shimcha"
+        },
+        {
+          "id": "lesson3-q3",
+          "order": 3,
+          "word": "Select",
+          "prompt": "What is the meaning of \"Select\"?",
+          "options": [
+            "Hisoblamoq",
+            "Topmoq",
+            "Tanlamoq",
+            "O‘lchamoq"
+          ],
+          "correctAnswer": "Tanlamoq"
+        },
+        {
+          "id": "lesson3-q4",
+          "order": 4,
+          "word": "Part",
+          "prompt": "What does \"Part\" mean?",
+          "options": [
+            "To‘plam",
+            "Qism",
+            "Natija",
+            "Hajm"
+          ],
+          "correctAnswer": "Qism"
+        },
+        {
+          "id": "lesson3-q5",
+          "order": 5,
+          "word": "Find",
+          "prompt": "What is the meaning of \"Find\"?",
+          "options": [
+            "Yo‘qotmoq",
+            "Belgilamoq",
+            "Topmoq",
+            "Solishtirmoq"
+          ],
+          "correctAnswer": "Topmoq"
+        },
+        {
+          "id": "lesson3-q6",
+          "order": 6,
+          "word": "Sequence",
+          "prompt": "What does \"Sequence\" mean?",
+          "options": [
+            "Tenglama",
+            "To‘plam",
+            "Ketma-ketlik",
+            "Daraja"
+          ],
+          "correctAnswer": "Ketma-ketlik"
+        },
+        {
+          "id": "lesson3-q7",
+          "order": 7,
+          "word": "Initial",
+          "prompt": "What is the meaning of \"Initial\"?",
+          "options": [
+            "Oxirgi",
+            "O‘rta",
+            "Dastlabki",
+            "Asosiy emas"
+          ],
+          "correctAnswer": "Dastlabki"
+        },
+        {
+          "id": "lesson3-q8",
+          "order": 8,
+          "word": "Define",
+          "prompt": "What does \"Define\" mean?",
+          "options": [
+            "Solishtirmoq",
+            "Aniqlamoq",
+            "O‘lchamoq",
+            "Ifodalamoq"
+          ],
+          "correctAnswer": "Aniqlamoq"
+        },
+        {
+          "id": "lesson3-q9",
+          "order": 9,
+          "word": "Amount",
+          "prompt": "What is the meaning of \"Amount\"?",
+          "options": [
+            "Hajm",
+            "Qiymat",
+            "Miqdor",
+            "Daraja"
+          ],
+          "correctAnswer": "Miqdor"
+        },
+        {
+          "id": "lesson3-q10",
+          "order": 10,
+          "word": "Month",
+          "prompt": "What does \"Month\" mean?",
+          "options": [
+            "Kun",
+            "Yil",
+            "Oy",
+            "Hafta"
+          ],
+          "correctAnswer": "Oy"
+        },
+        {
+          "id": "lesson3-q11",
+          "order": 11,
+          "word": "The nearest",
+          "prompt": "What is the meaning of \"The nearest\"?",
+          "options": [
+            "Eng uzoq",
+            "O‘rtacha",
+            "Eng yaqin",
+            "Kichik"
+          ],
+          "correctAnswer": "Eng yaqin"
+        },
+        {
+          "id": "lesson3-q12",
+          "order": 12,
+          "word": "During",
+          "prompt": "What does \"During\" mean?",
+          "options": [
+            "Oldin",
+            "Keyin",
+            "Davomida",
+            "Oxirida"
+          ],
+          "correctAnswer": "Davomida"
+        },
+        {
+          "id": "lesson3-q13",
+          "order": 13,
+          "word": "Water",
+          "prompt": "What is the meaning of \"Water\"?",
+          "options": [
+            "Havo",
+            "Yer",
+            "Suv",
+            "Olov"
+          ],
+          "correctAnswer": "Suv"
+        },
+        {
+          "id": "lesson3-q14",
+          "order": 14,
+          "word": "Time",
+          "prompt": "What does \"Time\" mean?",
+          "options": [
+            "Oy",
+            "Kun",
+            "Vaqt",
+            "Soat"
+          ],
+          "correctAnswer": "Vaqt"
+        },
+        {
+          "id": "lesson3-q15",
+          "order": 15,
+          "word": "Level",
+          "prompt": "What is the meaning of \"Level\"?",
+          "options": [
+            "Qiymat",
+            "Daraja",
+            "Hajm",
+            "Massa"
+          ],
+          "correctAnswer": "Daraja"
+        },
+        {
+          "id": "lesson3-q16",
+          "order": 16,
+          "word": "Price",
+          "prompt": "What does \"Price\" mean?",
+          "options": [
+            "Pul",
+            "Boylik",
+            "Narx",
+            "Qiymat"
+          ],
+          "correctAnswer": "Narx"
+        },
+        {
+          "id": "lesson3-q17",
+          "order": 17,
+          "word": "Begin",
+          "prompt": "What is the meaning of \"Begin\"?",
+          "options": [
+            "Tugatmoq",
+            "Kutmoq",
+            "Boshlamoq",
+            "Yopmoq"
+          ],
+          "correctAnswer": "Boshlamoq"
+        },
+        {
+          "id": "lesson3-q18",
+          "order": 18,
+          "word": "Use",
+          "prompt": "What does \"Use\" mean?",
+          "options": [
+            "O‘rganmoq",
+            "O‘zgartirmoq",
+            "Foydalanmoq",
+            "Saqlamoq"
+          ],
+          "correctAnswer": "Foydalanmoq"
+        },
+        {
+          "id": "lesson3-q19",
+          "order": 19,
+          "word": "Between",
+          "prompt": "What is the meaning of \"Between\"?",
+          "options": [
+            "Tashqarida",
+            "Ichida",
+            "Orasidagi",
+            "Yonida"
+          ],
+          "correctAnswer": "Orasidagi"
+        },
+        {
+          "id": "lesson3-q20",
+          "order": 20,
+          "word": "Express",
+          "prompt": "What does \"Express\" mean?",
+          "options": [
+            "Yashirmoq",
+            "Ifodalamoq",
+            "Qisqartirmoq",
+            "Ko‘paytirmoq"
+          ],
+          "correctAnswer": "Ifodalamoq"
+        },
+        {
+          "id": "lesson3-q21",
+          "order": 21,
+          "word": "Must",
+          "prompt": "What is the meaning of \"Must\"?",
+          "options": [
+            "Mumkin",
+            "Ehtimol",
+            "Shart, zarur",
+            "Oson"
+          ],
+          "correctAnswer": "Shart, zarur"
+        },
+        {
+          "id": "lesson3-q22",
+          "order": 22,
+          "word": "Could",
+          "prompt": "What does \"Could\" mean?",
+          "options": [
+            "Kerak",
+            "Shart",
+            "Bo‘lishi mumkin",
+            "Aniqlik"
+          ],
+          "correctAnswer": "Bo‘lishi mumkin"
+        },
+        {
+          "id": "lesson3-q23",
+          "order": 23,
+          "word": "Volume",
+          "prompt": "What is the meaning of \"Volume\"?",
+          "options": [
+            "Massa",
+            "Miqdor",
+            "Hajm",
+            "Sirt"
+          ],
+          "correctAnswer": "Hajm"
+        },
+        {
+          "id": "lesson3-q24",
+          "order": 24,
+          "word": "Mass",
+          "prompt": "What does \"Mass\" mean?",
+          "options": [
+            "Hajm",
+            "Narx",
+            "Massa",
+            "Tezlik"
+          ],
+          "correctAnswer": "Massa"
+        },
+        {
+          "id": "lesson3-q25",
+          "order": 25,
+          "word": "Represent",
+          "prompt": "What is the meaning of \"Represent\"?",
+          "options": [
+            "Boshlamoq",
+            "Hisoblamoq",
+            "Ifodalamoq",
+            "Aniqlamoq"
+          ],
+          "correctAnswer": "Ifodalamoq"
+        },
+        {
+          "id": "lesson3-q26",
+          "order": 26,
+          "word": "Define",
+          "prompt": "What does \"Define\" mean?",
+          "options": [
+            "Solishtirmoq",
+            "Aniqlamoq",
+            "Kamaytirmoq",
+            "O‘lchamoq"
+          ],
+          "correctAnswer": "Aniqlamoq"
+        },
+        {
+          "id": "lesson3-q27",
+          "order": 27,
+          "word": "According",
+          "prompt": "What is the meaning of \"According\"?",
+          "options": [
+            "Qarshi",
+            "Bilan",
+            "… ga ko‘ra",
+            "Orqali"
+          ],
+          "correctAnswer": "… ga ko‘ra"
+        },
+        {
+          "id": "lesson3-q28",
+          "order": 28,
+          "word": "Possible",
+          "prompt": "What does \"Possible\" mean?",
+          "options": [
+            "Qiyin",
+            "Zarur",
+            "Mumkin bo‘lgan",
+            "Majburiy"
+          ],
+          "correctAnswer": "Mumkin bo‘lgan"
+        },
+        {
+          "id": "lesson3-q29",
+          "order": 29,
+          "word": "Surface",
+          "prompt": "What is the meaning of \"Surface\"?",
+          "options": [
+            "Hajm",
+            "Massa",
+            "Yuza",
+            "Tekislik"
+          ],
+          "correctAnswer": "Yuza"
+        },
+        {
+          "id": "lesson3-q30",
+          "order": 30,
+          "word": "Object",
+          "prompt": "What does \"Object\" mean?",
+          "options": [
+            "Formula",
+            "Tenglama",
+            "Narsa, buyum",
+            "Natija"
+          ],
+          "correctAnswer": "Narsa, buyum"
+        },
+        {
+          "id": "lesson3-q31",
+          "order": 31,
+          "word": "Closest to",
+          "prompt": "What is the meaning of \"Closest to\"?",
+          "options": [
+            "Eng uzoq",
+            "Eng katta",
+            "Eng yaqin",
+            "Eng kichik"
+          ],
+          "correctAnswer": "Eng yaqin"
+        },
+        {
+          "id": "lesson3-q32",
+          "order": 32,
+          "word": "Family",
+          "prompt": "What does \"Family\" mean?",
+          "options": [
+            "Guruh",
+            "To‘plam",
+            "Oila",
+            "Jamoa"
+          ],
+          "correctAnswer": "Oila"
+        },
+        {
+          "id": "lesson3-q33",
+          "order": 33,
+          "word": "Per week",
+          "prompt": "What is the meaning of \"Per week\"?",
+          "options": [
+            "Har oy",
+            "Har kun",
+            "Har hafta",
+            "Har yil"
+          ],
+          "correctAnswer": "Har hafta"
+        },
+        {
+          "id": "lesson3-q34",
+          "order": 34,
+          "word": "Area",
+          "prompt": "What does \"Area\" mean?",
+          "options": [
+            "Hajm",
+            "Massa",
+            "Yuza",
+            "Narx"
+          ],
+          "correctAnswer": "Yuza"
+        },
+        {
+          "id": "lesson3-q35",
+          "order": 35,
+          "word": "Increase",
+          "prompt": "What is the meaning of \"Increase\"?",
+          "options": [
+            "Kamaymoq",
+            "To‘xtamoq",
+            "Oshmoq, ko‘tarilmoq",
+            "Tushmoq"
+          ],
+          "correctAnswer": "Oshmoq, ko‘tarilmoq"
+        },
+        {
+          "id": "lesson3-q36",
+          "order": 36,
+          "word": "Rise",
+          "prompt": "What does \"Rise\" mean?",
+          "options": [
+            "Pasaymoq",
+            "Yo‘qolmoq",
+            "Oshmoq, ko‘tarilmoq",
+            "Tushunmoq"
+          ],
+          "correctAnswer": "Oshmoq, ko‘tarilmoq"
+        },
+        {
+          "id": "lesson3-q37",
+          "order": 37,
+          "word": "Decrease",
+          "prompt": "What is the meaning of \"Decrease\"?",
+          "options": [
+            "O‘smoq",
+            "Ko‘paymoq",
+            "Kamaymoq",
+            "Kattalashmoq"
+          ],
+          "correctAnswer": "Kamaymoq"
+        },
+        {
+          "id": "lesson3-q38",
+          "order": 38,
+          "word": "Reduce",
+          "prompt": "What does \"Reduce\" mean?",
+          "options": [
+            "Kuchaymoq",
+            "O‘smoq",
+            "Pasaymoq",
+            "Tenglashmoq"
+          ],
+          "correctAnswer": "Pasaymoq"
+        },
+        {
+          "id": "lesson3-q39",
+          "order": 39,
+          "word": "Growth",
+          "prompt": "What is the meaning of \"Growth\"?",
+          "options": [
+            "Kamayish",
+            "To‘xtash",
+            "O‘smoq",
+            "Tenglik"
+          ],
+          "correctAnswer": "O‘smoq"
+        },
+        {
+          "id": "lesson3-q40",
+          "order": 40,
+          "word": "Decay",
+          "prompt": "What does \"Decay\" mean?",
+          "options": [
+            "O‘sish",
+            "Ko‘payish",
+            "Kamaymoq",
+            "Boshlanish"
+          ],
+          "correctAnswer": "Kamaymoq"
+        },
+        {
+          "id": "lesson3-q41",
+          "order": 41,
+          "word": "Domain",
+          "prompt": "What is the meaning of \"Domain\"?",
+          "options": [
+            "To‘plam",
+            "Natija",
+            "Aniqlanish soha",
+            "Daraja"
+          ],
+          "correctAnswer": "Aniqlanish soha"
+        },
+        {
+          "id": "lesson3-q42",
+          "order": 42,
+          "word": "Set",
+          "prompt": "What does \"Set\" mean?",
+          "options": [
+            "Ketma-ketlik",
+            "Formula",
+            "To‘plam",
+            "Tenglik"
+          ],
+          "correctAnswer": "To‘plam"
+        },
+        {
+          "id": "lesson3-q43",
+          "order": 43,
+          "word": "Continuous",
+          "prompt": "What is the meaning of \"Continuous\"?",
+          "options": [
+            "Uzilgan",
+            "Chekli",
+            "Uzluksiz",
+            "Kichik"
+          ],
+          "correctAnswer": "Uzluksiz"
+        },
+        {
+          "id": "lesson3-q44",
+          "order": 44,
+          "word": "Each",
+          "prompt": "What does \"Each\" mean?",
+          "options": [
+            "Hammasi",
+            "Hech biri",
+            "Har bir",
+            "Ayrimlari"
+          ],
+          "correctAnswer": "Har bir"
+        },
+        {
+          "id": "lesson3-q45",
+          "order": 45,
+          "word": "Day",
+          "prompt": "What is the meaning of \"Day\"?",
+          "options": [
+            "Hafta",
+            "Oy",
+            "Kun",
+            "Yil"
+          ],
+          "correctAnswer": "Kun"
+        },
+        {
+          "id": "lesson3-q46",
+          "order": 46,
+          "word": "Relationship",
+          "prompt": "What does \"Relationship\" mean?",
+          "options": [
+            "Tenglama",
+            "Formula",
+            "Bog‘lanish",
+            "Solishtirish"
+          ],
+          "correctAnswer": "Bog‘lanish"
+        },
+        {
+          "id": "lesson3-q47",
+          "order": 47,
+          "word": "Example",
+          "prompt": "What is the meaning of \"Example\"?",
+          "options": [
+            "Natija",
+            "Qism",
+            "Misol, namuna",
+            "Daraja"
+          ],
+          "correctAnswer": "Misol, namuna"
+        },
+        {
+          "id": "lesson3-q48",
+          "order": 48,
+          "word": "Exact",
+          "prompt": "What does \"Exact\" mean?",
+          "options": [
+            "Taxminiy",
+            "Noto‘g‘ri",
+            "Aniq",
+            "Katta"
+          ],
+          "correctAnswer": "Aniq"
+        },
+        {
+          "id": "lesson3-q49",
+          "order": 49,
+          "word": "Compare",
+          "prompt": "What does \"Compare\" mean?",
+          "options": [
+            "Ajratmoq",
+            "Ko‘paytirmoq",
+            "Taqqoslamoq",
+            "Boshlamoq"
+          ],
+          "correctAnswer": "Taqqoslamoq"
+        },
+        {
+          "id": "lesson3-q50",
+          "order": 50,
+          "word": "Earn",
+          "prompt": "What is the meaning of \"Earn\"?",
+          "options": [
+            "Yo‘qotmoq",
+            "Sarflamoq",
+            "Ishlab topmoq",
+            "Saqlamoq"
+          ],
+          "correctAnswer": "Ishlab topmoq"
+        }
+      ]
+    },
+    {
+      "key": "lesson4",
+      "title": "Lesson 4",
+      "description": "Polynomial, graph, and finance vocabulary",
+      "unlockAt": null,
+      "image": "lesson_4.png",
+      "questions": [
+        {
+          "id": "lesson4-q1",
+          "order": 1,
+          "word": "Polynomial",
+          "prompt": "What is the meaning of \"Polynomial\"?",
+          "options": [
+            "Daraja",
+            "Jadval",
+            "Ko‘phad",
+            "Grafik"
+          ],
+          "correctAnswer": "Ko‘phad"
+        },
+        {
+          "id": "lesson4-q2",
+          "order": 2,
+          "word": "Except",
+          "prompt": "What does \"Except\" mean?",
+          "options": [
+            "Ichida",
+            "Oldin",
+            "Dan tashqari",
+            "Yaqin"
+          ],
+          "correctAnswer": "Dan tashqari"
+        },
+        {
+          "id": "lesson4-q3",
+          "order": 3,
+          "word": "For",
+          "prompt": "What is the meaning of \"For\"?",
+          "options": [
+            "Keyin",
+            "Orqali",
+            "Uchun",
+            "Qarshi"
+          ],
+          "correctAnswer": "Uchun"
+        },
+        {
+          "id": "lesson4-q4",
+          "order": 4,
+          "word": "Degree",
+          "prompt": "What does \"Degree\" mean?",
+          "options": [
+            "Narx",
+            "Vazn",
+            "Daraja",
+            "Qoldiq"
+          ],
+          "correctAnswer": "Daraja"
+        },
+        {
+          "id": "lesson4-q5",
+          "order": 5,
+          "word": "Several",
+          "prompt": "What is the meaning of \"Several\"?",
+          "options": [
+            "Barcha",
+            "Hech biri",
+            "Bir nechta",
+            "Yagona"
+          ],
+          "correctAnswer": "Bir nechta"
+        },
+        {
+          "id": "lesson4-q6",
+          "order": 6,
+          "word": "Real solution",
+          "prompt": "What does \"Real solution\" mean?",
+          "options": [
+            "Mavhum yechim",
+            "Murakkab yechim",
+            "Haqiqiy yechim",
+            "Noto‘g‘ri yechim"
+          ],
+          "correctAnswer": "Haqiqiy yechim"
+        },
+        {
+          "id": "lesson4-q7",
+          "order": 7,
+          "word": "Distinct",
+          "prompt": "What is the meaning of \"Distinct\"?",
+          "options": [
+            "O‘xshash",
+            "Oddiy",
+            "Turli xil",
+            "Teng"
+          ],
+          "correctAnswer": "Turli xil"
+        },
+        {
+          "id": "lesson4-q8",
+          "order": 8,
+          "word": "Strictly",
+          "prompt": "What does \"Strictly\" mean?",
+          "options": [
+            "Erkin",
+            "Oson",
+            "Qat’iy",
+            "Sekin"
+          ],
+          "correctAnswer": "Qat’iy"
+        },
+        {
+          "id": "lesson4-q9",
+          "order": 9,
+          "word": "Only",
+          "prompt": "What is the meaning of \"Only\"?",
+          "options": [
+            "Ba’zan",
+            "Hammasi",
+            "Faqat",
+            "Hech qachon"
+          ],
+          "correctAnswer": "Faqat"
+        },
+        {
+          "id": "lesson4-q10",
+          "order": 10,
+          "word": "Above",
+          "prompt": "What does \"Above\" mean?",
+          "options": [
+            "Pastdagi",
+            "Ichidagi",
+            "Yuqoridagi",
+            "Yonidagi"
+          ],
+          "correctAnswer": "Yuqoridagi"
+        },
+        {
+          "id": "lesson4-q11",
+          "order": 11,
+          "word": "Remainder",
+          "prompt": "What is the meaning of \"Remainder\"?",
+          "options": [
+            "Bo‘linma",
+            "Daraja",
+            "Qoldiq",
+            "Jadval"
+          ],
+          "correctAnswer": "Qoldiq"
+        },
+        {
+          "id": "lesson4-q12",
+          "order": 12,
+          "word": "Part",
+          "prompt": "What does \"Part\" mean?",
+          "options": [
+            "To‘plam",
+            "Grafik",
+            "Qism",
+            "Natija"
+          ],
+          "correctAnswer": "Qism"
+        },
+        {
+          "id": "lesson4-q13",
+          "order": 13,
+          "word": "Indicate",
+          "prompt": "What is the meaning of \"Indicate\"?",
+          "options": [
+            "Solishtirmoq",
+            "Yashirmoq",
+            "Ko‘rsatmoq",
+            "O‘lchamoq"
+          ],
+          "correctAnswer": "Ko‘rsatmoq"
+        },
+        {
+          "id": "lesson4-q14",
+          "order": 14,
+          "word": "Root",
+          "prompt": "What does \"Root\" mean?",
+          "options": [
+            "Qism",
+            "Formula",
+            "Ildiz",
+            "Daraja"
+          ],
+          "correctAnswer": "Ildiz"
+        },
+        {
+          "id": "lesson4-q15",
+          "order": 15,
+          "word": "Any",
+          "prompt": "What is the meaning of \"Any\"?",
+          "options": [
+            "Hech biri",
+            "Hammasi",
+            "Istalgan",
+            "Faqat"
+          ],
+          "correctAnswer": "Istalgan"
+        },
+        {
+          "id": "lesson4-q16",
+          "order": 16,
+          "word": "Real part",
+          "prompt": "What does \"Real part\" mean?",
+          "options": [
+            "Mavhum qism",
+            "Grafik qism",
+            "Haqiqiy qismi",
+            "Teng qism"
+          ],
+          "correctAnswer": "Haqiqiy qismi"
+        },
+        {
+          "id": "lesson4-q17",
+          "order": 17,
+          "word": "Imaginary part",
+          "prompt": "What is the meaning of \"Imaginary part\"?",
+          "options": [
+            "Haqiqiy qism",
+            "Jadval qismi",
+            "Mavhum qism",
+            "Murakkab qism"
+          ],
+          "correctAnswer": "Mavhum qism"
+        },
+        {
+          "id": "lesson4-q18",
+          "order": 18,
+          "word": "Graph",
+          "prompt": "What does \"Graph\" mean?",
+          "options": [
+            "Jadval",
+            "Ustun",
+            "Grafik",
+            "Satr"
+          ],
+          "correctAnswer": "Grafik"
+        },
+        {
+          "id": "lesson4-q19",
+          "order": 19,
+          "word": "Lie",
+          "prompt": "What is the meaning of \"Lie\"?",
+          "options": [
+            "Turmoq",
+            "Yugurmoq",
+            "Yotmoq",
+            "Kutmoq"
+          ],
+          "correctAnswer": "Yotmoq"
+        },
+        {
+          "id": "lesson4-q20",
+          "order": 20,
+          "word": "Such that",
+          "prompt": "What does \"Such that\" mean?",
+          "options": [
+            "Chunki",
+            "Yoki",
+            "Shunaqaki, shundayki",
+            "Ammo"
+          ],
+          "correctAnswer": "Shunaqaki, shundayki"
+        },
+        {
+          "id": "lesson4-q21",
+          "order": 21,
+          "word": "Divisible",
+          "prompt": "What is the meaning of \"Divisible\"?",
+          "options": [
+            "Juft",
+            "Teng",
+            "Karrali",
+            "Musbat"
+          ],
+          "correctAnswer": "Karrali"
+        },
+        {
+          "id": "lesson4-q22",
+          "order": 22,
+          "word": "Table",
+          "prompt": "What does \"Table\" mean?",
+          "options": [
+            "Grafik",
+            "Satr",
+            "Jadval",
+            "Ustun"
+          ],
+          "correctAnswer": "Jadval"
+        },
+        {
+          "id": "lesson4-q23",
+          "order": 23,
+          "word": "Some",
+          "prompt": "What is the meaning of \"Some\"?",
+          "options": [
+            "Hammasi",
+            "Hech biri",
+            "Ba’zi, bir qancha",
+            "Faqat"
+          ],
+          "correctAnswer": "Ba’zi, bir qancha"
+        },
+        {
+          "id": "lesson4-q24",
+          "order": 24,
+          "word": "Form",
+          "prompt": "What does \"Form\" mean?",
+          "options": [
+            "Tenglama",
+            "Daraja",
+            "Shaklda ko‘rinishda",
+            "O‘lcham"
+          ],
+          "correctAnswer": "Shaklda ko‘rinishda"
+        },
+        {
+          "id": "lesson4-q25",
+          "order": 25,
+          "word": "Correspond",
+          "prompt": "What is the meaning of \"Correspond\"?",
+          "options": [
+            "Solishtirmoq",
+            "Ajratmoq",
+            "Mos ravishda",
+            "Ko‘paytirmoq"
+          ],
+          "correctAnswer": "Mos ravishda"
+        },
+        {
+          "id": "lesson4-q26",
+          "order": 26,
+          "word": "Possible",
+          "prompt": "What does \"Possible\" mean?",
+          "options": [
+            "Zarur",
+            "Majburiy",
+            "Mumkin bo‘lgan",
+            "Noto‘g‘ri"
+          ],
+          "correctAnswer": "Mumkin bo'lgan"
+        },
+        {
+          "id": "lesson4-q27",
+          "order": 27,
+          "word": "Deposit",
+          "prompt": "What is the meaning of \"Deposit\"?",
+          "options": [
+            "Xarajat",
+            "Daromad",
+            "Sarmoya",
+            "To‘lov"
+          ],
+          "correctAnswer": "Sarmoya"
+        },
+        {
+          "id": "lesson4-q28",
+          "order": 28,
+          "word": "Charge",
+          "prompt": "What does \"Charge\" mean?",
+          "options": [
+            "Hajm",
+            "Tezlik",
+            "Narx, narx belgilamoq",
+            "Grafik"
+          ],
+          "correctAnswer": "Narx, narx belgilamoq"
+        },
+        {
+          "id": "lesson4-q29",
+          "order": 29,
+          "word": "How much time",
+          "prompt": "What is the meaning of \"How much time\"?",
+          "options": [
+            "Qaysi vaqt",
+            "Necha kun",
+            "Qancha vaqt",
+            "Har hafta"
+          ],
+          "correctAnswer": "Qancha vaqt"
+        },
+        {
+          "id": "lesson4-q30",
+          "order": 30,
+          "word": "Describe",
+          "prompt": "What does \"Describe\" mean?",
+          "options": [
+            "Ko‘rsatmoq",
+            "O‘lchamoq",
+            "Tasvirlamoq",
+            "Ajratmoq"
+          ],
+          "correctAnswer": "Tasvirlamoq"
+        },
+        {
+          "id": "lesson4-q31",
+          "order": 31,
+          "word": "Base",
+          "prompt": "What is the meaning of \"Base\"?",
+          "options": [
+            "Grafik",
+            "Daraja",
+            "Asos, asoslamoq",
+            "Ustun"
+          ],
+          "correctAnswer": "Asos, asoslamoq"
+        },
+        {
+          "id": "lesson4-q32",
+          "order": 32,
+          "word": "Rate",
+          "prompt": "What does \"Rate\" mean?",
+          "options": [
+            "Narx",
+            "Miqdor",
+            "Tezlik, daraja",
+            "Vazn"
+          ],
+          "correctAnswer": "Tezlik, daraja"
+        },
+        {
+          "id": "lesson4-q33",
+          "order": 33,
+          "word": "Last",
+          "prompt": "What is the meaning of \"Last\"?",
+          "options": [
+            "Birinchi",
+            "O‘rtadagi",
+            "Oxirgi, eng so‘nggi",
+            "Yaqin"
+          ],
+          "correctAnswer": "Oxirgi, eng so‘nggi"
+        },
+        {
+          "id": "lesson4-q34",
+          "order": 34,
+          "word": "Work",
+          "prompt": "What does \"Work\" mean?",
+          "options": [
+            "O‘qimoq",
+            "Dam olmoq",
+            "Ishlamoq",
+            "Yozmoq"
+          ],
+          "correctAnswer": "Ishlamoq"
+        },
+        {
+          "id": "lesson4-q35",
+          "order": 35,
+          "word": "Fee",
+          "prompt": "What is the meaning of \"Fee\"?",
+          "options": [
+            "Daromad",
+            "Narx",
+            "Xizmat haqi",
+            "Xarajat"
+          ],
+          "correctAnswer": "Xizmat haqi"
+        },
+        {
+          "id": "lesson4-q36",
+          "order": 36,
+          "word": "Participant",
+          "prompt": "What does \"Participant\" mean?",
+          "options": [
+            "O‘qituvchi",
+            "Talaba",
+            "Ishtirokchi",
+            "Rahbar"
+          ],
+          "correctAnswer": "Ishtirokchi"
+        },
+        {
+          "id": "lesson4-q37",
+          "order": 37,
+          "word": "Pay",
+          "prompt": "What is the meaning of \"Pay\"?",
+          "options": [
+            "Sotmoq",
+            "Olish",
+            "To‘lamoq",
+            "Yashirmoq"
+          ],
+          "correctAnswer": "To‘lamoq"
+        },
+        {
+          "id": "lesson4-q38",
+          "order": 38,
+          "word": "Buy",
+          "prompt": "What does \"Buy\" mean?",
+          "options": [
+            "Sotmoq",
+            "To‘lamoq",
+            "Sotib olmoq",
+            "Almashtirmoq"
+          ],
+          "correctAnswer": "Sotib olmoq"
+        },
+        {
+          "id": "lesson4-q39",
+          "order": 39,
+          "word": "Price",
+          "prompt": "What is the meaning of \"Price\"?",
+          "options": [
+            "Qiymat",
+            "Tezlik",
+            "Narx",
+            "Miqdor"
+          ],
+          "correctAnswer": "Narx"
+        },
+        {
+          "id": "lesson4-q40",
+          "order": 40,
+          "word": "Revenue",
+          "prompt": "What does \"Revenue\" mean?",
+          "options": [
+            "Xarajat",
+            "To‘lov",
+            "Daromad",
+            "Qarzdorlik"
+          ],
+          "correctAnswer": "Daromad"
+        },
+        {
+          "id": "lesson4-q41",
+          "order": 41,
+          "word": "Expense",
+          "prompt": "What is the meaning of \"Expense\"?",
+          "options": [
+            "Daromad",
+            "Foyda",
+            "Xarajat",
+            "Ish haqi"
+          ],
+          "correctAnswer": "Xarajat"
+        },
+        {
+          "id": "lesson4-q42",
+          "order": 42,
+          "word": "Sequence",
+          "prompt": "What does \"Sequence\" mean?",
+          "options": [
+            "To‘plam",
+            "Grafik",
+            "Ketma-ketlik",
+            "Formula"
+          ],
+          "correctAnswer": "Ketma-ketlik"
+        },
+        {
+          "id": "lesson4-q43",
+          "order": 43,
+          "word": "Row",
+          "prompt": "What is the meaning of \"Row\"?",
+          "options": [
+            "Ustun",
+            "Jadval",
+            "Satr",
+            "Grafik"
+          ],
+          "correctAnswer": "Satr"
+        },
+        {
+          "id": "lesson4-q44",
+          "order": 44,
+          "word": "Column",
+          "prompt": "What does \"Column\" mean?",
+          "options": [
+            "Satr",
+            "Qator",
+            "Ustun",
+            "Jadval"
+          ],
+          "correctAnswer": "Ustun"
+        },
+        {
+          "id": "lesson4-q45",
+          "order": 45,
+          "word": "Before",
+          "prompt": "What is the meaning of \"Before\"?",
+          "options": [
+            "Keyin",
+            "Oxirida",
+            "Oldin",
+            "Davomida"
+          ],
+          "correctAnswer": "Oldin"
+        },
+        {
+          "id": "lesson4-q46",
+          "order": 46,
+          "word": "After",
+          "prompt": "What does \"After\" mean?",
+          "options": [
+            "Oldin",
+            "Boshlanishida",
+            "Keyin",
+            "Yuqorida"
+          ],
+          "correctAnswer": "Keyin"
+        },
+        {
+          "id": "lesson4-q47",
+          "order": 47,
+          "word": "Quotient",
+          "prompt": "What is the meaning of \"Quotient\"?",
+          "options": [
+            "Bo‘luvchi",
+            "Qoldiq",
+            "Bo‘linma",
+            "Ko‘paytma"
+          ],
+          "correctAnswer": "Bo‘linma"
+        },
+        {
+          "id": "lesson4-q48",
+          "order": 48,
+          "word": "Below",
+          "prompt": "What does \"Below\" mean?",
+          "options": [
+            "Yuqorida",
+            "Yonida",
+            "Quyida",
+            "Ichida"
+          ],
+          "correctAnswer": "Quyida"
+        },
+        {
+          "id": "lesson4-q49",
+          "order": 49,
+          "word": "Figure",
+          "prompt": "What is the meaning of \"Figure\"?",
+          "options": [
+            "Jadval",
+            "Grafik",
+            "Rasm",
+            "Formula"
+          ],
+          "correctAnswer": "Rasm"
+        },
+        {
+          "id": "lesson4-q50",
+          "order": 50,
+          "word": "Weight",
+          "prompt": "What does \"Weight\" mean?",
+          "options": [
+            "Hajm",
+            "Narx",
+            "Vazn",
+            "Massa"
+          ],
+          "correctAnswer": "Vazn"
+        }
+      ]
+    },
+    {
+      "key": "lesson5",
+      "title": "Lesson 5",
+      "description": "Inequalities, rates, cost, and practical word-problem vocabulary",
+      "unlockAt": "2026-05-11T20:00:00+05:00",
+      "image": "lesson_5.png",
+      "questions": [
+        {
+          "id": "lesson5-q1",
+          "order": 1,
+          "word": "greater than",
+          "prompt": "What is the meaning of \"greater than\"?",
+          "options": [
+            "dan ko‘p",
+            "dan kam",
+            "maosh",
+            "3 marta katta"
+          ],
+          "correctAnswer": "dan ko‘p"
+        },
+        {
+          "id": "lesson5-q2",
+          "order": 2,
+          "word": "less than",
+          "prompt": "What is the meaning of \"less than\"?",
+          "options": [
+            "dan kam",
+            "maosh",
+            "3 marta katta",
+            "2 marta katta"
+          ],
+          "correctAnswer": "dan kam"
+        },
+        {
+          "id": "lesson5-q3",
+          "order": 3,
+          "word": "salary",
+          "prompt": "What is the meaning of \"salary\"?",
+          "options": [
+            "maosh",
+            "3 marta katta",
+            "2 marta katta",
+            "ikki marta"
+          ],
+          "correctAnswer": "maosh"
+        },
+        {
+          "id": "lesson5-q4",
+          "order": 4,
+          "word": "triple",
+          "prompt": "What is the meaning of \"triple\"?",
+          "options": [
+            "3 marta katta",
+            "2 marta katta",
+            "ikki marta",
+            "tomon"
+          ],
+          "correctAnswer": "3 marta katta"
+        },
+        {
+          "id": "lesson5-q5",
+          "order": 5,
+          "word": "double",
+          "prompt": "What is the meaning of \"double\"?",
+          "options": [
+            "2 marta katta",
+            "ikki marta",
+            "tomon",
+            "kasr"
+          ],
+          "correctAnswer": "2 marta katta"
+        },
+        {
+          "id": "lesson5-q6",
+          "order": 6,
+          "word": "twice",
+          "prompt": "What is the meaning of \"twice\"?",
+          "options": [
+            "ikki marta",
+            "tomon",
+            "kasr",
+            "surat"
+          ],
+          "correctAnswer": "ikki marta"
+        },
+        {
+          "id": "lesson5-q7",
+          "order": 7,
+          "word": "side",
+          "prompt": "What is the meaning of \"side\"?",
+          "options": [
+            "tomon",
+            "kasr",
+            "surat",
+            "maxraj"
+          ],
+          "correctAnswer": "tomon"
+        },
+        {
+          "id": "lesson5-q8",
+          "order": 8,
+          "word": "fraction",
+          "prompt": "What is the meaning of \"fraction\"?",
+          "options": [
+            "kasr",
+            "surat",
+            "maxraj",
+            "o‘zining"
+          ],
+          "correctAnswer": "kasr"
+        },
+        {
+          "id": "lesson5-q9",
+          "order": 9,
+          "word": "numerator",
+          "prompt": "What is the meaning of \"numerator\"?",
+          "options": [
+            "surat",
+            "maxraj",
+            "o‘zining",
+            "aniqlanmagan"
+          ],
+          "correctAnswer": "surat"
+        },
+        {
+          "id": "lesson5-q10",
+          "order": 10,
+          "word": "denominator",
+          "prompt": "What is the meaning of \"denominator\"?",
+          "options": [
+            "maxraj",
+            "o‘zining",
+            "aniqlanmagan",
+            "to‘g‘ri"
+          ],
+          "correctAnswer": "maxraj"
+        },
+        {
+          "id": "lesson5-q11",
+          "order": 11,
+          "word": "whose",
+          "prompt": "What is the meaning of \"whose\"?",
+          "options": [
+            "o‘zining",
+            "aniqlanmagan",
+            "to‘g‘ri",
+            "teskari"
+          ],
+          "correctAnswer": "o‘zining"
+        },
+        {
+          "id": "lesson5-q12",
+          "order": 12,
+          "word": "undefined",
+          "prompt": "What is the meaning of \"undefined\"?",
+          "options": [
+            "aniqlanmagan",
+            "to‘g‘ri",
+            "teskari",
+            "burchak koeffisiyenti"
+          ],
+          "correctAnswer": "aniqlanmagan"
+        },
+        {
+          "id": "lesson5-q13",
+          "order": 13,
+          "word": "direct",
+          "prompt": "What is the meaning of \"direct\"?",
+          "options": [
+            "to‘g‘ri",
+            "teskari",
+            "burchak koeffisiyenti",
+            "kesib o‘tmoq"
+          ],
+          "correctAnswer": "to‘g‘ri"
+        },
+        {
+          "id": "lesson5-q14",
+          "order": 14,
+          "word": "inverse",
+          "prompt": "What is the meaning of \"inverse\"?",
+          "options": [
+            "teskari",
+            "burchak koeffisiyenti",
+            "kesib o‘tmoq",
+            "koordinata boshi"
+          ],
+          "correctAnswer": "teskari"
+        },
+        {
+          "id": "lesson5-q15",
+          "order": 15,
+          "word": "slope",
+          "prompt": "What is the meaning of \"slope\"?",
+          "options": [
+            "burchak koeffisiyenti",
+            "kesib o‘tmoq",
+            "koordinata boshi",
+            "o‘zgarish, ko‘payish"
+          ],
+          "correctAnswer": "burchak koeffisiyenti"
+        },
+        {
+          "id": "lesson5-q16",
+          "order": 16,
+          "word": "pass",
+          "prompt": "What is the meaning of \"pass\"?",
+          "options": [
+            "kesib o‘tmoq",
+            "koordinata boshi",
+            "o‘zgarish, ko‘payish",
+            "bog‘lanish"
+          ],
+          "correctAnswer": "kesib o‘tmoq"
+        },
+        {
+          "id": "lesson5-q17",
+          "order": 17,
+          "word": "origin",
+          "prompt": "What is the meaning of \"origin\"?",
+          "options": [
+            "koordinata boshi",
+            "o‘zgarish, ko‘payish",
+            "bog‘lanish",
+            "narsa, buyum"
+          ],
+          "correctAnswer": "koordinata boshi"
+        },
+        {
+          "id": "lesson5-q18",
+          "order": 18,
+          "word": "population",
+          "prompt": "What is the meaning of \"population\"?",
+          "options": [
+            "o‘zgarish, ko‘payish",
+            "bog‘lanish",
+            "narsa, buyum",
+            "masofa"
+          ],
+          "correctAnswer": "o‘zgarish, ko‘payish"
+        },
+        {
+          "id": "lesson5-q19",
+          "order": 19,
+          "word": "relationship",
+          "prompt": "What is the meaning of \"relationship\"?",
+          "options": [
+            "bog‘lanish",
+            "narsa, buyum",
+            "masofa",
+            "o‘lchov"
+          ],
+          "correctAnswer": "bog‘lanish"
+        },
+        {
+          "id": "lesson5-q20",
+          "order": 20,
+          "word": "object",
+          "prompt": "What is the meaning of \"object\"?",
+          "options": [
+            "narsa, buyum",
+            "masofa",
+            "o‘lchov",
+            "tezlik"
+          ],
+          "correctAnswer": "narsa, buyum"
+        },
+        {
+          "id": "lesson5-q21",
+          "order": 21,
+          "word": "distance",
+          "prompt": "What is the meaning of \"distance\"?",
+          "options": [
+            "masofa",
+            "o‘lchov",
+            "tezlik",
+            "mashina"
+          ],
+          "correctAnswer": "masofa"
+        },
+        {
+          "id": "lesson5-q22",
+          "order": 22,
+          "word": "measure",
+          "prompt": "What is the meaning of \"measure\"?",
+          "options": [
+            "o‘lchov",
+            "tezlik",
+            "mashina",
+            "sayohat qilmoq"
+          ],
+          "correctAnswer": "o‘lchov"
+        },
+        {
+          "id": "lesson5-q23",
+          "order": 23,
+          "word": "speed",
+          "prompt": "What is the meaning of \"speed\"?",
+          "options": [
+            "tezlik",
+            "mashina",
+            "sayohat qilmoq",
+            "to‘xtash masofasi"
+          ],
+          "correctAnswer": "tezlik"
+        },
+        {
+          "id": "lesson5-q24",
+          "order": 24,
+          "word": "car",
+          "prompt": "What is the meaning of \"car\"?",
+          "options": [
+            "mashina",
+            "sayohat qilmoq",
+            "to‘xtash masofasi",
+            "svetafor"
+          ],
+          "correctAnswer": "mashina"
+        },
+        {
+          "id": "lesson5-q25",
+          "order": 25,
+          "word": "travel",
+          "prompt": "What is the meaning of \"travel\"?",
+          "options": [
+            "sayohat qilmoq",
+            "to‘xtash masofasi",
+            "svetafor",
+            "devor"
+          ],
+          "correctAnswer": "sayohat qilmoq"
+        },
+        {
+          "id": "lesson5-q26",
+          "order": 26,
+          "word": "stopping distance",
+          "prompt": "What is the meaning of \"stopping distance\"?",
+          "options": [
+            "to‘xtash masofasi",
+            "svetafor",
+            "devor",
+            "juftliklar"
+          ],
+          "correctAnswer": "to‘xtash masofasi"
+        },
+        {
+          "id": "lesson5-q27",
+          "order": 27,
+          "word": "light source",
+          "prompt": "What is the meaning of \"light source\"?",
+          "options": [
+            "svetafor",
+            "devor",
+            "juftliklar",
+            "kerak"
+          ],
+          "correctAnswer": "svetafor"
+        },
+        {
+          "id": "lesson5-q28",
+          "order": 28,
+          "word": "wall",
+          "prompt": "What is the meaning of \"wall\"?",
+          "options": [
+            "devor",
+            "juftliklar",
+            "kerak",
+            "hozirda"
+          ],
+          "correctAnswer": "devor"
+        },
+        {
+          "id": "lesson5-q29",
+          "order": 29,
+          "word": "pairs",
+          "prompt": "What is the meaning of \"pairs\"?",
+          "options": [
+            "juftliklar",
+            "kerak",
+            "hozirda",
+            "maqsad"
+          ],
+          "correctAnswer": "juftliklar"
+        },
+        {
+          "id": "lesson5-q30",
+          "order": 30,
+          "word": "should",
+          "prompt": "What is the meaning of \"should\"?",
+          "options": [
+            "kerak",
+            "hozirda",
+            "maqsad",
+            "kamida"
+          ],
+          "correctAnswer": "kerak"
+        },
+        {
+          "id": "lesson5-q31",
+          "order": 31,
+          "word": "currently",
+          "prompt": "What is the meaning of \"currently\"?",
+          "options": [
+            "hozirda",
+            "maqsad",
+            "kamida",
+            "xohlamoq"
+          ],
+          "correctAnswer": "hozirda"
+        },
+        {
+          "id": "lesson5-q32",
+          "order": 32,
+          "word": "goal",
+          "prompt": "What is the meaning of \"goal\"?",
+          "options": [
+            "maqsad",
+            "kamida",
+            "xohlamoq",
+            "o‘rtacha"
+          ],
+          "correctAnswer": "maqsad"
+        },
+        {
+          "id": "lesson5-q33",
+          "order": 33,
+          "word": "at least",
+          "prompt": "What is the meaning of \"at least\"?",
+          "options": [
+            "kamida",
+            "xohlamoq",
+            "o‘rtacha",
+            "ishlab chiqarmoq"
+          ],
+          "correctAnswer": "kamida"
+        },
+        {
+          "id": "lesson5-q34",
+          "order": 34,
+          "word": "want",
+          "prompt": "What is the meaning of \"want\"?",
+          "options": [
+            "xohlamoq",
+            "o‘rtacha",
+            "ishlab chiqarmoq",
+            "mahsulot"
+          ],
+          "correctAnswer": "xohlamoq"
+        },
+        {
+          "id": "lesson5-q35",
+          "order": 35,
+          "word": "average",
+          "prompt": "What is the meaning of \"average\"?",
+          "options": [
+            "o‘rtacha",
+            "ishlab chiqarmoq",
+            "mahsulot",
+            "aralashtirmoq"
+          ],
+          "correctAnswer": "o‘rtacha"
+        },
+        {
+          "id": "lesson5-q36",
+          "order": 36,
+          "word": "produce",
+          "prompt": "What is the meaning of \"produce\"?",
+          "options": [
+            "ishlab chiqarmoq",
+            "mahsulot",
+            "aralashtirmoq",
+            "bilan"
+          ],
+          "correctAnswer": "ishlab chiqarmoq"
+        },
+        {
+          "id": "lesson5-q37",
+          "order": 37,
+          "word": "product",
+          "prompt": "What is the meaning of \"product\"?",
+          "options": [
+            "mahsulot",
+            "aralashtirmoq",
+            "bilan",
+            "narx"
+          ],
+          "correctAnswer": "mahsulot"
+        },
+        {
+          "id": "lesson5-q38",
+          "order": 38,
+          "word": "combine",
+          "prompt": "What is the meaning of \"combine\"?",
+          "options": [
+            "aralashtirmoq",
+            "bilan",
+            "narx",
+            "xarid qilmoq"
+          ],
+          "correctAnswer": "aralashtirmoq"
+        },
+        {
+          "id": "lesson5-q39",
+          "order": 39,
+          "word": "with",
+          "prompt": "What is the meaning of \"with\"?",
+          "options": [
+            "bilan",
+            "narx",
+            "xarid qilmoq",
+            "do‘kon"
+          ],
+          "correctAnswer": "bilan"
+        },
+        {
+          "id": "lesson5-q40",
+          "order": 40,
+          "word": "cost",
+          "prompt": "What is the meaning of \"cost\"?",
+          "options": [
+            "narx",
+            "xarid qilmoq",
+            "do‘kon",
+            "dastlabki"
+          ],
+          "correctAnswer": "narx"
+        },
+        {
+          "id": "lesson5-q41",
+          "order": 41,
+          "word": "purchase",
+          "prompt": "What is the meaning of \"purchase\"?",
+          "options": [
+            "xarid qilmoq",
+            "do‘kon",
+            "dastlabki",
+            "boshqa"
+          ],
+          "correctAnswer": "xarid qilmoq"
+        },
+        {
+          "id": "lesson5-q42",
+          "order": 42,
+          "word": "store",
+          "prompt": "What is the meaning of \"store\"?",
+          "options": [
+            "do‘kon",
+            "dastlabki",
+            "boshqa",
+            "narx qo‘ymoq"
+          ],
+          "correctAnswer": "do‘kon"
+        },
+        {
+          "id": "lesson5-q43",
+          "order": 43,
+          "word": "initial",
+          "prompt": "What is the meaning of \"initial\"?",
+          "options": [
+            "dastlabki",
+            "boshqa",
+            "narx qo‘ymoq",
+            "xizmat haqi"
+          ],
+          "correctAnswer": "dastlabki"
+        },
+        {
+          "id": "lesson5-q44",
+          "order": 44,
+          "word": "other",
+          "prompt": "What is the meaning of \"other\"?",
+          "options": [
+            "boshqa",
+            "narx qo‘ymoq",
+            "xizmat haqi",
+            "so‘nggi"
+          ],
+          "correctAnswer": "boshqa"
+        },
+        {
+          "id": "lesson5-q45",
+          "order": 45,
+          "word": "charge",
+          "prompt": "What is the meaning of \"charge\"?",
+          "options": [
+            "narx qo‘ymoq",
+            "xizmat haqi",
+            "so‘nggi",
+            "miqdor"
+          ],
+          "correctAnswer": "narx qo‘ymoq"
+        },
+        {
+          "id": "lesson5-q46",
+          "order": 46,
+          "word": "fee",
+          "prompt": "What is the meaning of \"fee\"?",
+          "options": [
+            "xizmat haqi",
+            "so‘nggi",
+            "miqdor",
+            "umumiy"
+          ],
+          "correctAnswer": "xizmat haqi"
+        },
+        {
+          "id": "lesson5-q47",
+          "order": 47,
+          "word": "last",
+          "prompt": "What is the meaning of \"last\"?",
+          "options": [
+            "so‘nggi",
+            "miqdor",
+            "umumiy",
+            "to‘lamoq"
+          ],
+          "correctAnswer": "so‘nggi"
+        },
+        {
+          "id": "lesson5-q48",
+          "order": 48,
+          "word": "amount",
+          "prompt": "What is the meaning of \"amount\"?",
+          "options": [
+            "miqdor",
+            "dan ko‘p",
+            "dan kam",
+            "maosh"
+          ],
+          "correctAnswer": "miqdor"
+        },
+        {
+          "id": "lesson5-q49",
+          "order": 49,
+          "word": "total",
+          "prompt": "What is the meaning of \"total\"?",
+          "options": [
+            "umumiy",
+            "dan kam",
+            "maosh",
+            "3 marta katta"
+          ],
+          "correctAnswer": "umumiy"
+        },
+        {
+          "id": "lesson5-q50",
+          "order": 50,
+          "word": "pay",
+          "prompt": "What is the meaning of \"pay\"?",
+          "options": [
+            "to‘lamoq",
+            "maosh",
+            "3 marta katta",
+            "2 marta katta"
+          ],
+          "correctAnswer": "to‘lamoq"
+        }
+      ]
+    },
+    {
+      "key": "lesson6",
+      "title": "Lesson 6",
+      "description": "Geometry, trigonometry, comparison, and measurement vocabulary",
+      "unlockAt": "2026-05-12T20:00:00+05:00",
+      "image": "lesson_6.png",
+      "questions": [
+        {
+          "id": "lesson6-q1",
+          "order": 1,
+          "word": "speed",
+          "prompt": "What is the meaning of \"speed\"?",
+          "options": [
+            "tezlik",
+            "o‘zining",
+            "kvadratga oshirmoq",
+            "nisbat"
+          ],
+          "correctAnswer": "tezlik"
+        },
+        {
+          "id": "lesson6-q2",
+          "order": 2,
+          "word": "its",
+          "prompt": "What is the meaning of \"its\"?",
+          "options": [
+            "o‘zining",
+            "kvadratga oshirmoq",
+            "nisbat",
+            "yaqin"
+          ],
+          "correctAnswer": "o‘zining"
+        },
+        {
+          "id": "lesson6-q3",
+          "order": 3,
+          "word": "square",
+          "prompt": "What is the meaning of \"square\"?",
+          "options": [
+            "kvadratga oshirmoq",
+            "nisbat",
+            "yaqin",
+            "mos ravishda"
+          ],
+          "correctAnswer": "kvadratga oshirmoq"
+        },
+        {
+          "id": "lesson6-q4",
+          "order": 4,
+          "word": "ratio",
+          "prompt": "What is the meaning of \"ratio\"?",
+          "options": [
+            "nisbat",
+            "yaqin",
+            "mos ravishda",
+            "balandlik"
+          ],
+          "correctAnswer": "nisbat"
+        },
+        {
+          "id": "lesson6-q5",
+          "order": 5,
+          "word": "close to",
+          "prompt": "What is the meaning of \"close to\"?",
+          "options": [
+            "yaqin",
+            "mos ravishda",
+            "balandlik",
+            "faraz qilmoq"
+          ],
+          "correctAnswer": "yaqin"
+        },
+        {
+          "id": "lesson6-q6",
+          "order": 6,
+          "word": "respectively",
+          "prompt": "What is the meaning of \"respectively\"?",
+          "options": [
+            "mos ravishda",
+            "balandlik",
+            "faraz qilmoq",
+            "uzoq"
+          ],
+          "correctAnswer": "mos ravishda"
+        },
+        {
+          "id": "lesson6-q7",
+          "order": 7,
+          "word": "height",
+          "prompt": "What is the meaning of \"height\"?",
+          "options": [
+            "balandlik",
+            "faraz qilmoq",
+            "uzoq",
+            "kech"
+          ],
+          "correctAnswer": "balandlik"
+        },
+        {
+          "id": "lesson6-q8",
+          "order": 8,
+          "word": "assume",
+          "prompt": "What is the meaning of \"assume\"?",
+          "options": [
+            "faraz qilmoq",
+            "uzoq",
+            "kech",
+            "oz"
+          ],
+          "correctAnswer": "faraz qilmoq"
+        },
+        {
+          "id": "lesson6-q9",
+          "order": 9,
+          "word": "far",
+          "prompt": "What is the meaning of \"far\"?",
+          "options": [
+            "uzoq",
+            "kech",
+            "oz",
+            "ko‘p"
+          ],
+          "correctAnswer": "uzoq"
+        },
+        {
+          "id": "lesson6-q10",
+          "order": 10,
+          "word": "late",
+          "prompt": "What is the meaning of \"late\"?",
+          "options": [
+            "kech",
+            "oz",
+            "ko‘p",
+            "to‘liq, butun"
+          ],
+          "correctAnswer": "kech"
+        },
+        {
+          "id": "lesson6-q11",
+          "order": 11,
+          "word": "little",
+          "prompt": "What is the meaning of \"little\"?",
+          "options": [
+            "oz",
+            "ko‘p",
+            "to‘liq, butun",
+            "o‘rtacha"
+          ],
+          "correctAnswer": "oz"
+        },
+        {
+          "id": "lesson6-q12",
+          "order": 12,
+          "word": "many",
+          "prompt": "What is the meaning of \"many\"?",
+          "options": [
+            "ko‘p",
+            "to‘liq, butun",
+            "o‘rtacha",
+            "o‘xshash hadlar"
+          ],
+          "correctAnswer": "ko‘p"
+        },
+        {
+          "id": "lesson6-q13",
+          "order": 13,
+          "word": "entire",
+          "prompt": "What is the meaning of \"entire\"?",
+          "options": [
+            "to‘liq, butun",
+            "o‘rtacha",
+            "o‘xshash hadlar",
+            "ayniyat"
+          ],
+          "correctAnswer": "to‘liq, butun"
+        },
+        {
+          "id": "lesson6-q14",
+          "order": 14,
+          "word": "average",
+          "prompt": "What is the meaning of \"average\"?",
+          "options": [
+            "o‘rtacha",
+            "o‘xshash hadlar",
+            "ayniyat",
+            "aylana uzunligi"
+          ],
+          "correctAnswer": "o‘rtacha"
+        },
+        {
+          "id": "lesson6-q15",
+          "order": 15,
+          "word": "like term",
+          "prompt": "What is the meaning of \"like term\"?",
+          "options": [
+            "o‘xshash hadlar",
+            "ayniyat",
+            "aylana uzunligi",
+            "yoy"
+          ],
+          "correctAnswer": "o‘xshash hadlar"
+        },
+        {
+          "id": "lesson6-q16",
+          "order": 16,
+          "word": "identity",
+          "prompt": "What is the meaning of \"identity\"?",
+          "options": [
+            "ayniyat",
+            "aylana uzunligi",
+            "yoy",
+            "o‘lchov"
+          ],
+          "correctAnswer": "ayniyat"
+        },
+        {
+          "id": "lesson6-q17",
+          "order": 17,
+          "word": "circumference",
+          "prompt": "What is the meaning of \"circumference\"?",
+          "options": [
+            "aylana uzunligi",
+            "yoy",
+            "o‘lchov",
+            "daraja"
+          ],
+          "correctAnswer": "aylana uzunligi"
+        },
+        {
+          "id": "lesson6-q18",
+          "order": 18,
+          "word": "arc",
+          "prompt": "What is the meaning of \"arc\"?",
+          "options": [
+            "yoy",
+            "o‘lchov",
+            "daraja",
+            "birlik aylana"
+          ],
+          "correctAnswer": "yoy"
+        },
+        {
+          "id": "lesson6-q19",
+          "order": 19,
+          "word": "measure",
+          "prompt": "What is the meaning of \"measure\"?",
+          "options": [
+            "o‘lchov",
+            "daraja",
+            "birlik aylana",
+            "o‘xshash"
+          ],
+          "correctAnswer": "o‘lchov"
+        },
+        {
+          "id": "lesson6-q20",
+          "order": 20,
+          "word": "degree",
+          "prompt": "What is the meaning of \"degree\"?",
+          "options": [
+            "daraja",
+            "birlik aylana",
+            "o‘xshash",
+            "uchburchak"
+          ],
+          "correctAnswer": "daraja"
+        },
+        {
+          "id": "lesson6-q21",
+          "order": 21,
+          "word": "unit circle",
+          "prompt": "What is the meaning of \"unit circle\"?",
+          "options": [
+            "birlik aylana",
+            "o‘xshash",
+            "uchburchak",
+            "markaz"
+          ],
+          "correctAnswer": "birlik aylana"
+        },
+        {
+          "id": "lesson6-q22",
+          "order": 22,
+          "word": "familiar",
+          "prompt": "What is the meaning of \"familiar\"?",
+          "options": [
+            "o‘xshash",
+            "uchburchak",
+            "markaz",
+            "burchak"
+          ],
+          "correctAnswer": "o‘xshash"
+        },
+        {
+          "id": "lesson6-q23",
+          "order": 23,
+          "word": "triangle",
+          "prompt": "What is the meaning of \"triangle\"?",
+          "options": [
+            "uchburchak",
+            "markaz",
+            "burchak",
+            "teng yonli uchburchak"
+          ],
+          "correctAnswer": "uchburchak"
+        },
+        {
+          "id": "lesson6-q24",
+          "order": 24,
+          "word": "center",
+          "prompt": "What is the meaning of \"center\"?",
+          "options": [
+            "markaz",
+            "burchak",
+            "teng yonli uchburchak",
+            "yuza"
+          ],
+          "correctAnswer": "markaz"
+        },
+        {
+          "id": "lesson6-q25",
+          "order": 25,
+          "word": "angle",
+          "prompt": "What is the meaning of \"angle\"?",
+          "options": [
+            "burchak",
+            "teng yonli uchburchak",
+            "yuza",
+            "o‘tkir burchak"
+          ],
+          "correctAnswer": "burchak"
+        },
+        {
+          "id": "lesson6-q26",
+          "order": 26,
+          "word": "isosceles triangle",
+          "prompt": "What is the meaning of \"isosceles triangle\"?",
+          "options": [
+            "teng yonli uchburchak",
+            "yuza",
+            "o‘tkir burchak",
+            "uzun"
+          ],
+          "correctAnswer": "teng yonli uchburchak"
+        },
+        {
+          "id": "lesson6-q27",
+          "order": 27,
+          "word": "area",
+          "prompt": "What is the meaning of \"area\"?",
+          "options": [
+            "yuza",
+            "o‘tkir burchak",
+            "uzun",
+            "og‘ir"
+          ],
+          "correctAnswer": "yuza"
+        },
+        {
+          "id": "lesson6-q28",
+          "order": 28,
+          "word": "similar",
+          "prompt": "What is the meaning of \"similar\"?",
+          "options": [
+            "o‘xshash",
+            "uzun",
+            "og‘ir",
+            "yakuniy"
+          ],
+          "correctAnswer": "o‘xshash"
+        },
+        {
+          "id": "lesson6-q29",
+          "order": 29,
+          "word": "acute angle",
+          "prompt": "What is the meaning of \"acute angle\"?",
+          "options": [
+            "o‘tkir burchak",
+            "og‘ir",
+            "yakuniy",
+            "yangi"
+          ],
+          "correctAnswer": "o‘tkir burchak"
+        },
+        {
+          "id": "lesson6-q30",
+          "order": 30,
+          "word": "tall",
+          "prompt": "What is the meaning of \"tall\"?",
+          "options": [
+            "uzun",
+            "yakuniy",
+            "yangi",
+            "tez"
+          ],
+          "correctAnswer": "uzun"
+        },
+        {
+          "id": "lesson6-q31",
+          "order": 31,
+          "word": "weight",
+          "prompt": "What is the meaning of \"weight\"?",
+          "options": [
+            "og‘ir",
+            "yangi",
+            "tez",
+            "katta"
+          ],
+          "correctAnswer": "og‘ir"
+        },
+        {
+          "id": "lesson6-q32",
+          "order": 32,
+          "word": "terminal",
+          "prompt": "What is the meaning of \"terminal\"?",
+          "options": [
+            "yakuniy",
+            "tez",
+            "katta",
+            "oddiy"
+          ],
+          "correctAnswer": "yakuniy"
+        },
+        {
+          "id": "lesson6-q33",
+          "order": 33,
+          "word": "new",
+          "prompt": "What is the meaning of \"new\"?",
+          "options": [
+            "yangi",
+            "katta",
+            "oddiy",
+            "kichik"
+          ],
+          "correctAnswer": "yangi"
+        },
+        {
+          "id": "lesson6-q34",
+          "order": 34,
+          "word": "fast",
+          "prompt": "What is the meaning of \"fast\"?",
+          "options": [
+            "tez",
+            "oddiy",
+            "kichik",
+            "qari"
+          ],
+          "correctAnswer": "tez"
+        },
+        {
+          "id": "lesson6-q35",
+          "order": 35,
+          "word": "big",
+          "prompt": "What is the meaning of \"big\"?",
+          "options": [
+            "katta",
+            "kichik",
+            "qari",
+            "sinus"
+          ],
+          "correctAnswer": "katta"
+        },
+        {
+          "id": "lesson6-q36",
+          "order": 36,
+          "word": "large",
+          "prompt": "What is the meaning of \"large\"?",
+          "options": [
+            "katta",
+            "qari",
+            "sinus",
+            "kosinus"
+          ],
+          "correctAnswer": "katta"
+        },
+        {
+          "id": "lesson6-q37",
+          "order": 37,
+          "word": "heavy",
+          "prompt": "What is the meaning of \"heavy\"?",
+          "options": [
+            "og‘ir",
+            "sinus",
+            "kosinus",
+            "tangens"
+          ],
+          "correctAnswer": "og‘ir"
+        },
+        {
+          "id": "lesson6-q38",
+          "order": 38,
+          "word": "long",
+          "prompt": "What is the meaning of \"long\"?",
+          "options": [
+            "uzun",
+            "kosinus",
+            "tangens",
+            "kotangens"
+          ],
+          "correctAnswer": "uzun"
+        },
+        {
+          "id": "lesson6-q39",
+          "order": 39,
+          "word": "near",
+          "prompt": "What is the meaning of \"near\"?",
+          "options": [
+            "yaqin",
+            "tangens",
+            "kotangens",
+            "to‘ldiruvchi"
+          ],
+          "correctAnswer": "yaqin"
+        },
+        {
+          "id": "lesson6-q40",
+          "order": 40,
+          "word": "simple",
+          "prompt": "What is the meaning of \"simple\"?",
+          "options": [
+            "oddiy",
+            "kotangens",
+            "to‘ldiruvchi",
+            "berilgan"
+          ],
+          "correctAnswer": "oddiy"
+        },
+        {
+          "id": "lesson6-q41",
+          "order": 41,
+          "word": "small",
+          "prompt": "What is the meaning of \"small\"?",
+          "options": [
+            "kichik",
+            "to‘ldiruvchi",
+            "berilgan",
+            "to‘liq bir aylanish"
+          ],
+          "correctAnswer": "kichik"
+        },
+        {
+          "id": "lesson6-q42",
+          "order": 42,
+          "word": "old",
+          "prompt": "What is the meaning of \"old\"?",
+          "options": [
+            "qari",
+            "berilgan",
+            "to‘liq bir aylanish",
+            "samarali"
+          ],
+          "correctAnswer": "qari"
+        },
+        {
+          "id": "lesson6-q43",
+          "order": 43,
+          "word": "sine",
+          "prompt": "What is the meaning of \"sine\"?",
+          "options": [
+            "sinus",
+            "tezlik",
+            "o‘zining",
+            "kvadratga oshirmoq"
+          ],
+          "correctAnswer": "sinus"
+        },
+        {
+          "id": "lesson6-q44",
+          "order": 44,
+          "word": "cosine",
+          "prompt": "What is the meaning of \"cosine\"?",
+          "options": [
+            "kosinus",
+            "o‘zining",
+            "kvadratga oshirmoq",
+            "nisbat"
+          ],
+          "correctAnswer": "kosinus"
+        },
+        {
+          "id": "lesson6-q45",
+          "order": 45,
+          "word": "tangent",
+          "prompt": "What is the meaning of \"tangent\"?",
+          "options": [
+            "tangens",
+            "kvadratga oshirmoq",
+            "nisbat",
+            "yaqin"
+          ],
+          "correctAnswer": "tangens"
+        },
+        {
+          "id": "lesson6-q46",
+          "order": 46,
+          "word": "cotangent",
+          "prompt": "What is the meaning of \"cotangent\"?",
+          "options": [
+            "kotangens",
+            "nisbat",
+            "yaqin",
+            "mos ravishda"
+          ],
+          "correctAnswer": "kotangens"
+        },
+        {
+          "id": "lesson6-q47",
+          "order": 47,
+          "word": "complement",
+          "prompt": "What is the meaning of \"complement\"?",
+          "options": [
+            "to‘ldiruvchi",
+            "yaqin",
+            "mos ravishda",
+            "balandlik"
+          ],
+          "correctAnswer": "to‘ldiruvchi"
+        },
+        {
+          "id": "lesson6-q48",
+          "order": 48,
+          "word": "given",
+          "prompt": "What is the meaning of \"given\"?",
+          "options": [
+            "berilgan",
+            "mos ravishda",
+            "balandlik",
+            "faraz qilmoq"
+          ],
+          "correctAnswer": "berilgan"
+        },
+        {
+          "id": "lesson6-q49",
+          "order": 49,
+          "word": "revolution",
+          "prompt": "What is the meaning of \"revolution\"?",
+          "options": [
+            "to‘liq bir aylanish",
+            "balandlik",
+            "faraz qilmoq",
+            "uzoq"
+          ],
+          "correctAnswer": "to‘liq bir aylanish"
+        },
+        {
+          "id": "lesson6-q50",
+          "order": 50,
+          "word": "effective",
+          "prompt": "What is the meaning of \"effective\"?",
+          "options": [
+            "samarali",
+            "faraz qilmoq",
+            "uzoq",
+            "kech"
+          ],
+          "correctAnswer": "samarali"
+        }
+      ]
+    },
+    {
+      "key": "lesson7",
+      "title": "Lesson 7",
+      "description": "Coordinate geometry, angles, probability, and directional vocabulary",
+      "unlockAt": "2026-05-13T20:00:00+05:00",
+      "image": "lesson_7.png",
+      "questions": [
+        {
+          "id": "lesson7-q1",
+          "order": 1,
+          "word": "represent",
+          "prompt": "What is the meaning of \"represent\"?",
+          "options": [
+            "namoyish qilmoq",
+            "yuza",
+            "masshtab",
+            "uzunlik"
+          ],
+          "correctAnswer": "namoyish qilmoq"
+        },
+        {
+          "id": "lesson7-q2",
+          "order": 2,
+          "word": "area",
+          "prompt": "What is the meaning of \"area\"?",
+          "options": [
+            "yuza",
+            "masshtab",
+            "uzunlik",
+            "chorak"
+          ],
+          "correctAnswer": "yuza"
+        },
+        {
+          "id": "lesson7-q3",
+          "order": 3,
+          "word": "scale",
+          "prompt": "What is the meaning of \"scale\"?",
+          "options": [
+            "masshtab",
+            "uzunlik",
+            "chorak",
+            "chiziq"
+          ],
+          "correctAnswer": "masshtab"
+        },
+        {
+          "id": "lesson7-q4",
+          "order": 4,
+          "word": "length",
+          "prompt": "What is the meaning of \"length\"?",
+          "options": [
+            "uzunlik",
+            "chorak",
+            "chiziq",
+            "burchak"
+          ],
+          "correctAnswer": "uzunlik"
+        },
+        {
+          "id": "lesson7-q5",
+          "order": 5,
+          "word": "quadrant",
+          "prompt": "What is the meaning of \"quadrant\"?",
+          "options": [
+            "chorak",
+            "chiziq",
+            "burchak",
+            "kesma"
+          ],
+          "correctAnswer": "chorak"
+        },
+        {
+          "id": "lesson7-q6",
+          "order": 6,
+          "word": "line",
+          "prompt": "What is the meaning of \"line\"?",
+          "options": [
+            "chiziq",
+            "burchak",
+            "kesma",
+            "soya"
+          ],
+          "correctAnswer": "chiziq"
+        },
+        {
+          "id": "lesson7-q7",
+          "order": 7,
+          "word": "angle",
+          "prompt": "What is the meaning of \"angle\"?",
+          "options": [
+            "burchak",
+            "kesma",
+            "soya",
+            "o‘xshash"
+          ],
+          "correctAnswer": "burchak"
+        },
+        {
+          "id": "lesson7-q8",
+          "order": 8,
+          "word": "segment",
+          "prompt": "What is the meaning of \"segment\"?",
+          "options": [
+            "kesma",
+            "soya",
+            "o‘xshash",
+            "nur"
+          ],
+          "correctAnswer": "kesma"
+        },
+        {
+          "id": "lesson7-q9",
+          "order": 9,
+          "word": "shadow",
+          "prompt": "What is the meaning of \"shadow\"?",
+          "options": [
+            "soya",
+            "o‘xshash",
+            "nur",
+            "teng yonli uchburchak"
+          ],
+          "correctAnswer": "soya"
+        },
+        {
+          "id": "lesson7-q10",
+          "order": 10,
+          "word": "similar",
+          "prompt": "What is the meaning of \"similar\"?",
+          "options": [
+            "o‘xshash",
+            "nur",
+            "teng yonli uchburchak",
+            "bir biri"
+          ],
+          "correctAnswer": "o‘xshash"
+        },
+        {
+          "id": "lesson7-q11",
+          "order": 11,
+          "word": "ray",
+          "prompt": "What is the meaning of \"ray\"?",
+          "options": [
+            "nur",
+            "teng yonli uchburchak",
+            "bir biri",
+            "shu kabi, shundan"
+          ],
+          "correctAnswer": "nur"
+        },
+        {
+          "id": "lesson7-q12",
+          "order": 12,
+          "word": "isosceles triangle",
+          "prompt": "What is the meaning of \"isosceles triangle\"?",
+          "options": [
+            "teng yonli uchburchak",
+            "bir biri",
+            "shu kabi, shundan",
+            "shuning uchun"
+          ],
+          "correctAnswer": "teng yonli uchburchak"
+        },
+        {
+          "id": "lesson7-q13",
+          "order": 13,
+          "word": "each other",
+          "prompt": "What is the meaning of \"each other\"?",
+          "options": [
+            "bir biri",
+            "shu kabi, shundan",
+            "shuning uchun",
+            "shunday qilib, demak"
+          ],
+          "correctAnswer": "bir biri"
+        },
+        {
+          "id": "lesson7-q14",
+          "order": 14,
+          "word": "such that",
+          "prompt": "What is the meaning of \"such that\"?",
+          "options": [
+            "shu kabi, shundan",
+            "shuning uchun",
+            "shunday qilib, demak",
+            "shunaqa, bunaqa"
+          ],
+          "correctAnswer": "shu kabi, shundan"
+        },
+        {
+          "id": "lesson7-q15",
+          "order": 15,
+          "word": "therefore",
+          "prompt": "What is the meaning of \"therefore\"?",
+          "options": [
+            "shuning uchun",
+            "shunday qilib, demak",
+            "shunaqa, bunaqa",
+            "kabi, sifatida"
+          ],
+          "correctAnswer": "shuning uchun"
+        },
+        {
+          "id": "lesson7-q16",
+          "order": 16,
+          "word": "so",
+          "prompt": "What is the meaning of \"so\"?",
+          "options": [
+            "shunday qilib, demak",
+            "shunaqa, bunaqa",
+            "kabi, sifatida",
+            "raqam"
+          ],
+          "correctAnswer": "shunday qilib, demak"
+        },
+        {
+          "id": "lesson7-q17",
+          "order": 17,
+          "word": "such",
+          "prompt": "What is the meaning of \"such\"?",
+          "options": [
+            "shunaqa, bunaqa",
+            "kabi, sifatida",
+            "raqam",
+            "turli xil"
+          ],
+          "correctAnswer": "shunaqa, bunaqa"
+        },
+        {
+          "id": "lesson7-q18",
+          "order": 18,
+          "word": "as",
+          "prompt": "What is the meaning of \"as\"?",
+          "options": [
+            "kabi, sifatida",
+            "raqam",
+            "turli xil",
+            "ehtimollik"
+          ],
+          "correctAnswer": "kabi, sifatida"
+        },
+        {
+          "id": "lesson7-q19",
+          "order": 19,
+          "word": "digit",
+          "prompt": "What is the meaning of \"digit\"?",
+          "options": [
+            "raqam",
+            "turli xil",
+            "ehtimollik",
+            "aralashtirilgan"
+          ],
+          "correctAnswer": "raqam"
+        },
+        {
+          "id": "lesson7-q20",
+          "order": 20,
+          "word": "various",
+          "prompt": "What is the meaning of \"various\"?",
+          "options": [
+            "turli xil",
+            "ehtimollik",
+            "aralashtirilgan",
+            "nuqta"
+          ],
+          "correctAnswer": "turli xil"
+        },
+        {
+          "id": "lesson7-q21",
+          "order": 21,
+          "word": "probability",
+          "prompt": "What is the meaning of \"probability\"?",
+          "options": [
+            "ehtimollik",
+            "aralashtirilgan",
+            "nuqta",
+            "yo‘nalish"
+          ],
+          "correctAnswer": "ehtimollik"
+        },
+        {
+          "id": "lesson7-q22",
+          "order": 22,
+          "word": "mixed",
+          "prompt": "What is the meaning of \"mixed\"?",
+          "options": [
+            "aralashtirilgan",
+            "nuqta",
+            "yo‘nalish",
+            "qism"
+          ],
+          "correctAnswer": "aralashtirilgan"
+        },
+        {
+          "id": "lesson7-q23",
+          "order": 23,
+          "word": "point",
+          "prompt": "What is the meaning of \"point\"?",
+          "options": [
+            "nuqta",
+            "yo‘nalish",
+            "qism",
+            "bissektrisa"
+          ],
+          "correctAnswer": "nuqta"
+        },
+        {
+          "id": "lesson7-q24",
+          "order": 24,
+          "word": "direction",
+          "prompt": "What is the meaning of \"direction\"?",
+          "options": [
+            "yo‘nalish",
+            "qism",
+            "bissektrisa",
+            "markaziy nuqta"
+          ],
+          "correctAnswer": "yo‘nalish"
+        },
+        {
+          "id": "lesson7-q25",
+          "order": 25,
+          "word": "part",
+          "prompt": "What is the meaning of \"part\"?",
+          "options": [
+            "qism",
+            "bissektrisa",
+            "markaziy nuqta",
+            "o‘lchov"
+          ],
+          "correctAnswer": "qism"
+        },
+        {
+          "id": "lesson7-q26",
+          "order": 26,
+          "word": "bisector",
+          "prompt": "What is the meaning of \"bisector\"?",
+          "options": [
+            "bissektrisa",
+            "markaziy nuqta",
+            "o‘lchov",
+            "o‘tkir burchak"
+          ],
+          "correctAnswer": "bissektrisa"
+        },
+        {
+          "id": "lesson7-q27",
+          "order": 27,
+          "word": "midpoint",
+          "prompt": "What is the meaning of \"midpoint\"?",
+          "options": [
+            "markaziy nuqta",
+            "o‘lchov",
+            "o‘tkir burchak",
+            "to‘g‘ri burchak"
+          ],
+          "correctAnswer": "markaziy nuqta"
+        },
+        {
+          "id": "lesson7-q28",
+          "order": 28,
+          "word": "measure",
+          "prompt": "What is the meaning of \"measure\"?",
+          "options": [
+            "o‘lchov",
+            "o‘tkir burchak",
+            "to‘g‘ri burchak",
+            "o‘tmas burchak"
+          ],
+          "correctAnswer": "o‘lchov"
+        },
+        {
+          "id": "lesson7-q29",
+          "order": 29,
+          "word": "acute angle",
+          "prompt": "What is the meaning of \"acute angle\"?",
+          "options": [
+            "o‘tkir burchak",
+            "to‘g‘ri burchak",
+            "o‘tmas burchak",
+            "yoyiq burchak"
+          ],
+          "correctAnswer": "o‘tkir burchak"
+        },
+        {
+          "id": "lesson7-q30",
+          "order": 30,
+          "word": "right angle",
+          "prompt": "What is the meaning of \"right angle\"?",
+          "options": [
+            "to‘g‘ri burchak",
+            "o‘tmas burchak",
+            "yoyiq burchak",
+            "burchak bissektrisa"
+          ],
+          "correctAnswer": "to‘g‘ri burchak"
+        },
+        {
+          "id": "lesson7-q31",
+          "order": 31,
+          "word": "obtuse angle",
+          "prompt": "What is the meaning of \"obtuse angle\"?",
+          "options": [
+            "o‘tmas burchak",
+            "yoyiq burchak",
+            "burchak bissektrisa",
+            "teng"
+          ],
+          "correctAnswer": "o‘tmas burchak"
+        },
+        {
+          "id": "lesson7-q32",
+          "order": 32,
+          "word": "straight angle",
+          "prompt": "What is the meaning of \"straight angle\"?",
+          "options": [
+            "yoyiq burchak",
+            "burchak bissektrisa",
+            "teng",
+            "qo‘shni burchak"
+          ],
+          "correctAnswer": "yoyiq burchak"
+        },
+        {
+          "id": "lesson7-q33",
+          "order": 33,
+          "word": "angle bisector",
+          "prompt": "What is the meaning of \"angle bisector\"?",
+          "options": [
+            "burchak bissektrisa",
+            "teng",
+            "qo‘shni burchak",
+            "to‘ldiruvchi burchak"
+          ],
+          "correctAnswer": "burchak bissektrisa"
+        },
+        {
+          "id": "lesson7-q34",
+          "order": 34,
+          "word": "congruent",
+          "prompt": "What is the meaning of \"congruent\"?",
+          "options": [
+            "teng",
+            "qo‘shni burchak",
+            "to‘ldiruvchi burchak",
+            "mos burchak"
+          ],
+          "correctAnswer": "teng"
+        },
+        {
+          "id": "lesson7-q35",
+          "order": 35,
+          "word": "supplementary angle",
+          "prompt": "What is the meaning of \"supplementary angle\"?",
+          "options": [
+            "qo‘shni burchak",
+            "to‘ldiruvchi burchak",
+            "mos burchak",
+            "ichki burchak"
+          ],
+          "correctAnswer": "qo‘shni burchak"
+        },
+        {
+          "id": "lesson7-q36",
+          "order": 36,
+          "word": "complementary angle",
+          "prompt": "What is the meaning of \"complementary angle\"?",
+          "options": [
+            "to‘ldiruvchi burchak",
+            "mos burchak",
+            "ichki burchak",
+            "tashqi burchak"
+          ],
+          "correctAnswer": "to‘ldiruvchi burchak"
+        },
+        {
+          "id": "lesson7-q37",
+          "order": 37,
+          "word": "corresponding angle",
+          "prompt": "What is the meaning of \"corresponding angle\"?",
+          "options": [
+            "mos burchak",
+            "ichki burchak",
+            "tashqi burchak",
+            "tekislik"
+          ],
+          "correctAnswer": "mos burchak"
+        },
+        {
+          "id": "lesson7-q38",
+          "order": 38,
+          "word": "interior angle",
+          "prompt": "What is the meaning of \"interior angle\"?",
+          "options": [
+            "ichki burchak",
+            "tashqi burchak",
+            "tekislik",
+            "qarama-qarshi"
+          ],
+          "correctAnswer": "ichki burchak"
+        },
+        {
+          "id": "lesson7-q39",
+          "order": 39,
+          "word": "exterior angle",
+          "prompt": "What is the meaning of \"exterior angle\"?",
+          "options": [
+            "tashqi burchak",
+            "tekislik",
+            "qarama-qarshi",
+            "eng qisqa"
+          ],
+          "correctAnswer": "tashqi burchak"
+        },
+        {
+          "id": "lesson7-q40",
+          "order": 40,
+          "word": "plane",
+          "prompt": "What is the meaning of \"plane\"?",
+          "options": [
+            "tekislik",
+            "qarama-qarshi",
+            "eng qisqa",
+            "eng kichik"
+          ],
+          "correctAnswer": "tekislik"
+        },
+        {
+          "id": "lesson7-q41",
+          "order": 41,
+          "word": "opposite",
+          "prompt": "What is the meaning of \"opposite\"?",
+          "options": [
+            "qarama-qarshi",
+            "eng qisqa",
+            "eng kichik",
+            "o‘ndan bir"
+          ],
+          "correctAnswer": "qarama-qarshi"
+        },
+        {
+          "id": "lesson7-q42",
+          "order": 42,
+          "word": "shortest",
+          "prompt": "What is the meaning of \"shortest\"?",
+          "options": [
+            "eng qisqa",
+            "eng kichik",
+            "o‘ndan bir",
+            "bir xil"
+          ],
+          "correctAnswer": "eng qisqa"
+        },
+        {
+          "id": "lesson7-q43",
+          "order": 43,
+          "word": "the smallest",
+          "prompt": "What is the meaning of \"the smallest\"?",
+          "options": [
+            "eng kichik",
+            "o‘ndan bir",
+            "bir xil",
+            "nisbat"
+          ],
+          "correctAnswer": "eng kichik"
+        },
+        {
+          "id": "lesson7-q44",
+          "order": 44,
+          "word": "tenth of a unit",
+          "prompt": "What is the meaning of \"tenth of a unit\"?",
+          "options": [
+            "o‘ndan bir",
+            "bir xil",
+            "nisbat",
+            "janub"
+          ],
+          "correctAnswer": "o‘ndan bir"
+        },
+        {
+          "id": "lesson7-q45",
+          "order": 45,
+          "word": "same",
+          "prompt": "What is the meaning of \"same\"?",
+          "options": [
+            "bir xil",
+            "nisbat",
+            "janub",
+            "sharq"
+          ],
+          "correctAnswer": "bir xil"
+        },
+        {
+          "id": "lesson7-q46",
+          "order": 46,
+          "word": "ratio",
+          "prompt": "What is the meaning of \"ratio\"?",
+          "options": [
+            "nisbat",
+            "janub",
+            "sharq",
+            "shimol"
+          ],
+          "correctAnswer": "nisbat"
+        },
+        {
+          "id": "lesson7-q47",
+          "order": 47,
+          "word": "south",
+          "prompt": "What is the meaning of \"south\"?",
+          "options": [
+            "janub",
+            "sharq",
+            "shimol",
+            "g‘arb"
+          ],
+          "correctAnswer": "janub"
+        },
+        {
+          "id": "lesson7-q48",
+          "order": 48,
+          "word": "east",
+          "prompt": "What is the meaning of \"east\"?",
+          "options": [
+            "sharq",
+            "namoyish qilmoq",
+            "yuza",
+            "masshtab"
+          ],
+          "correctAnswer": "sharq"
+        },
+        {
+          "id": "lesson7-q49",
+          "order": 49,
+          "word": "north",
+          "prompt": "What is the meaning of \"north\"?",
+          "options": [
+            "shimol",
+            "yuza",
+            "masshtab",
+            "uzunlik"
+          ],
+          "correctAnswer": "shimol"
+        },
+        {
+          "id": "lesson7-q50",
+          "order": 50,
+          "word": "west",
+          "prompt": "What is the meaning of \"west\"?",
+          "options": [
+            "g‘arb",
+            "masshtab",
+            "uzunlik",
+            "chorak"
+          ],
+          "correctAnswer": "g‘arb"
+        }
+      ]
+    },
+    {
+      "key": "lesson8",
+      "title": "Lesson 8",
+      "description": "Polygon, triangle, circle, and similarity vocabulary",
+      "unlockAt": "2026-05-14T20:00:00+05:00",
+      "image": "lesson_8.png",
+      "questions": [
+        {
+          "id": "lesson8-q1",
+          "order": 1,
+          "word": "area",
+          "prompt": "What is the meaning of \"area\"?",
+          "options": [
+            "yuza",
+            "balandlik",
+            "qarama-qarshi tomonlar",
+            "to‘rtburchak"
+          ],
+          "correctAnswer": "yuza"
+        },
+        {
+          "id": "lesson8-q2",
+          "order": 2,
+          "word": "height",
+          "prompt": "What is the meaning of \"height\"?",
+          "options": [
+            "balandlik",
+            "qarama-qarshi tomonlar",
+            "to‘rtburchak",
+            "kvadrat"
+          ],
+          "correctAnswer": "balandlik"
+        },
+        {
+          "id": "lesson8-q3",
+          "order": 3,
+          "word": "altitude",
+          "prompt": "What is the meaning of \"altitude\"?",
+          "options": [
+            "balandlik",
+            "to‘rtburchak",
+            "kvadrat",
+            "trapetsiya"
+          ],
+          "correctAnswer": "balandlik"
+        },
+        {
+          "id": "lesson8-q4",
+          "order": 4,
+          "word": "opposite sides",
+          "prompt": "What is the meaning of \"opposite sides\"?",
+          "options": [
+            "qarama-qarshi tomonlar",
+            "kvadrat",
+            "trapetsiya",
+            "teng yonli uchburchak"
+          ],
+          "correctAnswer": "qarama-qarshi tomonlar"
+        },
+        {
+          "id": "lesson8-q5",
+          "order": 5,
+          "word": "rectangle",
+          "prompt": "What is the meaning of \"rectangle\"?",
+          "options": [
+            "to‘rtburchak",
+            "trapetsiya",
+            "teng yonli uchburchak",
+            "teng tomonli uchburchak"
+          ],
+          "correctAnswer": "to‘rtburchak"
+        },
+        {
+          "id": "lesson8-q6",
+          "order": 6,
+          "word": "square",
+          "prompt": "What is the meaning of \"square\"?",
+          "options": [
+            "kvadrat",
+            "teng yonli uchburchak",
+            "teng tomonli uchburchak",
+            "turli tomonli uchburchak"
+          ],
+          "correctAnswer": "kvadrat"
+        },
+        {
+          "id": "lesson8-q7",
+          "order": 7,
+          "word": "trapezoid",
+          "prompt": "What is the meaning of \"trapezoid\"?",
+          "options": [
+            "trapetsiya",
+            "teng tomonli uchburchak",
+            "turli tomonli uchburchak",
+            "uchburchakning balandligi"
+          ],
+          "correctAnswer": "trapetsiya"
+        },
+        {
+          "id": "lesson8-q8",
+          "order": 8,
+          "word": "isosceles triangle",
+          "prompt": "What is the meaning of \"isosceles triangle\"?",
+          "options": [
+            "teng yonli uchburchak",
+            "turli tomonli uchburchak",
+            "uchburchakning balandligi",
+            "mediana"
+          ],
+          "correctAnswer": "teng yonli uchburchak"
+        },
+        {
+          "id": "lesson8-q9",
+          "order": 9,
+          "word": "equilateral triangle",
+          "prompt": "What is the meaning of \"equilateral triangle\"?",
+          "options": [
+            "teng tomonli uchburchak",
+            "uchburchakning balandligi",
+            "mediana",
+            "aylana uzunligi"
+          ],
+          "correctAnswer": "teng tomonli uchburchak"
+        },
+        {
+          "id": "lesson8-q10",
+          "order": 10,
+          "word": "scalene triangle",
+          "prompt": "What is the meaning of \"scalene triangle\"?",
+          "options": [
+            "turli tomonli uchburchak",
+            "mediana",
+            "aylana uzunligi",
+            "yoyiq burchak"
+          ],
+          "correctAnswer": "turli tomonli uchburchak"
+        },
+        {
+          "id": "lesson8-q11",
+          "order": 11,
+          "word": "altitude of a triangle",
+          "prompt": "What is the meaning of \"altitude of a triangle\"?",
+          "options": [
+            "uchburchakning balandligi",
+            "aylana uzunligi",
+            "yoyiq burchak",
+            "ko‘pburchak"
+          ],
+          "correctAnswer": "uchburchakning balandligi"
+        },
+        {
+          "id": "lesson8-q12",
+          "order": 12,
+          "word": "median",
+          "prompt": "What is the meaning of \"median\"?",
+          "options": [
+            "mediana",
+            "yoyiq burchak",
+            "ko‘pburchak",
+            "muntazam ko‘pburchak"
+          ],
+          "correctAnswer": "mediana"
+        },
+        {
+          "id": "lesson8-q13",
+          "order": 13,
+          "word": "circumference",
+          "prompt": "What is the meaning of \"circumference\"?",
+          "options": [
+            "aylana uzunligi",
+            "ko‘pburchak",
+            "muntazam ko‘pburchak",
+            "muntazam bo‘lmagan ko‘pburchak"
+          ],
+          "correctAnswer": "aylana uzunligi"
+        },
+        {
+          "id": "lesson8-q14",
+          "order": 14,
+          "word": "straight angle",
+          "prompt": "What is the meaning of \"straight angle\"?",
+          "options": [
+            "yoyiq burchak",
+            "muntazam ko‘pburchak",
+            "muntazam bo‘lmagan ko‘pburchak",
+            "beshburchak"
+          ],
+          "correctAnswer": "yoyiq burchak"
+        },
+        {
+          "id": "lesson8-q15",
+          "order": 15,
+          "word": "polygon",
+          "prompt": "What is the meaning of \"polygon\"?",
+          "options": [
+            "ko‘pburchak",
+            "muntazam bo‘lmagan ko‘pburchak",
+            "beshburchak",
+            "olti burchak"
+          ],
+          "correctAnswer": "ko‘pburchak"
+        },
+        {
+          "id": "lesson8-q16",
+          "order": 16,
+          "word": "regular polygon",
+          "prompt": "What is the meaning of \"regular polygon\"?",
+          "options": [
+            "muntazam ko‘pburchak",
+            "beshburchak",
+            "olti burchak",
+            "sakkiz burchak"
+          ],
+          "correctAnswer": "muntazam ko‘pburchak"
+        },
+        {
+          "id": "lesson8-q17",
+          "order": 17,
+          "word": "irregular polygon",
+          "prompt": "What is the meaning of \"irregular polygon\"?",
+          "options": [
+            "muntazam bo‘lmagan ko‘pburchak",
+            "olti burchak",
+            "sakkiz burchak",
+            "diagonal"
+          ],
+          "correctAnswer": "muntazam bo‘lmagan ko‘pburchak"
+        },
+        {
+          "id": "lesson8-q18",
+          "order": 18,
+          "word": "quadrilateral",
+          "prompt": "What is the meaning of \"quadrilateral\"?",
+          "options": [
+            "to‘rtburchak",
+            "sakkiz burchak",
+            "diagonal",
+            "aylana"
+          ],
+          "correctAnswer": "to‘rtburchak"
+        },
+        {
+          "id": "lesson8-q19",
+          "order": 19,
+          "word": "pentagon",
+          "prompt": "What is the meaning of \"pentagon\"?",
+          "options": [
+            "beshburchak",
+            "diagonal",
+            "aylana",
+            "tomon"
+          ],
+          "correctAnswer": "beshburchak"
+        },
+        {
+          "id": "lesson8-q20",
+          "order": 20,
+          "word": "hexagon",
+          "prompt": "What is the meaning of \"hexagon\"?",
+          "options": [
+            "olti burchak",
+            "aylana",
+            "tomon",
+            "uzunlik"
+          ],
+          "correctAnswer": "olti burchak"
+        },
+        {
+          "id": "lesson8-q21",
+          "order": 21,
+          "word": "octagon",
+          "prompt": "What is the meaning of \"octagon\"?",
+          "options": [
+            "sakkiz burchak",
+            "tomon",
+            "uzunlik",
+            "kenglik"
+          ],
+          "correctAnswer": "sakkiz burchak"
+        },
+        {
+          "id": "lesson8-q22",
+          "order": 22,
+          "word": "diagonal",
+          "prompt": "What is the meaning of \"diagonal\"?",
+          "options": [
+            "diagonal",
+            "uzunlik",
+            "kenglik",
+            "romb"
+          ],
+          "correctAnswer": "diagonal"
+        },
+        {
+          "id": "lesson8-q23",
+          "order": 23,
+          "word": "circle",
+          "prompt": "What is the meaning of \"circle\"?",
+          "options": [
+            "aylana",
+            "kenglik",
+            "romb",
+            "trapetsiyaning asosi"
+          ],
+          "correctAnswer": "aylana"
+        },
+        {
+          "id": "lesson8-q24",
+          "order": 24,
+          "word": "side",
+          "prompt": "What is the meaning of \"side\"?",
+          "options": [
+            "tomon",
+            "romb",
+            "trapetsiyaning asosi",
+            "trapetsiyaning yon tomonlari"
+          ],
+          "correctAnswer": "tomon"
+        },
+        {
+          "id": "lesson8-q25",
+          "order": 25,
+          "word": "length",
+          "prompt": "What is the meaning of \"length\"?",
+          "options": [
+            "uzunlik",
+            "trapetsiyaning asosi",
+            "trapetsiyaning yon tomonlari",
+            "o‘rta segment"
+          ],
+          "correctAnswer": "uzunlik"
+        },
+        {
+          "id": "lesson8-q26",
+          "order": 26,
+          "word": "width",
+          "prompt": "What is the meaning of \"width\"?",
+          "options": [
+            "kenglik",
+            "trapetsiyaning yon tomonlari",
+            "o‘rta segment",
+            "ichki chizilgan"
+          ],
+          "correctAnswer": "kenglik"
+        },
+        {
+          "id": "lesson8-q27",
+          "order": 27,
+          "word": "rhombus",
+          "prompt": "What is the meaning of \"rhombus\"?",
+          "options": [
+            "romb",
+            "o‘rta segment",
+            "ichki chizilgan",
+            "urinma"
+          ],
+          "correctAnswer": "romb"
+        },
+        {
+          "id": "lesson8-q28",
+          "order": 28,
+          "word": "base of a trapezoid",
+          "prompt": "What is the meaning of \"base of a trapezoid\"?",
+          "options": [
+            "trapetsiyaning asosi",
+            "ichki chizilgan",
+            "urinma",
+            "muntazam ko‘pburchakning radiusi"
+          ],
+          "correctAnswer": "trapetsiyaning asosi"
+        },
+        {
+          "id": "lesson8-q29",
+          "order": 29,
+          "word": "legs of a trapezoid",
+          "prompt": "What is the meaning of \"legs of a trapezoid\"?",
+          "options": [
+            "trapetsiyaning yon tomonlari",
+            "urinma",
+            "muntazam ko‘pburchakning radiusi",
+            "markaziy burchak"
+          ],
+          "correctAnswer": "trapetsiyaning yon tomonlari"
+        },
+        {
+          "id": "lesson8-q30",
+          "order": 30,
+          "word": "midsegment",
+          "prompt": "What is the meaning of \"midsegment\"?",
+          "options": [
+            "o‘rta segment",
+            "muntazam ko‘pburchakning radiusi",
+            "markaziy burchak",
+            "kesishma"
+          ],
+          "correctAnswer": "o‘rta segment"
+        },
+        {
+          "id": "lesson8-q31",
+          "order": 31,
+          "word": "inscribed",
+          "prompt": "What is the meaning of \"inscribed\"?",
+          "options": [
+            "ichki chizilgan",
+            "markaziy burchak",
+            "kesishma",
+            "simmetriya"
+          ],
+          "correctAnswer": "ichki chizilgan"
+        },
+        {
+          "id": "lesson8-q32",
+          "order": 32,
+          "word": "tangent",
+          "prompt": "What is the meaning of \"tangent\"?",
+          "options": [
+            "urinma",
+            "kesishma",
+            "simmetriya",
+            "ko‘chirish"
+          ],
+          "correctAnswer": "urinma"
+        },
+        {
+          "id": "lesson8-q33",
+          "order": 33,
+          "word": "radius of a regular polygon",
+          "prompt": "What is the meaning of \"radius of a regular polygon\"?",
+          "options": [
+            "muntazam ko‘pburchakning radiusi",
+            "simmetriya",
+            "ko‘chirish",
+            "o‘zgarish"
+          ],
+          "correctAnswer": "muntazam ko‘pburchakning radiusi"
+        },
+        {
+          "id": "lesson8-q34",
+          "order": 34,
+          "word": "central angle",
+          "prompt": "What is the meaning of \"central angle\"?",
+          "options": [
+            "markaziy burchak",
+            "ko‘chirish",
+            "o‘zgarish",
+            "nisbat"
+          ],
+          "correctAnswer": "markaziy burchak"
+        },
+        {
+          "id": "lesson8-q35",
+          "order": 35,
+          "word": "intersection",
+          "prompt": "What is the meaning of \"intersection\"?",
+          "options": [
+            "kesishma",
+            "o‘zgarish",
+            "nisbat",
+            "proporsiya"
+          ],
+          "correctAnswer": "kesishma"
+        },
+        {
+          "id": "lesson8-q36",
+          "order": 36,
+          "word": "symmetry",
+          "prompt": "What is the meaning of \"symmetry\"?",
+          "options": [
+            "simmetriya",
+            "nisbat",
+            "proporsiya",
+            "o‘xshashlik"
+          ],
+          "correctAnswer": "simmetriya"
+        },
+        {
+          "id": "lesson8-q37",
+          "order": 37,
+          "word": "translation",
+          "prompt": "What is the meaning of \"translation\"?",
+          "options": [
+            "ko‘chirish",
+            "proporsiya",
+            "o‘xshashlik",
+            "o‘xshashlik koeffitsiyenti"
+          ],
+          "correctAnswer": "ko‘chirish"
+        },
+        {
+          "id": "lesson8-q38",
+          "order": 38,
+          "word": "transformation",
+          "prompt": "What is the meaning of \"transformation\"?",
+          "options": [
+            "o‘zgarish",
+            "o‘xshashlik",
+            "o‘xshashlik koeffitsiyenti",
+            "shu"
+          ],
+          "correctAnswer": "o‘zgarish"
+        },
+        {
+          "id": "lesson8-q39",
+          "order": 39,
+          "word": "ratio",
+          "prompt": "What is the meaning of \"ratio\"?",
+          "options": [
+            "nisbat",
+            "o‘xshashlik koeffitsiyenti",
+            "shu",
+            "qaysi"
+          ],
+          "correctAnswer": "nisbat"
+        },
+        {
+          "id": "lesson8-q40",
+          "order": 40,
+          "word": "proportion",
+          "prompt": "What is the meaning of \"proportion\"?",
+          "options": [
+            "proporsiya",
+            "shu",
+            "qaysi",
+            "kim"
+          ],
+          "correctAnswer": "proporsiya"
+        },
+        {
+          "id": "lesson8-q41",
+          "order": 41,
+          "word": "similarity",
+          "prompt": "What is the meaning of \"similarity\"?",
+          "options": [
+            "o‘xshashlik",
+            "qaysi",
+            "kim",
+            "qayerda"
+          ],
+          "correctAnswer": "o‘xshashlik"
+        },
+        {
+          "id": "lesson8-q42",
+          "order": 42,
+          "word": "scale factor",
+          "prompt": "What is the meaning of \"scale factor\"?",
+          "options": [
+            "o‘xshashlik koeffitsiyenti",
+            "kim",
+            "qayerda",
+            "kimning"
+          ],
+          "correctAnswer": "o‘xshashlik koeffitsiyenti"
+        },
+        {
+          "id": "lesson8-q43",
+          "order": 43,
+          "word": "that",
+          "prompt": "What is the meaning of \"that\"?",
+          "options": [
+            "shu",
+            "qayerda",
+            "kimning",
+            "chayqaltirib ko‘paytirish"
+          ],
+          "correctAnswer": "shu"
+        },
+        {
+          "id": "lesson8-q44",
+          "order": 44,
+          "word": "which",
+          "prompt": "What is the meaning of \"which\"?",
+          "options": [
+            "qaysi",
+            "kimning",
+            "chayqaltirib ko‘paytirish",
+            "taqqoslash"
+          ],
+          "correctAnswer": "qaysi"
+        },
+        {
+          "id": "lesson8-q45",
+          "order": 45,
+          "word": "who",
+          "prompt": "What is the meaning of \"who\"?",
+          "options": [
+            "kim",
+            "yuza",
+            "balandlik",
+            "qarama-qarshi tomonlar"
+          ],
+          "correctAnswer": "kim"
+        },
+        {
+          "id": "lesson8-q46",
+          "order": 46,
+          "word": "where",
+          "prompt": "What is the meaning of \"where\"?",
+          "options": [
+            "qayerda",
+            "balandlik",
+            "qarama-qarshi tomonlar",
+            "to‘rtburchak"
+          ],
+          "correctAnswer": "qayerda"
+        },
+        {
+          "id": "lesson8-q47",
+          "order": 47,
+          "word": "whose",
+          "prompt": "What is the meaning of \"whose\"?",
+          "options": [
+            "kimning",
+            "qarama-qarshi tomonlar",
+            "to‘rtburchak",
+            "kvadrat"
+          ],
+          "correctAnswer": "kimning"
+        },
+        {
+          "id": "lesson8-q48",
+          "order": 48,
+          "word": "ratio",
+          "prompt": "What is the meaning of \"ratio\"?",
+          "options": [
+            "nisbat",
+            "to‘rtburchak",
+            "kvadrat",
+            "trapetsiya"
+          ],
+          "correctAnswer": "nisbat"
+        },
+        {
+          "id": "lesson8-q49",
+          "order": 49,
+          "word": "cross multiply",
+          "prompt": "What is the meaning of \"cross multiply\"?",
+          "options": [
+            "chayqaltirib ko‘paytirish",
+            "kvadrat",
+            "trapetsiya",
+            "teng yonli uchburchak"
+          ],
+          "correctAnswer": "chayqaltirib ko‘paytirish"
+        },
+        {
+          "id": "lesson8-q50",
+          "order": 50,
+          "word": "comparison",
+          "prompt": "What is the meaning of \"comparison\"?",
+          "options": [
+            "taqqoslash",
+            "trapetsiya",
+            "teng yonli uchburchak",
+            "teng tomonli uchburchak"
+          ],
+          "correctAnswer": "taqqoslash"
+        }
+      ]
+    },
+    {
+      "key": "lesson9",
+      "title": "Lesson 9",
+      "description": "Circle geometry, construction, and transformation vocabulary",
+      "unlockAt": "2026-05-15T20:00:00+05:00",
+      "image": "lesson_9.png",
+      "questions": [
+        {
+          "id": "lesson9-q1",
+          "order": 1,
+          "word": "arc",
+          "prompt": "What is the meaning of \"arc\"?",
+          "options": [
+            "yoy",
+            "radius",
+            "diametr",
+            "markaziy burchak"
+          ],
+          "correctAnswer": "yoy"
+        },
+        {
+          "id": "lesson9-q2",
+          "order": 2,
+          "word": "radius",
+          "prompt": "What is the meaning of \"radius\"?",
+          "options": [
+            "radius",
+            "diametr",
+            "markaziy burchak",
+            "kichik yoy"
+          ],
+          "correctAnswer": "radius"
+        },
+        {
+          "id": "lesson9-q3",
+          "order": 3,
+          "word": "diameter",
+          "prompt": "What is the meaning of \"diameter\"?",
+          "options": [
+            "diametr",
+            "markaziy burchak",
+            "kichik yoy",
+            "katta yoy"
+          ],
+          "correctAnswer": "diametr"
+        },
+        {
+          "id": "lesson9-q4",
+          "order": 4,
+          "word": "central angle",
+          "prompt": "What is the meaning of \"central angle\"?",
+          "options": [
+            "markaziy burchak",
+            "kichik yoy",
+            "katta yoy",
+            "yarim doira"
+          ],
+          "correctAnswer": "markaziy burchak"
+        },
+        {
+          "id": "lesson9-q5",
+          "order": 5,
+          "word": "minor arc",
+          "prompt": "What is the meaning of \"minor arc\"?",
+          "options": [
+            "kichik yoy",
+            "katta yoy",
+            "yarim doira",
+            "sektor"
+          ],
+          "correctAnswer": "kichik yoy"
+        },
+        {
+          "id": "lesson9-q6",
+          "order": 6,
+          "word": "major arc",
+          "prompt": "What is the meaning of \"major arc\"?",
+          "options": [
+            "katta yoy",
+            "yarim doira",
+            "sektor",
+            "teng yoylar"
+          ],
+          "correctAnswer": "katta yoy"
+        },
+        {
+          "id": "lesson9-q7",
+          "order": 7,
+          "word": "semicircle",
+          "prompt": "What is the meaning of \"semicircle\"?",
+          "options": [
+            "yarim doira",
+            "sektor",
+            "teng yoylar",
+            "urinish nuqtasi"
+          ],
+          "correctAnswer": "yarim doira"
+        },
+        {
+          "id": "lesson9-q8",
+          "order": 8,
+          "word": "sector",
+          "prompt": "What is the meaning of \"sector\"?",
+          "options": [
+            "sektor",
+            "teng yoylar",
+            "urinish nuqtasi",
+            "perpendikulyar"
+          ],
+          "correctAnswer": "sektor"
+        },
+        {
+          "id": "lesson9-q9",
+          "order": 9,
+          "word": "congruent arcs",
+          "prompt": "What is the meaning of \"congruent arcs\"?",
+          "options": [
+            "teng yoylar",
+            "urinish nuqtasi",
+            "perpendikulyar",
+            "parallel"
+          ],
+          "correctAnswer": "teng yoylar"
+        },
+        {
+          "id": "lesson9-q10",
+          "order": 10,
+          "word": "point of tangency",
+          "prompt": "What is the meaning of \"point of tangency\"?",
+          "options": [
+            "urinish nuqtasi",
+            "perpendikulyar",
+            "parallel",
+            "kesishish"
+          ],
+          "correctAnswer": "urinish nuqtasi"
+        },
+        {
+          "id": "lesson9-q11",
+          "order": 11,
+          "word": "perpendicular",
+          "prompt": "What is the meaning of \"perpendicular\"?",
+          "options": [
+            "perpendikulyar",
+            "parallel",
+            "kesishish",
+            "radian"
+          ],
+          "correctAnswer": "perpendikulyar"
+        },
+        {
+          "id": "lesson9-q12",
+          "order": 12,
+          "word": "parallel",
+          "prompt": "What is the meaning of \"parallel\"?",
+          "options": [
+            "parallel",
+            "kesishish",
+            "radian",
+            "daraja"
+          ],
+          "correctAnswer": "parallel"
+        },
+        {
+          "id": "lesson9-q13",
+          "order": 13,
+          "word": "intersection",
+          "prompt": "What is the meaning of \"intersection\"?",
+          "options": [
+            "kesishish",
+            "radian",
+            "daraja",
+            "aylana uzunligi"
+          ],
+          "correctAnswer": "kesishish"
+        },
+        {
+          "id": "lesson9-q14",
+          "order": 14,
+          "word": "radian",
+          "prompt": "What is the meaning of \"radian\"?",
+          "options": [
+            "radian",
+            "daraja",
+            "aylana uzunligi",
+            "formula"
+          ],
+          "correctAnswer": "radian"
+        },
+        {
+          "id": "lesson9-q15",
+          "order": 15,
+          "word": "degree",
+          "prompt": "What is the meaning of \"degree\"?",
+          "options": [
+            "daraja",
+            "aylana uzunligi",
+            "formula",
+            "kesma"
+          ],
+          "correctAnswer": "daraja"
+        },
+        {
+          "id": "lesson9-q16",
+          "order": 16,
+          "word": "circumference",
+          "prompt": "What is the meaning of \"circumference\"?",
+          "options": [
+            "aylana uzunligi",
+            "formula",
+            "kesma",
+            "vatar"
+          ],
+          "correctAnswer": "aylana uzunligi"
+        },
+        {
+          "id": "lesson9-q17",
+          "order": 17,
+          "word": "formula",
+          "prompt": "What is the meaning of \"formula\"?",
+          "options": [
+            "formula",
+            "kesma",
+            "vatar",
+            "doirasimon"
+          ],
+          "correctAnswer": "formula"
+        },
+        {
+          "id": "lesson9-q18",
+          "order": 18,
+          "word": "segment",
+          "prompt": "What is the meaning of \"segment\"?",
+          "options": [
+            "kesma",
+            "vatar",
+            "doirasimon",
+            "masofa"
+          ],
+          "correctAnswer": "kesma"
+        },
+        {
+          "id": "lesson9-q19",
+          "order": 19,
+          "word": "chord",
+          "prompt": "What is the meaning of \"chord\"?",
+          "options": [
+            "vatar",
+            "doirasimon",
+            "masofa",
+            "o‘lchov"
+          ],
+          "correctAnswer": "vatar"
+        },
+        {
+          "id": "lesson9-q20",
+          "order": 20,
+          "word": "circular",
+          "prompt": "What is the meaning of \"circular\"?",
+          "options": [
+            "doirasimon",
+            "masofa",
+            "o‘lchov",
+            "birlik"
+          ],
+          "correctAnswer": "doirasimon"
+        },
+        {
+          "id": "lesson9-q21",
+          "order": 21,
+          "word": "distance",
+          "prompt": "What is the meaning of \"distance\"?",
+          "options": [
+            "masofa",
+            "o‘lchov",
+            "birlik",
+            "hisoblash"
+          ],
+          "correctAnswer": "masofa"
+        },
+        {
+          "id": "lesson9-q22",
+          "order": 22,
+          "word": "measure",
+          "prompt": "What is the meaning of \"measure\"?",
+          "options": [
+            "o‘lchov",
+            "birlik",
+            "hisoblash",
+            "aylanaga ichiga chizilgan burchak"
+          ],
+          "correctAnswer": "o‘lchov"
+        },
+        {
+          "id": "lesson9-q23",
+          "order": 23,
+          "word": "unit",
+          "prompt": "What is the meaning of \"unit\"?",
+          "options": [
+            "birlik",
+            "hisoblash",
+            "aylanaga ichiga chizilgan burchak",
+            "o‘rnini bosish"
+          ],
+          "correctAnswer": "birlik"
+        },
+        {
+          "id": "lesson9-q24",
+          "order": 24,
+          "word": "calculation",
+          "prompt": "What is the meaning of \"calculation\"?",
+          "options": [
+            "hisoblash",
+            "aylanaga ichiga chizilgan burchak",
+            "o‘rnini bosish",
+            "xususiyat"
+          ],
+          "correctAnswer": "hisoblash"
+        },
+        {
+          "id": "lesson9-q25",
+          "order": 25,
+          "word": "inscribed angle",
+          "prompt": "What is the meaning of \"inscribed angle\"?",
+          "options": [
+            "aylanaga ichiga chizilgan burchak",
+            "o‘rnini bosish",
+            "xususiyat",
+            "ichki"
+          ],
+          "correctAnswer": "aylanaga ichiga chizilgan burchak"
+        },
+        {
+          "id": "lesson9-q26",
+          "order": 26,
+          "word": "substitution",
+          "prompt": "What is the meaning of \"substitution\"?",
+          "options": [
+            "o‘rnini bosish",
+            "xususiyat",
+            "ichki",
+            "tashqi"
+          ],
+          "correctAnswer": "o‘rnini bosish"
+        },
+        {
+          "id": "lesson9-q27",
+          "order": 27,
+          "word": "property",
+          "prompt": "What is the meaning of \"property\"?",
+          "options": [
+            "xususiyat",
+            "ichki",
+            "tashqi",
+            "oxirgi nuqta"
+          ],
+          "correctAnswer": "xususiyat"
+        },
+        {
+          "id": "lesson9-q28",
+          "order": 28,
+          "word": "interior",
+          "prompt": "What is the meaning of \"interior\"?",
+          "options": [
+            "ichki",
+            "tashqi",
+            "oxirgi nuqta",
+            "uzunlik"
+          ],
+          "correctAnswer": "ichki"
+        },
+        {
+          "id": "lesson9-q29",
+          "order": 29,
+          "word": "exterior",
+          "prompt": "What is the meaning of \"exterior\"?",
+          "options": [
+            "tashqi",
+            "oxirgi nuqta",
+            "uzunlik",
+            "bir xil masofada joylashgan"
+          ],
+          "correctAnswer": "tashqi"
+        },
+        {
+          "id": "lesson9-q30",
+          "order": 30,
+          "word": "endpoint",
+          "prompt": "What is the meaning of \"endpoint\"?",
+          "options": [
+            "oxirgi nuqta",
+            "uzunlik",
+            "bir xil masofada joylashgan",
+            "o‘rtancha nuqta"
+          ],
+          "correctAnswer": "oxirgi nuqta"
+        },
+        {
+          "id": "lesson9-q31",
+          "order": 31,
+          "word": "length",
+          "prompt": "What is the meaning of \"length\"?",
+          "options": [
+            "uzunlik",
+            "bir xil masofada joylashgan",
+            "o‘rtancha nuqta",
+            "boshlang‘ich nuqta"
+          ],
+          "correctAnswer": "uzunlik"
+        },
+        {
+          "id": "lesson9-q32",
+          "order": 32,
+          "word": "equidistant",
+          "prompt": "What is the meaning of \"equidistant\"?",
+          "options": [
+            "bir xil masofada joylashgan",
+            "o‘rtancha nuqta",
+            "boshlang‘ich nuqta",
+            "simmetriya"
+          ],
+          "correctAnswer": "bir xil masofada joylashgan"
+        },
+        {
+          "id": "lesson9-q33",
+          "order": 33,
+          "word": "midpoint",
+          "prompt": "What is the meaning of \"midpoint\"?",
+          "options": [
+            "o‘rtancha nuqta",
+            "boshlang‘ich nuqta",
+            "simmetriya",
+            "berilgan"
+          ],
+          "correctAnswer": "o‘rtancha nuqta"
+        },
+        {
+          "id": "lesson9-q34",
+          "order": 34,
+          "word": "origin",
+          "prompt": "What is the meaning of \"origin\"?",
+          "options": [
+            "boshlang‘ich nuqta",
+            "simmetriya",
+            "berilgan",
+            "bo‘lingan"
+          ],
+          "correctAnswer": "boshlang‘ich nuqta"
+        },
+        {
+          "id": "lesson9-q35",
+          "order": 35,
+          "word": "symmetry",
+          "prompt": "What is the meaning of \"symmetry\"?",
+          "options": [
+            "simmetriya",
+            "berilgan",
+            "bo‘lingan",
+            "ichiga chizilgan"
+          ],
+          "correctAnswer": "simmetriya"
+        },
+        {
+          "id": "lesson9-q36",
+          "order": 36,
+          "word": "given",
+          "prompt": "What is the meaning of \"given\"?",
+          "options": [
+            "berilgan",
+            "bo‘lingan",
+            "ichiga chizilgan",
+            "chizilgan"
+          ],
+          "correctAnswer": "berilgan"
+        },
+        {
+          "id": "lesson9-q37",
+          "order": 37,
+          "word": "divided",
+          "prompt": "What is the meaning of \"divided\"?",
+          "options": [
+            "bo‘lingan",
+            "ichiga chizilgan",
+            "chizilgan",
+            "qurilgan"
+          ],
+          "correctAnswer": "bo‘lingan"
+        },
+        {
+          "id": "lesson9-q38",
+          "order": 38,
+          "word": "inscribed",
+          "prompt": "What is the meaning of \"inscribed\"?",
+          "options": [
+            "ichiga chizilgan",
+            "chizilgan",
+            "qurilgan",
+            "aniqlangan"
+          ],
+          "correctAnswer": "ichiga chizilgan"
+        },
+        {
+          "id": "lesson9-q39",
+          "order": 39,
+          "word": "drawn",
+          "prompt": "What is the meaning of \"drawn\"?",
+          "options": [
+            "chizilgan",
+            "qurilgan",
+            "aniqlangan",
+            "o‘lchangan"
+          ],
+          "correctAnswer": "chizilgan"
+        },
+        {
+          "id": "lesson9-q40",
+          "order": 40,
+          "word": "constructed",
+          "prompt": "What is the meaning of \"constructed\"?",
+          "options": [
+            "qurilgan",
+            "aniqlangan",
+            "o‘lchangan",
+            "hisoblangan"
+          ],
+          "correctAnswer": "qurilgan"
+        },
+        {
+          "id": "lesson9-q41",
+          "order": 41,
+          "word": "defined",
+          "prompt": "What is the meaning of \"defined\"?",
+          "options": [
+            "aniqlangan",
+            "o‘lchangan",
+            "hisoblangan",
+            "belgilangan"
+          ],
+          "correctAnswer": "aniqlangan"
+        },
+        {
+          "id": "lesson9-q42",
+          "order": 42,
+          "word": "measured",
+          "prompt": "What is the meaning of \"measured\"?",
+          "options": [
+            "o‘lchangan",
+            "hisoblangan",
+            "belgilangan",
+            "ko‘chirilgan"
+          ],
+          "correctAnswer": "o‘lchangan"
+        },
+        {
+          "id": "lesson9-q43",
+          "order": 43,
+          "word": "calculated",
+          "prompt": "What is the meaning of \"calculated\"?",
+          "options": [
+            "hisoblangan",
+            "belgilangan",
+            "ko‘chirilgan",
+            "siljitilgan"
+          ],
+          "correctAnswer": "hisoblangan"
+        },
+        {
+          "id": "lesson9-q44",
+          "order": 44,
+          "word": "determined",
+          "prompt": "What is the meaning of \"determined\"?",
+          "options": [
+            "belgilangan",
+            "ko‘chirilgan",
+            "siljitilgan",
+            "ikkiga bo‘lingan"
+          ],
+          "correctAnswer": "belgilangan"
+        },
+        {
+          "id": "lesson9-q45",
+          "order": 45,
+          "word": "marked",
+          "prompt": "What is the meaning of \"marked\"?",
+          "options": [
+            "belgilangan",
+            "siljitilgan",
+            "ikkiga bo‘lingan",
+            "kesishgan"
+          ],
+          "correctAnswer": "belgilangan"
+        },
+        {
+          "id": "lesson9-q46",
+          "order": 46,
+          "word": "translated",
+          "prompt": "What is the meaning of \"translated\"?",
+          "options": [
+            "ko‘chirilgan",
+            "ikkiga bo‘lingan",
+            "kesishgan",
+            "qo‘llangan"
+          ],
+          "correctAnswer": "ko‘chirilgan"
+        },
+        {
+          "id": "lesson9-q47",
+          "order": 47,
+          "word": "shifted",
+          "prompt": "What is the meaning of \"shifted\"?",
+          "options": [
+            "siljitilgan",
+            "yoy",
+            "radius",
+            "diametr"
+          ],
+          "correctAnswer": "siljitilgan"
+        },
+        {
+          "id": "lesson9-q48",
+          "order": 48,
+          "word": "bisected",
+          "prompt": "What is the meaning of \"bisected\"?",
+          "options": [
+            "ikkiga bo‘lingan",
+            "radius",
+            "diametr",
+            "markaziy burchak"
+          ],
+          "correctAnswer": "ikkiga bo‘lingan"
+        },
+        {
+          "id": "lesson9-q49",
+          "order": 49,
+          "word": "intersected",
+          "prompt": "What is the meaning of \"intersected\"?",
+          "options": [
+            "kesishgan",
+            "diametr",
+            "markaziy burchak",
+            "kichik yoy"
+          ],
+          "correctAnswer": "kesishgan"
+        },
+        {
+          "id": "lesson9-q50",
+          "order": 50,
+          "word": "applied",
+          "prompt": "What is the meaning of \"applied\"?",
+          "options": [
+            "qo‘llangan",
+            "markaziy burchak",
+            "kichik yoy",
+            "katta yoy"
+          ],
+          "correctAnswer": "qo‘llangan"
+        }
+      ]
+    },
+    {
+      "key": "lesson10",
+      "title": "Lesson 10",
+      "description": "Modal verbs, 3D solids, volume, and surface vocabulary",
+      "unlockAt": "2026-05-16T20:00:00+05:00",
+      "image": "lesson_10.png",
+      "questions": [
+        {
+          "id": "lesson10-q1",
+          "order": 1,
+          "word": "can / could",
+          "prompt": "What is the meaning of \"can / could\"?",
+          "options": [
+            "qila olmoq",
+            "bo‘lishi mumkin",
+            "bo‘lishi shart",
+            "bo‘ladi / bo‘lardi"
+          ],
+          "correctAnswer": "qila olmoq"
+        },
+        {
+          "id": "lesson10-q2",
+          "order": 2,
+          "word": "may / might",
+          "prompt": "What is the meaning of \"may / might\"?",
+          "options": [
+            "bo‘lishi mumkin",
+            "bo‘lishi shart",
+            "bo‘ladi / bo‘lardi",
+            "kerak"
+          ],
+          "correctAnswer": "bo‘lishi mumkin"
+        },
+        {
+          "id": "lesson10-q3",
+          "order": 3,
+          "word": "must",
+          "prompt": "What is the meaning of \"must\"?",
+          "options": [
+            "bo‘lishi shart",
+            "bo‘ladi / bo‘lardi",
+            "kerak",
+            "dan"
+          ],
+          "correctAnswer": "bo‘lishi shart"
+        },
+        {
+          "id": "lesson10-q4",
+          "order": 4,
+          "word": "will / would",
+          "prompt": "What is the meaning of \"will / would\"?",
+          "options": [
+            "bo‘ladi / bo‘lardi",
+            "kerak",
+            "dan",
+            "ga"
+          ],
+          "correctAnswer": "bo‘ladi / bo‘lardi"
+        },
+        {
+          "id": "lesson10-q5",
+          "order": 5,
+          "word": "ought to",
+          "prompt": "What is the meaning of \"ought to\"?",
+          "options": [
+            "kerak",
+            "dan",
+            "ga",
+            "hajm"
+          ],
+          "correctAnswer": "kerak"
+        },
+        {
+          "id": "lesson10-q6",
+          "order": 6,
+          "word": "need",
+          "prompt": "What is the meaning of \"need\"?",
+          "options": [
+            "kerak",
+            "ga",
+            "hajm",
+            "yon sirt maydoni"
+          ],
+          "correctAnswer": "kerak"
+        },
+        {
+          "id": "lesson10-q7",
+          "order": 7,
+          "word": "have to",
+          "prompt": "What is the meaning of \"have to\"?",
+          "options": [
+            "kerak",
+            "hajm",
+            "yon sirt maydoni",
+            "umumiy sirt maydoni"
+          ],
+          "correctAnswer": "kerak"
+        },
+        {
+          "id": "lesson10-q8",
+          "order": 8,
+          "word": "from",
+          "prompt": "What is the meaning of \"from\"?",
+          "options": [
+            "dan",
+            "yon sirt maydoni",
+            "umumiy sirt maydoni",
+            "asos yuzi"
+          ],
+          "correctAnswer": "dan"
+        },
+        {
+          "id": "lesson10-q9",
+          "order": 9,
+          "word": "to",
+          "prompt": "What is the meaning of \"to\"?",
+          "options": [
+            "ga",
+            "umumiy sirt maydoni",
+            "asos yuzi",
+            "qirra"
+          ],
+          "correctAnswer": "ga"
+        },
+        {
+          "id": "lesson10-q10",
+          "order": 10,
+          "word": "volume",
+          "prompt": "What is the meaning of \"volume\"?",
+          "options": [
+            "hajm",
+            "asos yuzi",
+            "qirra",
+            "yuz"
+          ],
+          "correctAnswer": "hajm"
+        },
+        {
+          "id": "lesson10-q11",
+          "order": 11,
+          "word": "lateral surface area",
+          "prompt": "What is the meaning of \"lateral surface area\"?",
+          "options": [
+            "yon sirt maydoni",
+            "qirra",
+            "yuz",
+            "prizma"
+          ],
+          "correctAnswer": "yon sirt maydoni"
+        },
+        {
+          "id": "lesson10-q12",
+          "order": 12,
+          "word": "total surface area",
+          "prompt": "What is the meaning of \"total surface area\"?",
+          "options": [
+            "umumiy sirt maydoni",
+            "yuz",
+            "prizma",
+            "kub"
+          ],
+          "correctAnswer": "umumiy sirt maydoni"
+        },
+        {
+          "id": "lesson10-q13",
+          "order": 13,
+          "word": "base area",
+          "prompt": "What is the meaning of \"base area\"?",
+          "options": [
+            "asos yuzi",
+            "prizma",
+            "kub",
+            "shakl"
+          ],
+          "correctAnswer": "asos yuzi"
+        },
+        {
+          "id": "lesson10-q14",
+          "order": 14,
+          "word": "edge",
+          "prompt": "What is the meaning of \"edge\"?",
+          "options": [
+            "qirra",
+            "kub",
+            "shakl",
+            "to‘rtburchak prizma"
+          ],
+          "correctAnswer": "qirra"
+        },
+        {
+          "id": "lesson10-q15",
+          "order": 15,
+          "word": "face",
+          "prompt": "What is the meaning of \"face\"?",
+          "options": [
+            "yuz",
+            "shakl",
+            "to‘rtburchak prizma",
+            "to‘g‘ri prizma"
+          ],
+          "correctAnswer": "yuz"
+        },
+        {
+          "id": "lesson10-q16",
+          "order": 16,
+          "word": "prism",
+          "prompt": "What is the meaning of \"prism\"?",
+          "options": [
+            "prizma",
+            "to‘rtburchak prizma",
+            "to‘g‘ri prizma",
+            "og‘ma prizma"
+          ],
+          "correctAnswer": "prizma"
+        },
+        {
+          "id": "lesson10-q17",
+          "order": 17,
+          "word": "cube",
+          "prompt": "What is the meaning of \"cube\"?",
+          "options": [
+            "kub",
+            "to‘g‘ri prizma",
+            "og‘ma prizma",
+            "kesim"
+          ],
+          "correctAnswer": "kub"
+        },
+        {
+          "id": "lesson10-q18",
+          "order": 18,
+          "word": "figure",
+          "prompt": "What is the meaning of \"figure\"?",
+          "options": [
+            "shakl",
+            "og‘ma prizma",
+            "kesim",
+            "parallel yuzlar"
+          ],
+          "correctAnswer": "shakl"
+        },
+        {
+          "id": "lesson10-q19",
+          "order": 19,
+          "word": "rectangular prism",
+          "prompt": "What is the meaning of \"rectangular prism\"?",
+          "options": [
+            "to‘rtburchak prizma",
+            "kesim",
+            "parallel yuzlar",
+            "yon qirra"
+          ],
+          "correctAnswer": "to‘rtburchak prizma"
+        },
+        {
+          "id": "lesson10-q20",
+          "order": 20,
+          "word": "right prism",
+          "prompt": "What is the meaning of \"right prism\"?",
+          "options": [
+            "to‘g‘ri prizma",
+            "parallel yuzlar",
+            "yon qirra",
+            "silindr"
+          ],
+          "correctAnswer": "to‘g‘ri prizma"
+        },
+        {
+          "id": "lesson10-q21",
+          "order": 21,
+          "word": "oblique prism",
+          "prompt": "What is the meaning of \"oblique prism\"?",
+          "options": [
+            "og‘ma prizma",
+            "yon qirra",
+            "silindr",
+            "shar"
+          ],
+          "correctAnswer": "og‘ma prizma"
+        },
+        {
+          "id": "lesson10-q22",
+          "order": 22,
+          "word": "cross section",
+          "prompt": "What is the meaning of \"cross section\"?",
+          "options": [
+            "kesim",
+            "silindr",
+            "shar",
+            "yarim shar"
+          ],
+          "correctAnswer": "kesim"
+        },
+        {
+          "id": "lesson10-q23",
+          "order": 23,
+          "word": "parallel faces",
+          "prompt": "What is the meaning of \"parallel faces\"?",
+          "options": [
+            "parallel yuzlar",
+            "shar",
+            "yarim shar",
+            "piramida"
+          ],
+          "correctAnswer": "parallel yuzlar"
+        },
+        {
+          "id": "lesson10-q24",
+          "order": 24,
+          "word": "lateral edge",
+          "prompt": "What is the meaning of \"lateral edge\"?",
+          "options": [
+            "yon qirra",
+            "yarim shar",
+            "piramida",
+            "konus"
+          ],
+          "correctAnswer": "yon qirra"
+        },
+        {
+          "id": "lesson10-q25",
+          "order": 25,
+          "word": "cylinder",
+          "prompt": "What is the meaning of \"cylinder\"?",
+          "options": [
+            "silindr",
+            "piramida",
+            "konus",
+            "to‘rtburchakli piramida"
+          ],
+          "correctAnswer": "silindr"
+        },
+        {
+          "id": "lesson10-q26",
+          "order": 26,
+          "word": "sphere",
+          "prompt": "What is the meaning of \"sphere\"?",
+          "options": [
+            "shar",
+            "konus",
+            "to‘rtburchakli piramida",
+            "uchburchakli piramida"
+          ],
+          "correctAnswer": "shar"
+        },
+        {
+          "id": "lesson10-q27",
+          "order": 27,
+          "word": "hemisphere",
+          "prompt": "What is the meaning of \"hemisphere\"?",
+          "options": [
+            "yarim shar",
+            "to‘rtburchakli piramida",
+            "uchburchakli piramida",
+            "piramidaning asosi"
+          ],
+          "correctAnswer": "yarim shar"
+        },
+        {
+          "id": "lesson10-q28",
+          "order": 28,
+          "word": "pyramid",
+          "prompt": "What is the meaning of \"pyramid\"?",
+          "options": [
+            "piramida",
+            "uchburchakli piramida",
+            "piramidaning asosi",
+            "koordinata"
+          ],
+          "correctAnswer": "piramida"
+        },
+        {
+          "id": "lesson10-q29",
+          "order": 29,
+          "word": "cone",
+          "prompt": "What is the meaning of \"cone\"?",
+          "options": [
+            "konus",
+            "piramidaning asosi",
+            "koordinata",
+            "o‘rta nuqta"
+          ],
+          "correctAnswer": "konus"
+        },
+        {
+          "id": "lesson10-q30",
+          "order": 30,
+          "word": "square pyramid",
+          "prompt": "What is the meaning of \"square pyramid\"?",
+          "options": [
+            "to‘rtburchakli piramida",
+            "koordinata",
+            "o‘rta nuqta",
+            "koordinata tekisligi"
+          ],
+          "correctAnswer": "to‘rtburchakli piramida"
+        },
+        {
+          "id": "lesson10-q31",
+          "order": 31,
+          "word": "triangular pyramid",
+          "prompt": "What is the meaning of \"triangular pyramid\"?",
+          "options": [
+            "uchburchakli piramida",
+            "o‘rta nuqta",
+            "koordinata tekisligi",
+            "zichlik"
+          ],
+          "correctAnswer": "uchburchakli piramida"
+        },
+        {
+          "id": "lesson10-q32",
+          "order": 32,
+          "word": "base of a pyramid",
+          "prompt": "What is the meaning of \"base of a pyramid\"?",
+          "options": [
+            "piramidaning asosi",
+            "koordinata tekisligi",
+            "zichlik",
+            "bo‘yalgan"
+          ],
+          "correctAnswer": "piramidaning asosi"
+        },
+        {
+          "id": "lesson10-q33",
+          "order": 33,
+          "word": "coordinate",
+          "prompt": "What is the meaning of \"coordinate\"?",
+          "options": [
+            "koordinata",
+            "zichlik",
+            "bo‘yalgan",
+            "to‘liq"
+          ],
+          "correctAnswer": "koordinata"
+        },
+        {
+          "id": "lesson10-q34",
+          "order": 34,
+          "word": "midpoint",
+          "prompt": "What is the meaning of \"midpoint\"?",
+          "options": [
+            "o‘rta nuqta",
+            "bo‘yalgan",
+            "to‘liq",
+            "qism"
+          ],
+          "correctAnswer": "o‘rta nuqta"
+        },
+        {
+          "id": "lesson10-q35",
+          "order": 35,
+          "word": "coordinate plane",
+          "prompt": "What is the meaning of \"coordinate plane\"?",
+          "options": [
+            "koordinata tekisligi",
+            "to‘liq",
+            "qism",
+            "yog‘och"
+          ],
+          "correctAnswer": "koordinata tekisligi"
+        },
+        {
+          "id": "lesson10-q36",
+          "order": 36,
+          "word": "density",
+          "prompt": "What is the meaning of \"density\"?",
+          "options": [
+            "zichlik",
+            "qism",
+            "yog‘och",
+            "yuqori qismi"
+          ],
+          "correctAnswer": "zichlik"
+        },
+        {
+          "id": "lesson10-q37",
+          "order": 37,
+          "word": "painted",
+          "prompt": "What is the meaning of \"painted\"?",
+          "options": [
+            "bo‘yalgan",
+            "yog‘och",
+            "yuqori qismi",
+            "pastki qismi"
+          ],
+          "correctAnswer": "bo‘yalgan"
+        },
+        {
+          "id": "lesson10-q38",
+          "order": 38,
+          "word": "entire",
+          "prompt": "What is the meaning of \"entire\"?",
+          "options": [
+            "to‘liq",
+            "yuqori qismi",
+            "pastki qismi",
+            "bo‘sh"
+          ],
+          "correctAnswer": "to‘liq"
+        },
+        {
+          "id": "lesson10-q39",
+          "order": 39,
+          "word": "piece",
+          "prompt": "What is the meaning of \"piece\"?",
+          "options": [
+            "qism",
+            "pastki qismi",
+            "bo‘sh",
+            "ishlab chiqaruvchi"
+          ],
+          "correctAnswer": "qism"
+        },
+        {
+          "id": "lesson10-q40",
+          "order": 40,
+          "word": "wood",
+          "prompt": "What is the meaning of \"wood\"?",
+          "options": [
+            "yog‘och",
+            "bo‘sh",
+            "ishlab chiqaruvchi",
+            "ishlab chiqarmoq"
+          ],
+          "correctAnswer": "yog‘och"
+        },
+        {
+          "id": "lesson10-q41",
+          "order": 41,
+          "word": "top",
+          "prompt": "What is the meaning of \"top\"?",
+          "options": [
+            "yuqori qismi",
+            "ishlab chiqaruvchi",
+            "ishlab chiqarmoq",
+            "yetarli"
+          ],
+          "correctAnswer": "yuqori qismi"
+        },
+        {
+          "id": "lesson10-q42",
+          "order": 42,
+          "word": "bottom",
+          "prompt": "What is the meaning of \"bottom\"?",
+          "options": [
+            "pastki qismi",
+            "ishlab chiqarmoq",
+            "yetarli",
+            "qoplamoq"
+          ],
+          "correctAnswer": "pastki qismi"
+        },
+        {
+          "id": "lesson10-q43",
+          "order": 43,
+          "word": "empty",
+          "prompt": "What is the meaning of \"empty\"?",
+          "options": [
+            "bo‘sh",
+            "yetarli",
+            "qoplamoq",
+            "aniq"
+          ],
+          "correctAnswer": "bo‘sh"
+        },
+        {
+          "id": "lesson10-q44",
+          "order": 44,
+          "word": "manufacturing",
+          "prompt": "What is the meaning of \"manufacturing\"?",
+          "options": [
+            "ishlab chiqaruvchi",
+            "qoplamoq",
+            "aniq",
+            "urinish"
+          ],
+          "correctAnswer": "ishlab chiqaruvchi"
+        },
+        {
+          "id": "lesson10-q45",
+          "order": 45,
+          "word": "produce",
+          "prompt": "What is the meaning of \"produce\"?",
+          "options": [
+            "ishlab chiqarmoq",
+            "qila olmoq",
+            "bo‘lishi mumkin",
+            "bo‘lishi shart"
+          ],
+          "correctAnswer": "ishlab chiqarmoq"
+        },
+        {
+          "id": "lesson10-q46",
+          "order": 46,
+          "word": "part",
+          "prompt": "What is the meaning of \"part\"?",
+          "options": [
+            "qism",
+            "bo‘lishi mumkin",
+            "bo‘lishi shart",
+            "bo‘ladi / bo‘lardi"
+          ],
+          "correctAnswer": "qism"
+        },
+        {
+          "id": "lesson10-q47",
+          "order": 47,
+          "word": "enough",
+          "prompt": "What is the meaning of \"enough\"?",
+          "options": [
+            "yetarli",
+            "bo‘lishi shart",
+            "bo‘ladi / bo‘lardi",
+            "kerak"
+          ],
+          "correctAnswer": "yetarli"
+        },
+        {
+          "id": "lesson10-q48",
+          "order": 48,
+          "word": "cover",
+          "prompt": "What is the meaning of \"cover\"?",
+          "options": [
+            "qoplamoq",
+            "bo‘ladi / bo‘lardi",
+            "kerak",
+            "dan"
+          ],
+          "correctAnswer": "qoplamoq"
+        },
+        {
+          "id": "lesson10-q49",
+          "order": 49,
+          "word": "exactly",
+          "prompt": "What is the meaning of \"exactly\"?",
+          "options": [
+            "aniq",
+            "kerak",
+            "dan",
+            "ga"
+          ],
+          "correctAnswer": "aniq"
+        },
+        {
+          "id": "lesson10-q50",
+          "order": 50,
+          "word": "tangency",
+          "prompt": "What is the meaning of \"tangency\"?",
+          "options": [
+            "urinish",
+            "dan",
+            "ga",
+            "hajm"
+          ],
+          "correctAnswer": "urinish"
+        }
+      ]
+    },
+    {
+      "key": "lesson11",
+      "title": "Lesson 11",
+      "description": "Linear equations, slope, graphing, and quantifier vocabulary",
+      "unlockAt": "2026-05-17T20:00:00+05:00",
+      "image": "lesson_11.png",
+      "questions": [
+        {
+          "id": "lesson11-q1",
+          "order": 1,
+          "word": "solving",
+          "prompt": "What is the meaning of \"solving\"?",
+          "options": [
+            "yechish",
+            "chiziqli",
+            "bir nechta, bir qancha",
+            "istalgan"
+          ],
+          "correctAnswer": "yechish"
+        },
+        {
+          "id": "lesson11-q2",
+          "order": 2,
+          "word": "linear",
+          "prompt": "What is the meaning of \"linear\"?",
+          "options": [
+            "chiziqli",
+            "bir nechta, bir qancha",
+            "istalgan",
+            "ikkisixam"
+          ],
+          "correctAnswer": "chiziqli"
+        },
+        {
+          "id": "lesson11-q3",
+          "order": 3,
+          "word": "some",
+          "prompt": "What is the meaning of \"some\"?",
+          "options": [
+            "bir nechta, bir qancha",
+            "istalgan",
+            "ikkisixam",
+            "yo unisi … yo bunisi"
+          ],
+          "correctAnswer": "bir nechta, bir qancha"
+        },
+        {
+          "id": "lesson11-q4",
+          "order": 4,
+          "word": "any",
+          "prompt": "What is the meaning of \"any\"?",
+          "options": [
+            "istalgan",
+            "ikkisixam",
+            "yo unisi … yo bunisi",
+            "unisi ham emas … bunisi ham emas"
+          ],
+          "correctAnswer": "istalgan"
+        },
+        {
+          "id": "lesson11-q5",
+          "order": 5,
+          "word": "both",
+          "prompt": "What is the meaning of \"both\"?",
+          "options": [
+            "ikkisixam",
+            "yo unisi … yo bunisi",
+            "unisi ham emas … bunisi ham emas",
+            "ayniyat"
+          ],
+          "correctAnswer": "ikkisixam"
+        },
+        {
+          "id": "lesson11-q6",
+          "order": 6,
+          "word": "either",
+          "prompt": "What is the meaning of \"either\"?",
+          "options": [
+            "yo unisi … yo bunisi",
+            "unisi ham emas … bunisi ham emas",
+            "ayniyat",
+            "noma’lum"
+          ],
+          "correctAnswer": "yo unisi … yo bunisi"
+        },
+        {
+          "id": "lesson11-q7",
+          "order": 7,
+          "word": "neither",
+          "prompt": "What is the meaning of \"neither\"?",
+          "options": [
+            "unisi ham emas … bunisi ham emas",
+            "ayniyat",
+            "noma’lum",
+            "ketma-ket"
+          ],
+          "correctAnswer": "unisi ham emas … bunisi ham emas"
+        },
+        {
+          "id": "lesson11-q8",
+          "order": 8,
+          "word": "identity",
+          "prompt": "What is the meaning of \"identity\"?",
+          "options": [
+            "ayniyat",
+            "noma’lum",
+            "ketma-ket",
+            "topmoq"
+          ],
+          "correctAnswer": "ayniyat"
+        },
+        {
+          "id": "lesson11-q9",
+          "order": 9,
+          "word": "unspecified",
+          "prompt": "What is the meaning of \"unspecified\"?",
+          "options": [
+            "noma’lum",
+            "ketma-ket",
+            "topmoq",
+            "usul"
+          ],
+          "correctAnswer": "noma’lum"
+        },
+        {
+          "id": "lesson11-q10",
+          "order": 10,
+          "word": "consecutive",
+          "prompt": "What is the meaning of \"consecutive\"?",
+          "options": [
+            "ketma-ket",
+            "topmoq",
+            "usul",
+            "tenglik xossalari"
+          ],
+          "correctAnswer": "ketma-ket"
+        },
+        {
+          "id": "lesson11-q11",
+          "order": 11,
+          "word": "find",
+          "prompt": "What is the meaning of \"find\"?",
+          "options": [
+            "topmoq",
+            "usul",
+            "tenglik xossalari",
+            "odatda"
+          ],
+          "correctAnswer": "topmoq"
+        },
+        {
+          "id": "lesson11-q12",
+          "order": 12,
+          "word": "way",
+          "prompt": "What is the meaning of \"way\"?",
+          "options": [
+            "usul",
+            "tenglik xossalari",
+            "odatda",
+            "chiziqning burchak koeffitsiyenti"
+          ],
+          "correctAnswer": "usul"
+        },
+        {
+          "id": "lesson11-q13",
+          "order": 13,
+          "word": "properties of equality",
+          "prompt": "What is the meaning of \"properties of equality\"?",
+          "options": [
+            "tenglik xossalari",
+            "odatda",
+            "chiziqning burchak koeffitsiyenti",
+            "yuqoriga va o‘ngga qarab harakatlanmoq"
+          ],
+          "correctAnswer": "tenglik xossalari"
+        },
+        {
+          "id": "lesson11-q14",
+          "order": 14,
+          "word": "often",
+          "prompt": "What is the meaning of \"often\"?",
+          "options": [
+            "odatda",
+            "chiziqning burchak koeffitsiyenti",
+            "yuqoriga va o‘ngga qarab harakatlanmoq",
+            "pastga va o‘ngga qarab harakatlanmoq"
+          ],
+          "correctAnswer": "odatda"
+        },
+        {
+          "id": "lesson11-q15",
+          "order": 15,
+          "word": "slope of line",
+          "prompt": "What is the meaning of \"slope of line\"?",
+          "options": [
+            "chiziqning burchak koeffitsiyenti",
+            "yuqoriga va o‘ngga qarab harakatlanmoq",
+            "pastga va o‘ngga qarab harakatlanmoq",
+            "kamaymoq"
+          ],
+          "correctAnswer": "chiziqning burchak koeffitsiyenti"
+        },
+        {
+          "id": "lesson11-q16",
+          "order": 16,
+          "word": "go up and to the right",
+          "prompt": "What is the meaning of \"go up and to the right\"?",
+          "options": [
+            "yuqoriga va o‘ngga qarab harakatlanmoq",
+            "pastga va o‘ngga qarab harakatlanmoq",
+            "kamaymoq",
+            "kamaytirmoq"
+          ],
+          "correctAnswer": "yuqoriga va o‘ngga qarab harakatlanmoq"
+        },
+        {
+          "id": "lesson11-q17",
+          "order": 17,
+          "word": "go down and to the right",
+          "prompt": "What is the meaning of \"go down and to the right\"?",
+          "options": [
+            "pastga va o‘ngga qarab harakatlanmoq",
+            "kamaymoq",
+            "kamaytirmoq",
+            "bo‘linma"
+          ],
+          "correctAnswer": "pastga va o‘ngga qarab harakatlanmoq"
+        },
+        {
+          "id": "lesson11-q18",
+          "order": 18,
+          "word": "decrease",
+          "prompt": "What is the meaning of \"decrease\"?",
+          "options": [
+            "kamaymoq",
+            "kamaytirmoq",
+            "bo‘linma",
+            "4 dan 3"
+          ],
+          "correctAnswer": "kamaymoq"
+        },
+        {
+          "id": "lesson11-q19",
+          "order": 19,
+          "word": "reduce",
+          "prompt": "What is the meaning of \"reduce\"?",
+          "options": [
+            "kamaytirmoq",
+            "bo‘linma",
+            "4 dan 3",
+            "umumiy"
+          ],
+          "correctAnswer": "kamaytirmoq"
+        },
+        {
+          "id": "lesson11-q20",
+          "order": 20,
+          "word": "quotient",
+          "prompt": "What is the meaning of \"quotient\"?",
+          "options": [
+            "bo‘linma",
+            "4 dan 3",
+            "umumiy",
+            "qabul qilinmoq"
+          ],
+          "correctAnswer": "bo‘linma"
+        },
+        {
+          "id": "lesson11-q21",
+          "order": 21,
+          "word": "three quarters",
+          "prompt": "What is the meaning of \"three quarters\"?",
+          "options": [
+            "4 dan 3",
+            "umumiy",
+            "qabul qilinmoq",
+            "miqdor"
+          ],
+          "correctAnswer": "4 dan 3"
+        },
+        {
+          "id": "lesson11-q22",
+          "order": 22,
+          "word": "total",
+          "prompt": "What is the meaning of \"total\"?",
+          "options": [
+            "umumiy",
+            "qabul qilinmoq",
+            "miqdor",
+            "har bir piyola"
+          ],
+          "correctAnswer": "umumiy"
+        },
+        {
+          "id": "lesson11-q23",
+          "order": 23,
+          "word": "attend",
+          "prompt": "What is the meaning of \"attend\"?",
+          "options": [
+            "qabul qilinmoq",
+            "miqdor",
+            "har bir piyola",
+            "hosil qilmoq"
+          ],
+          "correctAnswer": "qabul qilinmoq"
+        },
+        {
+          "id": "lesson11-q24",
+          "order": 24,
+          "word": "amount",
+          "prompt": "What is the meaning of \"amount\"?",
+          "options": [
+            "miqdor",
+            "har bir piyola",
+            "hosil qilmoq",
+            "narx"
+          ],
+          "correctAnswer": "miqdor"
+        },
+        {
+          "id": "lesson11-q25",
+          "order": 25,
+          "word": "per cup",
+          "prompt": "What is the meaning of \"per cup\"?",
+          "options": [
+            "har bir piyola",
+            "hosil qilmoq",
+            "narx",
+            "bir juft"
+          ],
+          "correctAnswer": "har bir piyola"
+        },
+        {
+          "id": "lesson11-q26",
+          "order": 26,
+          "word": "make",
+          "prompt": "What is the meaning of \"make\"?",
+          "options": [
+            "hosil qilmoq",
+            "narx",
+            "bir juft",
+            "bir xil"
+          ],
+          "correctAnswer": "hosil qilmoq"
+        },
+        {
+          "id": "lesson11-q27",
+          "order": 27,
+          "word": "cost",
+          "prompt": "What is the meaning of \"cost\"?",
+          "options": [
+            "narx",
+            "bir juft",
+            "bir xil",
+            "oshmoq, ortiq bo‘lmoq"
+          ],
+          "correctAnswer": "narx"
+        },
+        {
+          "id": "lesson11-q28",
+          "order": 28,
+          "word": "a pair",
+          "prompt": "What is the meaning of \"a pair\"?",
+          "options": [
+            "bir juft",
+            "bir xil",
+            "oshmoq, ortiq bo‘lmoq",
+            "grafikda berilgan nuqta"
+          ],
+          "correctAnswer": "bir juft"
+        },
+        {
+          "id": "lesson11-q29",
+          "order": 29,
+          "word": "same",
+          "prompt": "What is the meaning of \"same\"?",
+          "options": [
+            "bir xil",
+            "oshmoq, ortiq bo‘lmoq",
+            "grafikda berilgan nuqta",
+            "shuningdek"
+          ],
+          "correctAnswer": "bir xil"
+        },
+        {
+          "id": "lesson11-q30",
+          "order": 30,
+          "word": "exceed",
+          "prompt": "What is the meaning of \"exceed\"?",
+          "options": [
+            "oshmoq, ortiq bo‘lmoq",
+            "grafikda berilgan nuqta",
+            "shuningdek",
+            "orqali, ichidan"
+          ],
+          "correctAnswer": "oshmoq, ortiq bo‘lmoq"
+        },
+        {
+          "id": "lesson11-q31",
+          "order": 31,
+          "word": "plotted points",
+          "prompt": "What is the meaning of \"plotted points\"?",
+          "options": [
+            "grafikda berilgan nuqta",
+            "shuningdek",
+            "orqali, ichidan",
+            "o‘tgan hafta"
+          ],
+          "correctAnswer": "grafikda berilgan nuqta"
+        },
+        {
+          "id": "lesson11-q32",
+          "order": 32,
+          "word": "also",
+          "prompt": "What is the meaning of \"also\"?",
+          "options": [
+            "shuningdek",
+            "orqali, ichidan",
+            "o‘tgan hafta",
+            "davomida"
+          ],
+          "correctAnswer": "shuningdek"
+        },
+        {
+          "id": "lesson11-q33",
+          "order": 33,
+          "word": "through",
+          "prompt": "What is the meaning of \"through\"?",
+          "options": [
+            "orqali, ichidan",
+            "o‘tgan hafta",
+            "davomida",
+            "bog‘lanish"
+          ],
+          "correctAnswer": "orqali, ichidan"
+        },
+        {
+          "id": "lesson11-q34",
+          "order": 34,
+          "word": "last week",
+          "prompt": "What is the meaning of \"last week\"?",
+          "options": [
+            "o‘tgan hafta",
+            "davomida",
+            "bog‘lanish",
+            "o‘rtasidagi"
+          ],
+          "correctAnswer": "o‘tgan hafta"
+        },
+        {
+          "id": "lesson11-q35",
+          "order": 35,
+          "word": "during",
+          "prompt": "What is the meaning of \"during\"?",
+          "options": [
+            "davomida",
+            "bog‘lanish",
+            "o‘rtasidagi",
+            "orqali kesib o‘tmoq"
+          ],
+          "correctAnswer": "davomida"
+        },
+        {
+          "id": "lesson11-q36",
+          "order": 36,
+          "word": "relationship",
+          "prompt": "What is the meaning of \"relationship\"?",
+          "options": [
+            "bog‘lanish",
+            "o‘rtasidagi",
+            "orqali kesib o‘tmoq",
+            "tezlik"
+          ],
+          "correctAnswer": "bog‘lanish"
+        },
+        {
+          "id": "lesson11-q37",
+          "order": 37,
+          "word": "between",
+          "prompt": "What is the meaning of \"between\"?",
+          "options": [
+            "o‘rtasidagi",
+            "orqali kesib o‘tmoq",
+            "tezlik",
+            "yotmoq"
+          ],
+          "correctAnswer": "o‘rtasidagi"
+        },
+        {
+          "id": "lesson11-q38",
+          "order": 38,
+          "word": "pass through",
+          "prompt": "What is the meaning of \"pass through\"?",
+          "options": [
+            "orqali kesib o‘tmoq",
+            "tezlik",
+            "yotmoq",
+            "narx belgilamoq"
+          ],
+          "correctAnswer": "orqali kesib o‘tmoq"
+        },
+        {
+          "id": "lesson11-q39",
+          "order": 39,
+          "word": "speed",
+          "prompt": "What is the meaning of \"speed\"?",
+          "options": [
+            "tezlik",
+            "yotmoq",
+            "narx belgilamoq",
+            "dastlabki"
+          ],
+          "correctAnswer": "tezlik"
+        },
+        {
+          "id": "lesson11-q40",
+          "order": 40,
+          "word": "lie",
+          "prompt": "What is the meaning of \"lie\"?",
+          "options": [
+            "yotmoq",
+            "narx belgilamoq",
+            "dastlabki",
+            "ro‘yxat"
+          ],
+          "correctAnswer": "yotmoq"
+        },
+        {
+          "id": "lesson11-q41",
+          "order": 41,
+          "word": "charge",
+          "prompt": "What is the meaning of \"charge\"?",
+          "options": [
+            "narx belgilamoq",
+            "dastlabki",
+            "ro‘yxat",
+            "qanoatlantirmoq"
+          ],
+          "correctAnswer": "narx belgilamoq"
+        },
+        {
+          "id": "lesson11-q42",
+          "order": 42,
+          "word": "initial",
+          "prompt": "What is the meaning of \"initial\"?",
+          "options": [
+            "dastlabki",
+            "ro‘yxat",
+            "qanoatlantirmoq",
+            "cheksiz"
+          ],
+          "correctAnswer": "dastlabki"
+        },
+        {
+          "id": "lesson11-q43",
+          "order": 43,
+          "word": "list",
+          "prompt": "What is the meaning of \"list\"?",
+          "options": [
+            "ro‘yxat",
+            "qanoatlantirmoq",
+            "cheksiz",
+            "koordinata boshi"
+          ],
+          "correctAnswer": "ro‘yxat"
+        },
+        {
+          "id": "lesson11-q44",
+          "order": 44,
+          "word": "satisfy",
+          "prompt": "What is the meaning of \"satisfy\"?",
+          "options": [
+            "qanoatlantirmoq",
+            "cheksiz",
+            "koordinata boshi",
+            "tasvirlamoq"
+          ],
+          "correctAnswer": "qanoatlantirmoq"
+        },
+        {
+          "id": "lesson11-q45",
+          "order": 45,
+          "word": "infinitely",
+          "prompt": "What is the meaning of \"infinitely\"?",
+          "options": [
+            "cheksiz",
+            "koordinata boshi",
+            "tasvirlamoq",
+            "tanlamoq"
+          ],
+          "correctAnswer": "cheksiz"
+        },
+        {
+          "id": "lesson11-q46",
+          "order": 46,
+          "word": "origin",
+          "prompt": "What is the meaning of \"origin\"?",
+          "options": [
+            "koordinata boshi",
+            "tasvirlamoq",
+            "tanlamoq",
+            "hech qaysi"
+          ],
+          "correctAnswer": "koordinata boshi"
+        },
+        {
+          "id": "lesson11-q47",
+          "order": 47,
+          "word": "describe",
+          "prompt": "What is the meaning of \"describe\"?",
+          "options": [
+            "tasvirlamoq",
+            "tanlamoq",
+            "hech qaysi",
+            "boshqa"
+          ],
+          "correctAnswer": "tasvirlamoq"
+        },
+        {
+          "id": "lesson11-q48",
+          "order": 48,
+          "word": "select",
+          "prompt": "What is the meaning of \"select\"?",
+          "options": [
+            "tanlamoq",
+            "yechish",
+            "chiziqli",
+            "bir nechta, bir qancha"
+          ],
+          "correctAnswer": "tanlamoq"
+        },
+        {
+          "id": "lesson11-q49",
+          "order": 49,
+          "word": "none of",
+          "prompt": "What is the meaning of \"none of\"?",
+          "options": [
+            "hech qaysi",
+            "chiziqli",
+            "bir nechta, bir qancha",
+            "istalgan"
+          ],
+          "correctAnswer": "hech qaysi"
+        },
+        {
+          "id": "lesson11-q50",
+          "order": 50,
+          "word": "other",
+          "prompt": "What is the meaning of \"other\"?",
+          "options": [
+            "boshqa",
+            "bir nechta, bir qancha",
+            "istalgan",
+            "ikkisixam"
+          ],
+          "correctAnswer": "boshqa"
+        }
+      ]
+    }
+  ]
+}
