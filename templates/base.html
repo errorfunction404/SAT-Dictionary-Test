@@ -16,14 +16,32 @@
         <span>SAT Dictionary Test</span>
       </a>
       <nav class="top-actions" aria-label="Platform navigation">
-        <a class="secondary-button platform-nav-link" href="{{ url_for('index') }}">Home</a>
-        <a class="secondary-button platform-nav-link" href="{{ url_for('leaderboard') }}">Leaderboard</a>
+        <a class="secondary-button platform-nav-link nav-home" href="{{ url_for('index') }}">
+          <span class="nav-action-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 10.8 12 4l8 6.8V21h-6v-6h-4v6H4V10.8Z"/></svg></span>
+          <span>Home</span>
+        </a>
+        <a class="secondary-button platform-nav-link nav-leaderboard" href="{{ url_for('leaderboard') }}">
+          <span class="nav-action-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 21h10v-2H7v2Zm2-4h6V9H9v8Zm-6 0h4V5H3v12Zm14 0h4V3h-4v14Z"/></svg></span>
+          <span>Leaderboard</span>
+        </a>
         {% if current_user %}
-          <a class="secondary-button platform-nav-link" href="{{ url_for('account') }}">Account</a>
-          <a class="secondary-button platform-nav-link" href="{{ url_for('logout') }}">Logout</a>
+          <a class="secondary-button platform-nav-link nav-profile" href="{{ url_for('account') }}">
+            <span class="nav-action-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm-7 9a7 7 0 0 1 14 0H5Z"/></svg></span>
+            <span>Profile</span>
+          </a>
+          <a class="secondary-button platform-nav-link nav-logout" href="{{ url_for('logout') }}">
+            <span class="nav-action-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M10 17v-3H3v-4h7V7l6 5-6 5Zm3-14h7a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-7v-2h6V5h-6V3Z"/></svg></span>
+            <span>Logout</span>
+          </a>
         {% else %}
-          <a class="secondary-button platform-nav-link" href="{{ url_for('login') }}">Login</a>
-          <a class="primary-button platform-nav-link" href="{{ url_for('signup') }}">Sign Up</a>
+          <a class="secondary-button platform-nav-link nav-login" href="{{ url_for('login') }}">
+            <span class="nav-action-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M10 17v-3H3v-4h7V7l6 5-6 5Zm3 4v-2h6V5h-6V3h7a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-7Z"/></svg></span>
+            <span>Login</span>
+          </a>
+          <a class="secondary-button platform-nav-link nav-signup" href="{{ url_for('signup') }}">
+            <span class="nav-action-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M15 12a4 4 0 1 0-8 0 4 4 0 0 0 8 0Zm-4 6c-3.3 0-6 1.6-6 3.5V22h12v-.5c0-1.9-2.7-3.5-6-3.5Zm7-10V5h-3V3h3V0h2v3h3v2h-3v3h-2Z"/></svg></span>
+            <span>Sign Up</span>
+          </a>
         {% endif %}
       </nav>
     </header>
@@ -42,3 +60,4 @@
   </main>
 </body>
 </html>
+

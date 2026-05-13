@@ -318,6 +318,8 @@ def leaderboard_rows(limit=50):
         rows = conn.execute(
             """
             SELECT
+                u.first_name,
+                u.last_name,
                 u.username,
                 u.avatar_path,
                 ls.completed_lessons,
@@ -328,7 +330,8 @@ def leaderboard_rows(limit=50):
             ORDER BY ls.completed_lessons DESC,
                      ls.average_percentage DESC,
                      ls.total_unique_solved DESC,
-                     u.username ASC
+                     u.first_name COLLATE NOCASE ASC,
+                     u.last_name COLLATE NOCASE ASC
             LIMIT ?
             """,
             (limit,),
@@ -678,7 +681,9 @@ def api_leaderboard():
             "leaderboard": [
                 {
                     "rank": index + 1,
-                    "username": row["username"],
+                    "first_name": row["first_name"],
+                    "last_name": row["last_name"],
+                    "display_name": f"{row['first_name']} {row['last_name']}",
                     "avatar_url": url_for("static", filename=row["avatar_path"] or "images/default_avatar.svg"),
                     "completed_lessons": row["completed_lessons"],
                     "average_percentage": row["average_percentage"],
@@ -694,3 +699,4 @@ init_db()
 
 if __name__ == "__main__":
     app.run(debug=os.environ.get("FLASK_DEBUG") == "1")
+

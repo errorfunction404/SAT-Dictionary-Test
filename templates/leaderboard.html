@@ -15,7 +15,10 @@
     {% for row in rows %}
       <div class="leaderboard-row" role="row">
         <strong>#{{ loop.index }}</strong>
-        <span class="leader-user"><img src="{{ url_for('static', filename=row.avatar_path or 'images/default_avatar.svg') }}" alt="{{ row.username }} avatar">{{ row.username }}</span>
+        <span class="leader-user">
+          <img src="{{ url_for('static', filename=row.avatar_path or 'images/default_avatar.svg') }}" alt="{{ row.first_name }} {{ row.last_name }} avatar">
+          <span class="leader-name">{{ row.first_name }} {{ row.last_name }}</span>
+        </span>
         <span>{{ row.completed_lessons }}</span>
         <span>{{ '%.1f'|format(row.average_percentage) }}%</span>
         <span>{{ row.total_unique_solved }}</span>
@@ -26,3 +29,4 @@
   </div>
 </section>
 {% endblock %}
+

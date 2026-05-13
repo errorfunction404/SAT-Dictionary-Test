@@ -34,13 +34,28 @@
           <span class="nav-vocab-mark" aria-hidden="true"></span>
           <span data-i18n="vocabularyButton">Vocabulary</span>
         </button>
-        <a class="secondary-button platform-nav-link" href="{{ url_for('leaderboard') }}">Leaderboard</a>
+        <a class="secondary-button platform-nav-link nav-leaderboard" href="{{ url_for('leaderboard') }}">
+          <span class="nav-action-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 21h10v-2H7v2Zm2-4h6V9H9v8Zm-6 0h4V5H3v12Zm14 0h4V3h-4v14Z"/></svg></span>
+          <span>Leaderboard</span>
+        </a>
         {% if current_user %}
-          <a class="secondary-button platform-nav-link" href="{{ url_for('account') }}">Account</a>
-          <a class="secondary-button platform-nav-link" href="{{ url_for('logout') }}">Logout</a>
+          <a class="secondary-button platform-nav-link nav-profile" href="{{ url_for('account') }}">
+            <span class="nav-action-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm-7 9a7 7 0 0 1 14 0H5Z"/></svg></span>
+            <span>Profile</span>
+          </a>
+          <a class="secondary-button platform-nav-link nav-logout" href="{{ url_for('logout') }}">
+            <span class="nav-action-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M10 17v-3H3v-4h7V7l6 5-6 5Zm3-14h7a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-7v-2h6V5h-6V3Z"/></svg></span>
+            <span>Logout</span>
+          </a>
         {% else %}
-          <a class="secondary-button platform-nav-link" href="{{ url_for('login') }}">Login</a>
-          <a class="secondary-button platform-nav-link" href="{{ url_for('signup') }}">Sign Up</a>
+          <a class="secondary-button platform-nav-link nav-login" href="{{ url_for('login') }}">
+            <span class="nav-action-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M10 17v-3H3v-4h7V7l6 5-6 5Zm3 4v-2h6V5h-6V3h7a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-7Z"/></svg></span>
+            <span>Login</span>
+          </a>
+          <a class="secondary-button platform-nav-link nav-signup" href="{{ url_for('signup') }}">
+            <span class="nav-action-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M15 12a4 4 0 1 0-8 0 4 4 0 0 0 8 0Zm-4 6c-3.3 0-6 1.6-6 3.5V22h12v-.5c0-1.9-2.7-3.5-6-3.5Zm7-10V5h-3V3h3V0h2v3h3v2h-3v3h-2Z"/></svg></span>
+            <span>Sign Up</span>
+          </a>
         {% endif %}
         <div class="language-switch" role="group" aria-label="Language selector">
           <button class="chip-button active" type="button" data-lang="en">English</button>
@@ -429,19 +444,22 @@
   </div>
 
   <div id="confettiLayer" class="confetti-layer" aria-hidden="true"></div>
-  <div id="permanentContactBar" class="permanent-contact-bar" aria-label="Telegram contact links">
-    <span class="telegram-icon" aria-hidden="true">
-      <svg viewBox="0 0 24 24" focusable="false">
-        <path d="M21.7 3.4 2.9 10.7c-1.2.5-1.2 1.2-.2 1.5l4.8 1.5 1.8 5.5c.2.7.4 1 .8 1 .4 0 .6-.2.9-.5l2.6-2.5 5.3 3.9c1 .6 1.6.3 1.9-.9l3.3-15.5c.3-1.3-.5-1.9-1.6-1.4Zm-4.2 4.2-8.4 7.6-.3 3-1.3-4.3 10.9-6.9c.5-.3.2-.5-.3-.3Z"/>
-      </svg>
-    </span>
-    <div class="contact-bar-copy">
-      <a class="telegram-main-link" href="https://t.me/foundin4o4" target="_blank" rel="noopener noreferrer">
-        <strong>Contact Us</strong>
+  <div id="permanentContactBar" class="permanent-contact-bar footer-contact-bar" aria-label="Telegram contact links">
+    <a class="footer-contact-main" href="https://t.me/foundin4o4" target="_blank" rel="noopener noreferrer" aria-label="Contact Us on Telegram at foundin4o4">
+      <span class="telegram-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" focusable="false">
+          <path d="M21.7 3.4 2.9 10.7c-1.2.5-1.2 1.2-.2 1.5l4.8 1.5 1.8 5.5c.2.7.4 1 .8 1 .4 0 .6-.2.9-.5l2.6-2.5 5.3 3.9c1 .6 1.6.3 1.9-.9l3.3-15.5c.3-1.3-.5-1.9-1.6-1.4Zm-4.2 4.2-8.4 7.6-.3 3-1.3-4.3 10.9-6.9c.5-.3.2-.5-.3-.3Z"/>
+        </svg>
+      </span>
+      <span class="contact-bar-copy">
+        <strong>Contact</strong>
         <small>@foundin4o4</small>
-      </a>
-      <a class="telegram-channel-link" href="https://t.me/dream011abdurakhmanov" target="_blank" rel="noopener noreferrer">t.me/dream011abdurakhmanov</a>
-    </div>
+      </span>
+    </a>
+    <a class="footer-contact-channel" href="https://t.me/dream011abdurakhmanov" target="_blank" rel="noopener noreferrer" aria-label="Open Telegram channel">
+      <span aria-hidden="true">↗</span>
+      <small>Channel</small>
+    </a>
   </div>
 
   <script>
@@ -453,5 +471,6 @@
   <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
+
 
 
